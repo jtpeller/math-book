@@ -38,7 +38,7 @@ There are plenty of different operations. The first and "simplest" are arithmeti
 - ***Subtraction*** - remove one value from another.
   - Example: $3 - 2 = 1$
 - ***Multiplication*** - Basically repeated addition. "If I earned $4 every day for 5 days, how much money do I have?"
-  - Example: $4 * 5 = 4 + 4 + 4 + 4 + 4 = 20$
+  - Example: $4 \times 5 = 4 + 4 + 4 + 4 + 4 = 20$
   - Read as: "four times five equals 20"
 - ***Division*** - Repeated subtraction. "If it took 2 hours to drive 50 miles, how fast was I going?"
   - Example: $50 / 2 = 25$, so you were going 25 miles per hour.
@@ -51,9 +51,9 @@ This table summarizes the arithmetic operations
 | Operation | Operator | Operands | Result | Syntax | Inverse |
 | --------- | -------- | -------- | ------ | ------ | ------- |
 | Addition | $+$ | Addend, summand | Sum | $addend + addend = sum$ | Subtraction |
-| Subtraction | $-$ | Subtrahend, minuend. Subtrahere | Difference | $subtrahend - subtrahere = difference$ | Addition |
-| Multiplication | $*$ or $x$ or $\cdot$ | Factor, multiplicand, multiplier | Product | $factor * factor = product$ | Division |
-| Division | $/$ or $\div$ | Divisor. Dividend. | Quotient | $divisor / dividend = quotient$ | Multiplication |
+| Subtraction | $-$ | First term is subtrahend or minuend. Then, subtrahere | Difference | $subtrahend - subtrahere = difference$ | Addition |
+| Multiplication | $*$ or $\times$ or $\cdot$ | Factor, multiplicand, multiplier | Product | $factor * factor = product$ | Division |
+| Division | $/$ or $\div$ | First term is divisor. Then, dividend. | Quotient | $divisor / dividend = quotient$ | Multiplication |
 
 ***
 
@@ -106,7 +106,7 @@ Logarithms have some unique properties. These equalities enable great simplifica
 
 $$\log_b{(M*N)} = \log_b{M} + \log_b{N}$$
 $$\log_b{(\frac{M}{N})} = \log_b{M}-\log_b{N}$$
-$$\log_b({M^k}) = k * \log_b{M}$$
+$$\log_b({M^k}) = k \cdot \log_b{M}$$
 $$\log_b{1}=0$$
 $$\log_b{b}=1$$
 $$\log_b(b^k)=k$$
@@ -125,6 +125,8 @@ Numbers have relationships with each other, and it is common to have to describe
 | ***Greater than*** | The value of A is larger than the value of B. | $>$ | $A > B$ | $5 > 4$ |
 | ***Greater than or Equal To*** | The value of A is larger, or the same as, the value of B. | $\geq$ | $A \geq B$ | $3 \leq 3$ |
 
+> A and B can be arbitrary expressions. For instance, you could say: $4x > -16$.
+
 ## Ordering
 
 ### Order of Operations
@@ -142,7 +144,7 @@ Order of Operations describe the conventions used to reduce operators. For insta
 
 > **Note**: Multiplication and Division are interchangeable in their order. That is, $4*5/2$ would be the same whether you reduced the division first: $4*5/2 = 4 * 2.5 = 10$ or the multiplication first: $4*5/2 = 20 / 2 = 10$.
 >
-> This also applies to addition and subtraction!
+> This also applies to addition vs. subtraction!
 
 ### Operator Ordering Conventions
 

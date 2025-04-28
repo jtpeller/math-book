@@ -35,7 +35,7 @@ First, how do you represent numbers? Numbers come in many different forms and ca
 
 Numerals describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading. Representation of numbers is crucial. For instance, Arabic numbers include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
 
-Another representation is Roman Numerals, which does not have a representation of zero. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X,...$. The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
+Another representation is Roman Numerals, which does not have a representation of zero. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$ The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
 
 | Symbol | Value |
 | ------ | ---- |
@@ -47,7 +47,7 @@ Another representation is Roman Numerals, which does not have a representation o
 | $D$ | $500$ |
 | $M$ | $1000$ |
 
-Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions (like, you wouldn't want to represent 4 by $IIII$) and rules, but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic numerals anyway.
+Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions (like, you wouldn't want to represent $4$ by $IIII$) and rules, but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic numerals anyway.
 
 ### Values
 
@@ -78,28 +78,28 @@ $$\frac{12}{5} = \frac{10}{5}+\frac{2}{5} = 2+\frac{2}{5} = 2\frac{2}{5}$$
 
 Or, to switch from mixed fractions to improper fractions, you convert the whole part to have the same denominator as the fraction part. As an example:
 
-$$4\frac{6}{13} = \frac{13*4}{13}+\frac{6}{13} = \frac{52}{13}+\frac{6}{13} = \frac{58}{13}$$
+$$4\frac{6}{13} = \frac{13\cdot4}{13}+\frac{6}{13} = \frac{52}{13}+\frac{6}{13} = \frac{58}{13}$$
 
-Notice that to convert a whole number to a fraction with an arbitrary denominator (say, $d$), you simply multiply that number by $\frac{d}{d}$. Since **every whole number is technically a fraction** (e.g., $4 = \frac{4}{1}$), then this because $\frac{d*4}{d}$.
+Notice that to convert a whole number to a fraction with an arbitrary denominator (say, $d$), you simply multiply that number by $\frac{d}{d}$. Since **every whole number is technically a fraction** (e.g., $4 = \frac{4}{1}$), then this because $\frac{d\cdot4}{d}$.
 
 ### Numerical Bases
 
 Numbers can also be represented by a "base". ***Base*** refers to how many numerals there are. For instance, base-10 includes 10 numerals: 0 through 9. That means there are 10 representations before a new digit must be added to continue counting. That is, $0, 1, 2, ..., 8, 9, 10, 11, 12, ..., 98, 99, 100, ...$
 
-Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1*10^2 + 2*10^1 + 3*10^3$. This is how every single base-representation works.
+Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1\cdot10^2 + 2\cdot10^1 + 3\cdot10^3$. This is how every single base-representation works.
 
 Here are some base values you may come across:
 
 - ***Binary*** (*base-2*) - Represented by two numerals: $0, 1$. For instance, 5 in base-2 is $0b101$.
-  - In other words, $(1*2^2)+(0*2^1)+(1*2^0)$
+  - In other words, $(1\cdot2^2)+(0\cdot2^1)+(1\cdot2^0)$
   - The prefix of $0b$ is common to differentiate between numbers represented by different bases.
 - ***Octal*** (*base-8*) - Represented by 8 numerals $(0 ... 7)$.
 - ***Decimal*** (*base-10*) - Represented by 10 numerals $(0 ... 9)$.
 - ***Hexadecimal*** (*base-16*) - Represented by 16 numerals $(0 ... 9, a ... f)$
-  - So, 38 in base-16 is $0x26$, because $(2*16^1)+(6*16^0) = 38$
+  - So, 38 in base-16 is $0x26$, because $(2\cdot16^1)+(6\cdot16^0) = 38$
   - You would represent 15 as 0xf, but 16 as 0x10.
 
-> *You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count $I, V, X, ...$, but instead by $I, II, III, IV, ...$*
+> *You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$; sequentially.*
 
 Various number representations are useful for different reasons, for instance, binary (and hexadecimal) is central to computing.
 
@@ -183,7 +183,7 @@ $$e = \lim_{n\rightarrow\infty}{\lparen1 + \frac{1}{n}\rparen^n}$$
   - Can be approximated by $99/70$.
 - Golden Ratio ($\phi$) - A special ratio that frequently appears in geometry. It is represented by the following:
 
-$$\phi = 2*\sin{54\degree} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
+$$\phi = 2\cdot\sin{54\degree} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
 
 ## Closing
 

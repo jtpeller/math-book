@@ -17,9 +17,9 @@ There's a lot of terminology that floats around mathematics. This section aims t
 
 - ***Variable*** - A letter is used to represent a value.
   - Used in *functions* to represent an input, an output, or some other value.
-  - For instance, you could say $x=4$ and then also say $y = 4 * x$ and thus $y = 16$.
+  - For instance, you could say $x=4$ and then also say $y = 4 \cdot x$ and thus $y = 16$.
 
-> **Note**: For variables, or even with parenthesis, you can omit the multiplication symbol. So, $y=4 * x$ is the same as $y = 4x$. And with parenthesis, $y = 4 * (x + 4)$ becomes $y=4(x+4)$
+> **Note**: For variables, or even with parenthesis, you can omit the multiplication symbol. So, $y=4 \cdot x$ is the same as $y = 4x$. And with parenthesis, $y = 4 \cdot (x + 4)$ becomes $y=4(x+4)$
 
 - ***Expression*** - Mathematical statement where no solution is stated. Think of it like a phrase, rather than a complete sentence.
   - Example: $2 + 2$
@@ -42,24 +42,24 @@ Numbers have special properties. You have already seen "commutative" or "associa
 
 ***Commutative Property*** - Describes a system (or more specifically, the operations), where the order of the operands is negligible.
 
-- Note that addition and multiplication are commutative. In other words, $a+b=b+a$ and $a*b=b*a$. The order does not matter, since the result will be the same.
+- Note that addition and multiplication are commutative. In other words, $a+b=b+a$ and $a\cdot b=b\cdot a$. The order does not matter, since the result will be the same.
 
 ***Associative Property*** - Describes a system where parenthesis can be rearranged, and the result will be the same.
 
 - Once again, addition and multiplication stand out. They are associative.
 - For example: $a+(b+c) = (a+b)+c$
-- Or for multiplication: $a*(b*c) = (a*b)*c$
+- Or for multiplication: $a\cdot (b\cdot c) = (a\cdot b)\cdot c$
 
 ***Distributive Property*** - Describes a system where a term multiplying terms surrounded by parenthesis is equal to each term in the parenthesis multiplied by that outside term.
 
-- For instance, $a*(b+c) = a*b+a*c$. Note how the $a$ is *distributed* to the inside terms ($b$ and $c$).
+- For instance, $a\cdot (b+c) = a\cdot b+a\cdot c$. Note how the $a$ is *distributed* to the inside terms ($b$ and $c$).
 - ***First, Outer, Inner, Last (FOIL)*** - Mnemonic to describe how to distribute when the outside term is itself a binomial.
-  - General example: $(a+b)*(c+d) = ad + ac + bd + bc$
+  - General example: $(a+b)\cdot(c+d) = ad + ac + bd + bc$
   - This is just one way to distribute a term. You can always verify equality by plugging in values for each variable.
 
-***Identity Property*** - Describes situations where a number can be multiplied by 1 and the product is itself, or added to 0 and is itself. These are all equivalent:
+***Identity Property*** - Describes situations where a number can be multiplied by 1 and the product is itself, or added to 0 and is itself. These are all equivalent.
 
-$$ a + 0 = a * 1 = a$$
+$$ a + 0 = a \cdot 1 = a$$
 
 ## Closing
 
