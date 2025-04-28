@@ -7,5 +7,3 @@
   - [Introduction](#introduction)
 
 ## Introduction
-
-TODO
