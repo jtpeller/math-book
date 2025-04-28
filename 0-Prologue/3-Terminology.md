@@ -63,6 +63,6 @@ $$ a + 0 = a * 1 = a$$
 
 ## Closing
 
-| Previous Section | Next Section |
-| ---------------- | ------------ |
-| $\leftarrow$ [Introduction](./0-Introduction.md) | [Operations](./2-Operations.md) $\rightarrow$ |
+| Previous Section | Next Unit |
+| ---------------- | --------- |
+| $\leftarrow$ [Introduction](./0-Introduction.md) | [Unit 1: Numerical Models](../1-NumericalModels/0-Introduction.md) $\rightarrow$ |

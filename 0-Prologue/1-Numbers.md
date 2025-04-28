@@ -115,11 +115,11 @@ There are plenty of different sets to know.
 
 The following represent numbers that do not have any decimal parts (e.g., $5$, $6$, or $7$, but not $0.34$, $3.14$, or $1.\bar{2}$)
 
-- ***Integers*** ($\Z$) - Positive and negative numbers, including zero. These do not have any decimal part (e.g., are "whole").
+- ***Integers*** ($\mathbb{Z}$) - Positive and negative numbers, including zero. These do not have any decimal part (e.g., are "whole").
   - Example: $\lbrace -\infty, ..., -3, -2, -1, 0, 1, 2, 3, ..., \infty \rbrace$
 - ***Whole Numbers*** - Integers $\geq 0$
   - So, $\lbrace 0, 1, 2, 3, ... \rbrace$
-- ***Natural Numbers*** ($\N$) - Integers $\geq 1$
+- ***Natural Numbers*** ($\mathbb{N}$) - Integers $\geq 1$
   - So, $\lbrace 1, 2, 3, ... \rbrace$
 
 There are a few terms used to describe numbers:
@@ -135,7 +135,7 @@ There are a few terms used to describe numbers:
 
 Real numbers describe essentially any number on a number line. For instance, $3.2$, $4$, $-695849887432.685498$, etc.
 
-- ***Real Numbers*** ($\R$) - Continuous values of the number line. Includes decimals, integers, negative and positive numbers, fractions, etc. A sign is used to denote a specific range (e.g., $\R^+$ represents positive real numbers, while $\R^-$ represents negative real numbers).
+- ***Real Numbers*** ($\mathbb{R}$) - Continuous values of the number line. Includes decimals, integers, negative and positive numbers, fractions, etc. A sign is used to denote a specific range (e.g., $\mathbb{R}^+$ represents positive real numbers, while $\mathbb{R}^-$ represents negative real numbers).
 - ***Rational Numbers*** ($\mathbb{Q}$) - Ratio of an integer to a non-zero integer.
   - Subset of the real numbers that can be described by a fraction of integers. For instance: $2/3, 1/2, 3/4, 7/8, 58/123, etc.$
 - ***Irrational Numbers*** - Real numbers that cannot be described by a fraction. For instance, $\pi, \sqrt{2}$, etc.
