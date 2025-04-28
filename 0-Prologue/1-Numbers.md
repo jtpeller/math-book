@@ -99,11 +99,11 @@ Here are some base values you may come across:
   - So, 38 in base-16 is $0x26$, because $(2\cdot16^1)+(6\cdot16^0) = 38$
   - You would represent 15 as 0xf, but 16 as 0x10.
 
-> *You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$; sequentially.*
+> You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$; you count sequentially. Roman numerals are base-10.
 
 Various number representations are useful for different reasons, for instance, binary (and hexadecimal) is central to computing.
 
-> **Note**: This book will use base-10, Arabic number representation (unless noted otherwise).
+> **Note**: This book will use base-10 unless noted otherwise.
 
 ## Types of Numbers
 

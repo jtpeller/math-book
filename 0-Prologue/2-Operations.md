@@ -142,7 +142,7 @@ Order of Operations describe the conventions used to reduce operators. For insta
 - ***A***: Addition
 - ***S***: Subtraction.
 
-> **Note**: Multiplication and Division are interchangeable in their order. That is, $4*5/2$ would be the same whether you reduced the division first: $4*5/2 = 4 * 2.5 = 10$ or the multiplication first: $4*5/2 = 20 / 2 = 10$.
+> **Note**: Multiplication and Division are interchangeable in their order. That is, $4 \cdot 5/2$ would be the same whether you reduced the division first: $4 \cdot 5/2 = 4 \cdot 2.5 = 10$ or the multiplication first: $4 \cdot 5/2 = 20 / 2 = 10$.
 >
 > This also applies to addition vs. subtraction!
 
