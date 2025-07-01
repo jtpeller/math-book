@@ -1,4 +1,4 @@
-# Prologue Introduction
+# Prologue
 
 ## Section Contents
 

@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+%\newenvironment{planeplot}
+%{\vspace*{1cm}\begin{center}\begin{tikzpicture}}
+%{\end{tikzpicture}\end{center}\vspace*{1cm}}
+
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[axis lines=middle,axis equal,grid=both]
+        \addplot coordinates{(-3, -6) (3, 6)};
+    \end{axis}
+\end{tikzpicture}
+\end{document}

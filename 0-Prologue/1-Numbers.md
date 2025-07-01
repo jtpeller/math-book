@@ -21,11 +21,13 @@
 
 Numbers are the most fundamental block of mathematics. They represent a quantity. Some amount of something. You work with numbers (do something to numbers) using [operations](./2-Operations.md).
 
-Numbers are therefore used to represent a quantity of something. Naturally, they can be used to count how many of an object. Say you open your fridge and find that you have 452 cartons of apple juice (you must have a substantial fridge and a large apple juice budget), or maybe your desk has 4 legs and 1 surface.
+Since numbers represent a quantity, they can intuitively be used to count how many of an object. Say you open your fridge and find that you have 452 cartons of apple juice (you must have a substantial fridge and a large apple juice budget), or maybe your look at your desk and count 4 legs, 1 surface, and 3 drawers.
 
-Numbers are therefore most commonly used to count items. You can count in partial values, too. For instance, you drank half of one of your apple juice cartons. After painstakingly counting again, you could say you now have 451.5 cartons of apple juice! Now, those aforementioned [operations](./2-Operations.md) will make your life easier by not having to count every time you drink your apple juice. (Instead, you might *subtract*).
+You can count in partial values, too. For instance, you drank half of one of your apple juice cartons. After painstakingly counting again, you could say you now have 451.5 cartons of apple juice! Now, those aforementioned [operations](./2-Operations.md) will make your life easier by not having to count every time you drink your apple juice. (Instead, you might *subtract*).
 
-Regardless, we need to talk about the numbers. All of them. Every single number you can think of will be discussed here. That's right, even that number that you just imagined in your head, right now while you're reading this.
+Now, we need to talk about the numbers. All of them. Every single number you can think of will be discussed here. That's right, even that number that you just imagined in your head, right now while you're reading this.
+
+Notice that numbers have units too. They often represent some quantity of *something*. The 452 **apple juice cartons**, 4 **legs of a desk**, etc. Here, the *something* is the unit; in this case, apple juice cartons or legs of a desk. However, there are scenarios where numbers may not represent a specific quantity; these are ***unitless*** numbers and are often used to scale, factor, or offset other numbers that do have meaning. Regardless, this is primarily a topic for applied mathematics subjects like Physics or Engineering.
 
 ## Representation of Numbers
 
@@ -35,7 +37,7 @@ First, how do you represent numbers? Numbers come in many different forms and ca
 
 Numerals describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading. Representation of numbers is crucial. For instance, Arabic numbers include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
 
-Another representation is Roman Numerals, which does not have a representation of zero. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$ The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
+Another representation is Roman Numerals. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$ The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
 
 | Symbol | Value |
 | ------ | ---- |
@@ -51,7 +53,19 @@ Roman numerals work by addition or subtraction represented by the order of these
 
 ### Values
 
-Numerals are placed in a specific order to denote a quantity value. For instance, 42 represents four tens, and 2 ones. Or, 1234 represents one thousands, two hundreds, three tens, and 4 ones. To see how this works and why, see [Numerical Bases](#numerical-bases).
+Numerals are placed in a specific order to denote a quantity value. For instance, 42 represents four tens, and two ones. Or, 1234 represents one thousands, two hundreds, three tens, and four ones. To see how this works and why, see [Numerical Bases](#numerical-bases).
+
+Values can be represented on a ***number line***, which is a means of graphically displaying the relative values of numbers.
+
+<p align='center'>
+    <img src='./img/number-line.png' alt="Number Line from -3.5 to 3.5, with tick marks at whole numbers." width=50%>
+    <br>
+    Number Line Example
+</p>
+
+Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, from smallest (left) to largest (right).
+
+Number lines do not have to represent whole numbers; they can instead represent decimals, fractions, mixed numbers, etc. The value just has to be in the correct location (i.e., you would not place 3.5 anywhere except halfway between 3 and 4).
 
 ### Representing Divided Numbers
 
@@ -86,7 +100,7 @@ Notice that to convert a whole number to a fraction with an arbitrary denominato
 
 Numbers can also be represented by a "base". ***Base*** refers to how many numerals there are. For instance, base-10 includes 10 numerals: 0 through 9. That means there are 10 representations before a new digit must be added to continue counting. That is, $0, 1, 2, ..., 8, 9, 10, 11, 12, ..., 98, 99, 100, ...$
 
-Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1\cdot10^2 + 2\cdot10^1 + 3\cdot10^3$. This is how every single base-representation works.
+Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1\cdot10^2 + 2\cdot10^1 + 3\cdot10^3$. This is how every single base-representation works. This is also known as a ***radix positional numeral system***.
 
 Here are some base values you may come across:
 
@@ -97,11 +111,11 @@ Here are some base values you may come across:
 - ***Decimal*** (*base-10*) - Represented by 10 numerals $(0 ... 9)$.
 - ***Hexadecimal*** (*base-16*) - Represented by 16 numerals $(0 ... 9, a ... f)$
   - So, 38 in base-16 is $0x26$, because $(2\cdot16^1)+(6\cdot16^0) = 38$
-  - You would represent 15 as 0xf, but 16 as 0x10.
+  - You would represent 15 as 0xf (usually read as "zero hex f"), but 16 as 0x10 (read as "zero hex ten" or "zero hex one zero")
 
-> You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$; you count sequentially. Roman numerals are base-10.
+> You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$; you count sequentially. Roman numerals technically don't have a base at all, since it's not a radix numeral system.
 
-Various number representations are useful for different reasons, for instance, binary (and hexadecimal) is central to computing.
+Various number representations are useful for different reasons, for instance, binary and hexadecimal are central to computing.
 
 > **Note**: This book will use base-10 unless noted otherwise.
 
@@ -181,7 +195,7 @@ $$e = \lim_{n\rightarrow\infty}{\lparen1 + \frac{1}{n}\rparen^n}$$
   - This cycle continues indefinitely
 - ***Pythagoras' Constant*** - Square root of two ($\sqrt{2}$). Originates in the Pythagorean Theorem (see Unit 2 for Geometry) where the sides of the triangle are 1, so the hypotenuse is $\sqrt{2}$.
   - Can be approximated by $99/70$.
-- Golden Ratio ($\phi$) - A special ratio that frequently appears in geometry. It is represented by the following:
+- ***Golden Ratio*** ($\phi$) - A special ratio that frequently appears in geometry. It is represented by the following:
 
 $$\phi = 2\cdot\sin{54\degree} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
 

@@ -23,7 +23,8 @@ There's a lot of terminology that floats around mathematics. This section aims t
 
 - ***Expression*** - Mathematical statement where no solution is stated. Think of it like a phrase, rather than a complete sentence.
   - Example: $2 + 2$
-  - Binomial - Special
+  - Binomial - Expression consisting of two terms.
+  - Polynomial - Expression consisting of multiple terms. This blanket term includes binomials, trinomials (three terms), etc.
 - ***Equation*** - A mathematical "sentence" that contains an equal sign (or similar operator) to denote equality (or other relationship). Think of it like a complete sentence.
   - Example: $x = 2 + 2$
   - Here, $x$ can be "solved for" by simplifying the expression on the right-hand side. So, you could equivalently say, $x = 4$
@@ -56,6 +57,7 @@ Numbers have special properties. You have already seen "commutative" or "associa
 - ***First, Outer, Inner, Last (FOIL)*** - Mnemonic to describe how to distribute when the outside term is itself a binomial.
   - General example: $(a+b)\cdot(c+d) = ad + ac + bd + bc$
   - This is just one way to distribute a term. You can always verify equality by plugging in values for each variable.
+  - This will be investigated further in Unit 1.
 
 ***Identity Property*** - Describes situations where a number can be multiplied by 1 and the product is itself, or added to 0 and is itself. These are all equivalent.
 

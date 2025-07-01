@@ -44,7 +44,7 @@ There are plenty of different operations. The first and "simplest" are arithmeti
   - Example: $50 / 2 = 25$, so you were going 25 miles per hour.
   - Inverse: Multiplication
 
-> Arithmetic really just refers to these operations; arithmetic *is* addition, subtraction, multiplication, and division.
+> "Arithmetic" really just refers to these operations; arithmetic *is* addition, subtraction, multiplication, and division.
 
 This table summarizes the arithmetic operations
 
@@ -52,7 +52,7 @@ This table summarizes the arithmetic operations
 | --------- | -------- | -------- | ------ | ------ | ------- |
 | Addition | $+$ | Addend, summand | Sum | $addend + addend = sum$ | Subtraction |
 | Subtraction | $-$ | First term is subtrahend or minuend. Then, subtrahere | Difference | $subtrahend - subtrahere = difference$ | Addition |
-| Multiplication | $*$ or $\times$ or $\cdot$ | Factor, multiplicand, multiplier | Product | $factor * factor = product$ | Division |
+| Multiplication | $*$ or $\times$ or $\cdot$ | Factor, multiplicand, multiplier | Product | $factor \cdot factor = product$ | Division |
 | Division | $/$ or $\div$ | First term is divisor. Then, dividend. | Quotient | $divisor / dividend = quotient$ | Multiplication |
 
 ***
@@ -64,12 +64,12 @@ This table summarizes the arithmetic operations
 Long division is a method of division where the divisor is placed under a special symbol. The dividend is placed to the left, and the quotient is calculated step by step above. Differences are computed below the divisor. This is a method of doing division by hand.
 
 <p align='center'>
-    <img src='./img/long-division.png' alt="Long Division Example using LaTeX" width=150>
+    <img src='./img/long-division.png' alt="Long Division Example using LaTeX" width=10%>
     <br>
-    Long Division Example
+    Figure 0.2.1: Long Division Example
 </p>
 
-Notice that division is not even here. There will be cases where division is not even. In this case, the "leftover" is the *remainder*.
+Notice that this is a case (among many) where division is not "even". In other words, the quotient is a decimal. In this case, the "leftover" is the *remainder*.
 
 ***Remainder*** - This is the number left over from division. Like, $5 / 2 = 2.5$. You could also state that $5 / 2 = 2$ with a remainder of $1$. This remainder can also be used to make a mixed form (number and fraction): $5 / 2 = 2 \frac{1}{2}$
 
@@ -125,7 +125,7 @@ Numbers have relationships with each other, and it is common to have to describe
 | ***Greater than*** | The value of A is larger than the value of B. | $>$ | $A > B$ | $5 > 4$ |
 | ***Greater than or Equal To*** | The value of A is larger, or the same as, the value of B. | $\geq$ | $A \geq B$ | $3 \leq 3$ |
 
-> A and B can be arbitrary expressions. For instance, you could say: $4x > -16$.
+> A and B can be arbitrary expressions. For instance, you could say: $4x > -16$. Rules when working with relational symbols will be described in Unit 1.
 
 ## Ordering
 
