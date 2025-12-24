@@ -10,6 +10,8 @@
   - [Simplifications](#simplifications)
     - [Combining Coefficients](#combining-coefficients)
     - [Multiplying Variables](#multiplying-variables)
+    - [Distribution](#distribution)
+    - [Factoring](#factoring)
   - [Closing](#closing)
 
 ## Overview
@@ -17,6 +19,8 @@
 ***Algebra*** is most simply the use of symbols to represent numbers (variables) to create expressions or equations that model some quantitative behavior.
 
 When working on algebraic problems, you'll find yourself working with graphs, tables, matrices, arithmetic, simplification, factoring, distribution, and plenty of other techniques to model or analyze the situation.
+
+This section introduces Functions, a fundemental building block of Algebra. A massive chunk of work done in Algebra-related work will involve functions, so this section lays that groundwork.
 
 ## Introduction to Functions
 
@@ -142,8 +146,50 @@ $$
 x * 5x * 4y * 2x^2 * 15y^5 = 600x^4y^6
 $$
 
+### Distribution
+
+Terms or variables may be *distributed* to terms inside a parentheses as a means of simplifying an expression. Say, for example, you have the following equation:
+
+$$
+x(x^2 + xy + 5a)
+$$
+
+It follows that you may *distribute* the $x$ on the outside of the parentheses to **each term** inside the parentheses, as shown below:
+
+$$
+x(x^2 + xy + 5a) = x*x^2 + x*xy + x*5a = x^3 + x^2y + 5ax
+$$
+
+Notice two important conventions in algebra:
+
+1. In any given term, variables are ordered alphabetically.
+   1. For instance, you would write: $x + y + z$, not $z + y + x$.
+2. In any given expression, terms are ordered from highest power to lowest power (or lowest power to highest power)
+   1. For instance, you would write: $x^3 + x^2 + y^2 + xy + x + y$ or $x + y + xy + x^2 + y^2 + x^3$
+   2. This "power" here is referred to as the term's *degree* (a concept discussed in Polynomials).
+
+### Factoring
+
+***Factoring*** is the inverse of distribution. More specifically, *factoring* is the act of dividing terms out of an expression as another means of simplification. This can help dramatically to reduce equations from several complicated terms, to a more simple expression.
+
+As an example, consider the following expression.
+
+$$
+6x^5 + 8x^4 + 4x^3 + 2x^2
+$$
+
+You'll notice that there is a common piece in each term: $2x^2$. That is, each term is *divisible* by $2x^2$, which enables the following simplification:
+
+$$
+6x^5 + 8x^4 + 4x^3 + 2x^2 \\
+= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2) \\
+= 2x^2(3x^3 + 4x^2 + 2x + 1)
+$$
+
+Notice that this equation is much simpler. The means of finding the greatest common factor will be discussed later.
+
 ## Closing
 
-| Previous Section | Next Section |
-| ---------------- | ------------ |
+| Previous Section                                 | Next Section                              |
+| ------------------------------------------------ | ----------------------------------------- |
 | $\leftarrow$ [Introduction](./0-Introduction.md) | [Graphing](./2-Graphing.md) $\rightarrow$ |

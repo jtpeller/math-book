@@ -65,6 +65,6 @@ $$ a + 0 = a \cdot 1 = a$$
 
 ## Closing
 
-| Previous Section | Next Unit |
-| ---------------- | --------- |
-| $\leftarrow$ [Introduction](./0-Introduction.md) | [Unit 1: Numerical Models](../1-NumericalModels/0-Introduction.md) $\rightarrow$ |
+| Previous Section                                 | Next Unit                                                       |
+| ------------------------------------------------ | --------------------------------------------------------------- |
+| $\leftarrow$ [Introduction](./0-Introduction.md) | [Unit 1: Algebra](../1-Algebra/0-Introduction.md) $\rightarrow$ |

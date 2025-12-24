@@ -22,7 +22,7 @@ Therefore, Markdown has been selected for the revival, so it can be version cont
 
 ## Units
 
-There are currently 4 units (more are in the works) .Each are split into their own Markdown file:
+There are currently 4 units (more are in the works). Each are split into their own Markdown file:
 
 0. [Prologue: The Foundation](./0-Prologue/)
 1. [Unit I: Algebra](./1-Algebra/)

@@ -1,8 +1,8 @@
-# Functions: Properties & Types
+# Functions: Properties and Types
 
 ## Contents
 
-- [Functions: Properties \& Types](#functions-properties--types)
+- [Functions: Properties and Types](#functions-properties-and-types)
   - [Contents](#contents)
   - [Overview](#overview)
 
