@@ -23,8 +23,8 @@ There's a lot of terminology that floats around mathematics. This section aims t
 
 - ***Expression*** - Mathematical statement where no solution is stated. Think of it like a phrase, rather than a complete sentence.
   - Example: $2 + 2$
-  - Binomial - Expression consisting of two terms.
-  - Polynomial - Expression consisting of multiple terms. This blanket term includes binomials, trinomials (three terms), etc.
+  - ***Binomial*** - Expression consisting of two terms.
+  - ***Polynomial*** - Expression consisting of multiple terms. This blanket term includes binomials, trinomials (three terms), etc.
 - ***Equation*** - A mathematical "sentence" that contains an equal sign (or similar operator) to denote equality (or other relationship). Think of it like a complete sentence.
   - Example: $x = 2 + 2$
   - Here, $x$ can be "solved for" by simplifying the expression on the right-hand side. So, you could equivalently say, $x = 4$

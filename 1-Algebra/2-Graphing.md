@@ -15,7 +15,7 @@ Functions can be "graphed", which means they can be represented visually. Repres
 
 ## Cartesian Planes
 
-Graphing is a very useful approach for understanding a function. Functions are commonly graphed on Cartesian planes. Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be discussed (see: dimensions, planes, etc. in [Geometry](../2-Geometry/0-Introduction.md)). A Cartesian plane can be thought of as a flat surface (it has a length and a width, sometimes infinite) with two perpendicular number lines. Simply put, make a cartesian plane by simply overlapping two number lines so they overlap to make a big plus sign.
+Graphing is a very useful approach for understanding a function. Functions are commonly graphed on Cartesian planes. Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be discussed (see: dimensions, planes, etc. in [Geometry](../2-Geometry/0-Introduction.md)). A ***Cartesian plane*** can be thought of as a flat surface (it has a length and a width, sometimes infinite) with two perpendicular number lines. Simply put, make a cartesian plane by simply overlapping two number lines so they overlap to make a big plus sign.
 
 <p align='center'>
     <img src='./img/cartesian-plane.png' alt="Example Cartesian Plane, with both axes ranging from -6 to 6." width=30%>
@@ -25,7 +25,7 @@ Graphing is a very useful approach for understanding a function. Functions are c
 
 The number lines are called ***axes***, and they each represent a specific quantity. The input (usually represented by the letter $x$) is represented by the horizontal line, while the output (usually, $y$ or $f(x)$) is represented by the vertical line.
 
-The number lines can be scaled as desired to show whichever behavior or characteristic is desired. The most common scale for the axes is ***linear***, which means that the distance between tick marks represents a constant value (e.g., increasing by 1:: $1, 2, 3, ...$; by 2: $2, 4, 6, ...$; etc.). Other scales include ***logarithmic***, which is useful for quickly growing (or decaying) functions. Logarithmic scales by increasing the power of ten ($10^0, 10^1, 10^2, ...$).
+The number lines can be scaled as desired to show whichever behavior or characteristic is desired. The most common scale for the axes is ***linear***, which means that the distance between tick marks represents a constant value (e.g., increasing by 1:: $1, 2, 3, ...$; by 2: $2, 4, 6, ...$; etc.). Other scales include ***logarithmic***, which is useful for quickly growing (or decaying) functions. A scale that is logarithmic increases by the power of ten ($10^0, 10^1, 10^2, ...$).
 
 ## How to Graph
 

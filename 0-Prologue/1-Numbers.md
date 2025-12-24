@@ -8,7 +8,7 @@
   - [Representation of Numbers](#representation-of-numbers)
     - [Numerals](#numerals)
     - [Values](#values)
-    - [Representing Divided Numbers](#representing-divided-numbers)
+    - [Representing Partial Numbers](#representing-partial-numbers)
     - [Numerical Bases](#numerical-bases)
   - [Types of Numbers](#types-of-numbers)
     - [Integers](#integers)
@@ -25,9 +25,9 @@ Since numbers represent a quantity, they can intuitively be used to count how ma
 
 You can count in partial values, too. For instance, you drank half of one of your apple juice cartons. After painstakingly counting again, you could say you now have 451.5 cartons of apple juice! Now, those aforementioned [operations](./2-Operations.md) will make your life easier by not having to count every time you drink your apple juice. (Instead, you might *subtract*).
 
-Now, we need to talk about the numbers. All of them. Every single number you can think of will be discussed here. That's right, even that number that you just imagined in your head, right now while you're reading this.
-
 Notice that numbers have units too. They often represent some quantity of *something*. The 452 **apple juice cartons**, 4 **legs of a desk**, etc. Here, the *something* is the unit; in this case, apple juice cartons or legs of a desk. However, there are scenarios where numbers may not represent a specific quantity; these are ***unitless*** numbers and are often used to scale, factor, or offset other numbers that do have meaning. Regardless, this is primarily a topic for applied mathematics subjects like Physics or Engineering.
+
+Now, we need to talk about the numbers. All of them. Every single number you can think of will be discussed here. That's right, even that number that you just imagined in your head, right now while you're reading this.
 
 ## Representation of Numbers
 
@@ -35,9 +35,9 @@ First, how do you represent numbers? Numbers come in many different forms and ca
 
 ### Numerals
 
-Numerals describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading. Representation of numbers is crucial. For instance, Arabic numbers include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
+***Numerals*** describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading; in other words, how the quantity is represented. Representation of numbers is crucial. For instance, ***Arabic Numerals*** include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
 
-Another representation is Roman Numerals. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$ The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
+Another representation is ***Roman Numerals***. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$ The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
 
 | Symbol | Value |
 | ------ | ---- |
@@ -49,11 +49,11 @@ Another representation is Roman Numerals. It looks like this: $I, II, III, IV, V
 | $D$ | $500$ |
 | $M$ | $1000$ |
 
-Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions (like, you wouldn't want to represent $4$ by $IIII$) and rules, but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic numerals anyway.
+Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions (like, you wouldn't want to represent $4$ by $IIII$) and rules, but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic Numerals anyway.
 
 ### Values
 
-Numerals are placed in a specific order to denote a quantity value. For instance, 42 represents four tens, and two ones. Or, 1234 represents one thousands, two hundreds, three tens, and four ones. To see how this works and why, see [Numerical Bases](#numerical-bases).
+Numerals are placed in a specific order to denote a quantity value. For instance, $42$ represents four tens, and two ones. Or, $1,234$ represents one thousands, two hundreds, three tens, and four ones. To see how this works and why, see [Numerical Bases](#numerical-bases).
 
 Values can be represented on a ***number line***, which is a means of graphically displaying the relative values of numbers.
 
@@ -67,7 +67,7 @@ Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, f
 
 Number lines do not have to represent whole numbers; they can instead represent decimals, fractions, mixed numbers, etc. The value just has to be in the correct location (i.e., you would not place 3.5 anywhere except halfway between 3 and 4).
 
-### Representing Divided Numbers
+### Representing Partial Numbers
 
 You can represent partial numbers using the following two representations. That partial apple juice should come to mind, unless you finished it already...
 
@@ -104,8 +104,8 @@ Each place in the base-representation corresponds to a power of that base. For i
 
 Here are some base values you may come across:
 
-- ***Binary*** (*base-2*) - Represented by two numerals: $0, 1$. For instance, 5 in base-2 is $0b101$.
-  - In other words, $(1\cdot2^2)+(0\cdot2^1)+(1\cdot2^0)$
+- ***Binary*** (*base-2*) - Represented by two numerals: $0, 1$. For instance, $5$ in base-2 is $0b101$.
+  - In other words, $(1\cdot2^2)+(0\cdot2^1)+(1\cdot2^0) = 4 + 0 + 1 = 5$
   - The prefix of $0b$ is common to differentiate between numbers represented by different bases.
 - ***Octal*** (*base-8*) - Represented by 8 numerals $(0 ... 7)$.
 - ***Decimal*** (*base-10*) - Represented by 10 numerals $(0 ... 9)$.
@@ -113,7 +113,7 @@ Here are some base values you may come across:
   - So, 38 in base-16 is $0x26$, because $(2\cdot16^1)+(6\cdot16^0) = 38$
   - You would represent 15 as 0xf (usually read as "zero hex f"), but 16 as 0x10 (read as "zero hex ten" or "zero hex one zero")
 
-> You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$; you count sequentially. Roman numerals technically don't have a base at all, since it's not a radix numeral system.
+> You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$ (you count sequentially). Roman numerals technically don't have a base at all, since it's not a radix numeral system.
 
 Various number representations are useful for different reasons, for instance, binary and hexadecimal are central to computing.
 
@@ -123,7 +123,7 @@ Various number representations are useful for different reasons, for instance, b
 
 Numbers are commonly grouped in *sets*. For now, just know that sets are unique groups of things (in this case, unique numbers).
 
-There are plenty of different sets to know.
+There are plenty of different number sets to know.
 
 ### Integers
 
@@ -164,7 +164,7 @@ Also, it follows that zero is both real and imaginary (since $0 * \sqrt{-1} = 0$
 
 ***Complex numbers*** describe combinations of real and imaginary numbers (e.g., through addition or subtraction). For instance, $2 + 4i$ or $15 + 0.234i$.
 
-***Hypercomplex Numbers*** extend the above sets of numbers to additional dimensions. These are described below (don't worry, these are hypercomplex for a reason).
+***Hypercomplex Numbers*** extend the above sets of numbers to additional dimensions. These are described below (don't worry, these are "hypercomplex" for a reason).
 
 - ***Quaternions*** ($\mathbb{H}$) - Complex numbers applied to three dimensions (3D). Often used for calculations involving 3D rotations.
   - These for a 4D associated normed division algebra over the reals.
@@ -192,6 +192,7 @@ $$e = \lim_{n\rightarrow\infty}{\lparen1 + \frac{1}{n}\rparen^n}$$
   $$i^3=-1$$
   $$i^4=1$$
   $$i^5=i$$
+  $$i^6=-1$$
   - This cycle continues indefinitely
 - ***Pythagoras' Constant*** - Square root of two ($\sqrt{2}$). Originates in the Pythagorean Theorem (see Unit 2 for Geometry) where the sides of the triangle are 1, so the hypotenuse is $\sqrt{2}$.
   - Can be approximated by $99/70$.

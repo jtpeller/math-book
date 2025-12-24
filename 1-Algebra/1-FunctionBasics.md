@@ -14,7 +14,7 @@
 
 ## Overview
 
-Algebra is most simply the use of symbols to represent numbers (variables) to create expressions or equations that model some quantitative behavior.
+***Algebra*** is most simply the use of symbols to represent numbers (variables) to create expressions or equations that model some quantitative behavior.
 
 When working on algebraic problems, you'll find yourself working with graphs, tables, matrices, arithmetic, simplification, factoring, distribution, and plenty of other techniques to model or analyze the situation.
 
@@ -52,7 +52,7 @@ $$
 w(h) = 20 * h
 $$
 
-Now you can compute your wages $w$ for any number of hours $h$. While for this trivial example it is easy enough to just multiply your hours by your hourly wage, but imagine more complicated situations. Algebra, and functions in particular, helps model complex situations.
+Now you can compute your wages $w$ for any number of hours $h$. While this is a trivial example, functions are used to model relationships. That is, functions describe the behavior between two different variables. When the input variable changes, the output will change.
 
 ## Simplifications
 
@@ -136,7 +136,7 @@ x \cdot 2x \cdot 3x^2 = x \cdot (x + x) \cdot (x^2 + x^2 + x^2) \\
 = 6x^4
 $$
 
-Thus, any arbitrary problem involving this will be able to be solved without having to show all this work. You could, if you wanted, but the properties of these operations enable quicker simplifications. For instance, the following simplification becomes second nature.
+Thus, any arbitrary problem involving this will be able to be solved without having to show all this work. You could, if you wanted, but these properties enable quicker simplifications. For instance, the following simplification becomes second nature.
 
 $$
 x * 5x * 4y * 2x^2 * 15y^5 = 600x^4y^6

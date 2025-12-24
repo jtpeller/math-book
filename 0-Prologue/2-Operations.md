@@ -18,7 +18,7 @@
 
 Mathematics wouldn't be of much use if you could not do things to numbers. The "do things" part describes an *operation*, or an action performed on number(s) to create some result.
 
-Operations bring different rules, terms, and conventions and are a foundational aspect of math. You should know these terms:
+More specifically, an ***operation*** describes a particular action that is performed on one or more *terms*. A ***term*** is simply a number, variable, constant, etc. exists in a mathematical statement. Now, operations bring additional rules, terms, and conventions and are a foundational aspect of math. You should know these terms:
 
 - ***Operand***: Number or *term* that is undergoing the action from an *operator* to produce a solution.
 - ***Operator***: A symbol used to denote a specific action to be done to the operands.
@@ -26,7 +26,7 @@ Operations bring different rules, terms, and conventions and are a foundational 
 - ***Operation***: Describes the overall actions being done to operands.
   - Examples: addition, subtraction, multiplication, division, etc.
 
-As an example, in $2 + 3$, the operand describes the $2$ and the $3$, the operator describes the $+$, and the operation is *addition*!
+As an example, in $2 + 3$, the *operand* describes the $2$ and the $3$, the *operator* describes the $+$, and the *operation* is *addition*!
 
 ## Arithmetic Operations
 
@@ -34,22 +34,27 @@ There are plenty of different operations. The first and "simplest" are arithmeti
 
 - ***Addition*** - Total amount of two or more values combined together. Take two apples, grab two more, now you have four apples.
   - Example: $2 + 3 = 5$
-  - Read as: "two plus three equals one"
+  - Read as: "two plus three equals five"
+  - Inverse Operation: Subtraction
 - ***Subtraction*** - remove one value from another.
   - Example: $3 - 2 = 1$
+  - Read as: "three minus two equals one"
+  - Sometimes, the subtraction operator may be read as "less", "subtract", etc.
+  - Inverse Operation: Addition
 - ***Multiplication*** - Basically repeated addition. "If I earned $4 every day for 5 days, how much money do I have?"
   - Example: $4 \times 5 = 4 + 4 + 4 + 4 + 4 = 20$
   - Read as: "four times five equals 20"
+  - Inverse Operation: Division
 - ***Division*** - Repeated subtraction. "If it took 2 hours to drive 50 miles, how fast was I going?"
   - Example: $50 / 2 = 25$, so you were going 25 miles per hour.
-  - Inverse: Multiplication
+  - Inverse Operation: Multiplication
 
 > "Arithmetic" really just refers to these operations; arithmetic *is* addition, subtraction, multiplication, and division.
 
 This table summarizes the arithmetic operations
 
 | Operation | Operator | Operands | Result | Syntax | Inverse |
-| --------- | -------- | -------- | ------ | ------ | ------- |
+| :-------: | :------: | :------: | :----: | :----: | :-----: |
 | Addition | $+$ | Addend, summand | Sum | $addend + addend = sum$ | Subtraction |
 | Subtraction | $-$ | First term is subtrahend or minuend. Then, subtrahere | Difference | $subtrahend - subtrahere = difference$ | Addition |
 | Multiplication | $*$ or $\times$ or $\cdot$ | Factor, multiplicand, multiplier | Product | $factor \cdot factor = product$ | Division |
@@ -94,13 +99,14 @@ Notice that this is a case (among many) where division is not "even". In other w
     - Read as "square root of x"
   - If $n=3$, it is referred to as the "cube root".
   - Example: $\sqrt{64} = 8$, or "the square root of 64 is 8"
-  - Inverse is exponentiation.
+  - Inverse is exponentiation. That is, $(\sqrt[n]{x})^n = x$
 - ***Logarithm*** - Determines the exponent to which a base must be raised to obtain some specific value. Shortened to "log"
   - ***Anti-logarithm*** - operand.
   - ***Logarithm*** - result of the log operation.
   - ***Base*** - value such that $base^{logarithm} = antilog$
   - ***Natural Logarithm*** - Special logarithm, where the base is the natural number $e$. See [Constants](./3-Constants.md) for more about $e$.
   - Syntax: $log_{base}(antilog)=logarithm$
+  - For example: $\log_{10}(100)=2$ because the base, $10$ must be raised to the power of $2$ in order to have a result of $100$.
 
 Logarithms have some unique properties. These equalities enable great simplifications when working with them.
 
@@ -144,7 +150,7 @@ Order of Operations describe the conventions used to reduce operators. For insta
 
 > **Note**: Multiplication and Division are interchangeable in their order. That is, $4 \cdot 5/2$ would be the same whether you reduced the division first: $4 \cdot 5/2 = 4 \cdot 2.5 = 10$ or the multiplication first: $4 \cdot 5/2 = 20 / 2 = 10$.
 >
-> This also applies to addition vs. subtraction!
+> This also applies to addition vs. subtraction! As an example, addition first: $10 - 5 + 2 = 10 - 3 = 7$ versus subtraction first: $10 - 5 + 2 = 5 + 2 = 7$. Note that the $10 - 5 + 2$ simplifies to $10 - 3$ because the $5$ is actually negative. Try reading it like this: $10 + (-5) + 2$. Now it becomes clear why that simplifies as it does.
 
 ### Operator Ordering Conventions
 
