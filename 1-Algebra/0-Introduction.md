@@ -13,6 +13,6 @@ This section introduces Algebra.
 
 ## Closing
 
-| Next Section |
-| ------------ |
-| [Functions](./1-Functions.md) $\rightarrow$ |
+| Next Section                                     |
+| ------------------------------------------------ |
+| [Functions](./1-FunctionBasics.md) $\rightarrow$ |

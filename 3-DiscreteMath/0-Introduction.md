@@ -10,6 +10,6 @@ This unit goes over discrete mathematics, a field of mathematics including logic
 
 ## Closing
 
-| Next Section |
-| ------------ |
+| Next Section                            |
+| --------------------------------------- |
 | [Numbers](./1-Numbers.md) $\rightarrow$ |

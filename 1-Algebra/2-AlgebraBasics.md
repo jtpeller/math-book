@@ -13,6 +13,7 @@
     - [Factoring \& Distribution](#factoring--distribution)
       - [Distribution](#distribution)
       - [Factoring](#factoring)
+  - [Closing](#closing)
 
 ## Overview
 
@@ -30,16 +31,16 @@ Algebraic operations begin by attempting to combine terms together to make a mor
 
 Rules:
 
-1. You may add or subtract like terms if they consist of the same variables. This is a concept known as ***Combining "Like" Terms***, and is critical for many algebraic operations. That is:
-$$2x + 3x = 5x$$
+1. You may add or subtract like terms if they consist of the same variables. This is a concept known as **_Combining "Like" Terms_**, and is critical for many algebraic operations. That is:
+   $$2x + 3x = 5x$$
 2. You may multiply terms of any kind together. That is:
-$$2x * 3y * 4z = 24xyz$$
+   $$2x * 3y * 4z = 24xyz$$
 
 > Recall that a coefficient is simply the numerical term that is being multiplied by a variable. For instance, in the equation:
 >
 > $$ f(x) = 5x^2 - 3x + 2 - b $$
 >
-> The coefficients are $5$ and $-3$. Both $2$ and the $b$ are ***constants***, because they are not impacted by the input variable $x$. That is, they stay the same no matter what is input into the equation.
+> The coefficients are $5$ and $-3$. Both $2$ and the $b$ are **_constants_**, because they are not impacted by the input variable $x$. That is, they stay the same no matter what is input into the equation.
 
 #### Addition & Subtraction
 
@@ -57,7 +58,7 @@ $$
 3x + 5xy + 2x = 5x + 5xy
 $$
 
-Notice that the $5xy$ may not be combined with the $3x$ or the $2x$ because they do not have the same variables present. *(this actually relies on a concept called a term's "degree", but this will be discussed in Polynomials)*
+Notice that the $5xy$ may not be combined with the $3x$ or the $2x$ because they do not have the same variables present. _(this actually relies on a concept called a term's "degree", but this will be discussed in Polynomials)_
 
 All of these rules also apply to subtraction. Just make sure you don't forget about a number's sign!
 
@@ -131,7 +132,7 @@ That's right, "distribution" and "factoring" is really just multiplication and d
 
 #### Distribution
 
-***Distribution*** is a technique of *distributing* a term that rests outside parentheses to each term inside the parentheses. That is, you simply multiply each term inside the parentheses by each term inside the parentheses.
+**_Distribution_** is a technique of _distributing_ a term that rests outside parentheses to each term inside the parentheses. That is, you simply multiply each term inside the parentheses by each term inside the parentheses.
 
 > This relies on the [**Distribution Property**](../0-Prologue/3-Terminology.md#properties) of arithmetic operations.
 
@@ -144,7 +145,7 @@ $$
 
 Now, if you wanted to distribute where the "outside" term is actually a binomial or polynomial, there are rules which help maintain order to ensure that you have distributed to each term.
 
-***First, Outer, Inner, Last (FOIL)*** is a technique for multiplying two binomials. It describes the order for distribution. Let's try with an example:
+**_First, Outer, Inner, Last (FOIL)_** is a technique for multiplying two binomials. It describes the order for distribution. Let's try with an example:
 
 $$
 (ax + by)(cx + dy)
@@ -162,20 +163,29 @@ Therefore, your distribution, following FOIL order would be:
 $$
 (ax + by)(cx + dy) \\
 = ax \cdot cx + ax \cdot dy + by \cdot cx + by \cdot dy \\
-= acx^2 + adxy + bcxy + bdy^2
+= \boxed{acx^2 + adxy + bcxy + bdy^2}
+$$
+
+Here's a numerical example:
+
+$$
+(5x + 3y)(2x - y) \\
+= 5x \cdot 2x + 5x \cdot (-y) + 3y \cdot 2x + 3y \cdot (-y) \\
+= 10x^2 - 5xy + 6xy - 3y^2 \\
+=\boxed{10x^2 + xy - 3y^2}
 $$
 
 > FOIL technically applies to polynomials, although it doesn't really follow the same exact step order. Instead, you simply "walk" through the polynomials. For each term of the first polynomial, multiply it by each term of the second polynomial.
 
 #### Factoring
 
-***Factoring*** is the act of dividing terms out of an expression to simplify it. The result generally involves the factor multiplied by an expression wrapped in parentheses.
+**_Factoring_** is the act of dividing terms out of an expression to simplify it. The result generally involves the factor multiplied by an expression wrapped in parentheses.
 
 $$
 6x^5 + 2x^2 = 2x^2(3x^3 + 1)
 $$
 
-When factoring, you almost always want to factor-out the ***Greatest Common Factor (GCF)***, which is the largest possible value that exists among all terms in the expression you are factoring.
+When factoring, you almost always want to factor-out the **_Greatest Common Factor (GCF)_**, which is the largest possible value that exists among all terms in the expression you are factoring.
 
 So, if you are provided the following expression, what would the GCF be?
 
@@ -205,7 +215,7 @@ Then, you simply find the largest one that is common amongst each of the terms, 
 
 While this method always works, it is also quite exhausting and relatively inefficient, because you may be listing terms that just aren't useful.
 
-***Prime Factorization*** is a technique where the number is factored into its prime numbers. You simply divide it by a prime number until you can no longer divide.
+**_Prime Factorization_** is a technique where the number is factored into its prime numbers. You simply divide it by a prime number until you can no longer divide.
 
 So, you would do the following:
 
@@ -220,3 +230,9 @@ $$
 Now, you look amongst each of the prime factorizations. You find that $2 \cdot 2 \cdot 2 = 8$ is common amongst each of the factors, which is the GCF!
 
 Regardless of which method you choose, you have to be careful to ensure that each term is being properly divided. Oh, and don't forget about the negative sign!
+
+## Closing
+
+| Previous Section                                          | Next Section                              |
+| --------------------------------------------------------- | ----------------------------------------- |
+| $\leftarrow$ [Basics of Functions](./1-FunctionBasics.md) | [Graphing](./3-Graphing.md) $\rightarrow$ |
