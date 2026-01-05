@@ -68,18 +68,14 @@ Coefficients can also be combined across multiplication & division.
 
 For multiplication, the presence or lack of a variable does not matter. Here's an example as to why:
 
-$$
-w = 5x \cdot 6xy \cdot 12xyz \\
-w = 30x^2y \cdot 12xyz \\
-w = 360x^3y^2z
-$$
+$$w = 5x \cdot 6xy \cdot 12xyz$$
+$$w = 30x^2y \cdot 12xyz$$
+$$w = 360x^3y^2z$$
 
 Recall that the terms themselves are essentially all multiplied together. Do not forget that when a multiplication symbol is omitted for a single term; it still exists. We could write the previous example as shown below:
 
-$$
-w = 5 \cdot x \cdot 6 \cdot x \cdot y \cdot 12 \cdot x \cdot y \cdot z \\
-w = 360 \cdot x^3 \cdot y^2 \cdot z
-$$
+$$w = 5 \cdot x \cdot 6 \cdot x \cdot y \cdot 12 \cdot x \cdot y \cdot z$$
+$$w = 360 \cdot x^3 \cdot y^2 \cdot z$$
 
 Now, division is slightly more tricky. Let's start with an example of division:
 
@@ -95,32 +91,24 @@ $$
 
 Now, it may become obvious that you may fully divide the $12x$ part of the numerator with the $6x$ in the denominator. That is, you may do the following simplification:
 
-$$
-w = \frac{12xy}{6x} \\ \space\\
-w = \frac{12\cancel{x}{y}}{6\cancel{x}} \\ \space \\
-w = \frac{12y}{6} \\ \space \\
-w = 2y
-$$
+$$w = \frac{12xy}{6x}$$
+$$w = \frac{12\cancel{x}{y}}{6\cancel{x}}$$
+$$w = \frac{12y}{6}$$
+$$w = 2y$$
 
 To make this clearer, you may also think about the individual pieces in each term as being multiplied together:
 
-$$
-w = \frac{12 \cdot x \cdot y}{6 \cdot x} \\ \space \\
-w = \frac{^2\cancel{12 \cdot x} \cdot y}{\cancel{6 \cdot x}} \\ \space \\
-w = 2 \cdot y
-$$
+$$w = \frac{12 \cdot x \cdot y}{6 \cdot x}$$
+$$w = \frac{^2\cancel{12 \cdot x} \cdot y}{\cancel{6 \cdot x}}$$
+$$w = 2 \cdot y$$
 
 #### Example
 
 Here's an example covering all 4 arithmetic operations:
 
-$$
-z = \frac{3x + 6xy - 18x \cdot 21xy + (6x)^2 - 15}{3x} \\
-\space \\
-z = \frac{3x + 6xy - 378x^2y + 36x^2 - 15}{3x} \\
-\space \\
-z = \frac{x + 2xy - 126x^2y + 12x^2 - 5}{x} \\
-$$
+$$z = \frac{3x + 6xy - 18x \cdot 21xy + (6x)^2 - 15}{3x}$$
+$$z = \frac{3x + 6xy - 378x^2y + 36x^2 - 15}{3x}$$
+$$z = \frac{x + 2xy - 126x^2y + 12x^2 - 5}{x}$$
 
 This is as simplified as the equation for $z$ may become!
 
@@ -138,18 +126,14 @@ That's right, "distribution" and "factoring" is really just multiplication and d
 
 Here's a few trivial examples:
 
-$$
-x(2 + 5x + 15x^2) = 2x + 5x^2 + 15x^3 \\ \space \\
-3.2y(2x + 2y) = 6.4xy + 6.4y^2 \\ \space \\
-$$
+$$x(2 + 5x + 15x^2) = \boxed{2x + 5x^2 + 15x^3}$$
+$$3.2y(2x + 2y) = \boxed{6.4xy + 6.4y^2}$$
 
 Now, if you wanted to distribute where the "outside" term is actually a binomial or polynomial, there are rules which help maintain order to ensure that you have distributed to each term.
 
 **_First, Outer, Inner, Last (FOIL)_** is a technique for multiplying two binomials. It describes the order for distribution. Let's try with an example:
 
-$$
-(ax + by)(cx + dy)
-$$
+$$(ax + by)(cx + dy)$$
 
 FOIL describes the order of operations as follows:
 
@@ -160,20 +144,16 @@ FOIL describes the order of operations as follows:
 
 Therefore, your distribution, following FOIL order would be:
 
-$$
-(ax + by)(cx + dy) \\
-= ax \cdot cx + ax \cdot dy + by \cdot cx + by \cdot dy \\
-= \boxed{acx^2 + adxy + bcxy + bdy^2}
-$$
+$$(ax + by)(cx + dy)$$
+$$= ax \cdot cx + ax \cdot dy + by \cdot cx + by \cdot dy$$
+$$= \boxed{acx^2 + adxy + bcxy + bdy^2}$$
 
 Here's a numerical example:
 
-$$
-(5x + 3y)(2x - y) \\
-= 5x \cdot 2x + 5x \cdot (-y) + 3y \cdot 2x + 3y \cdot (-y) \\
-= 10x^2 - 5xy + 6xy - 3y^2 \\
-=\boxed{10x^2 + xy - 3y^2}
-$$
+$$(5x + 3y)(2x - y)$$
+$$ = 5x \cdot 2x + 5x \cdot (-y) + 3y \cdot 2x + 3y \cdot (-y)$$
+$$ = 10x^2 - 5xy + 6xy - 3y^2$$
+$$ =\boxed{10x^2 + xy - 3y^2}$$
 
 > FOIL technically applies to polynomials, although it doesn't really follow the same exact step order. Instead, you simply "walk" through the polynomials. For each term of the first polynomial, multiply it by each term of the second polynomial.
 

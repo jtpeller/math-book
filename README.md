@@ -41,10 +41,11 @@ This follows a few conventions, written as requirements to be extra fancy.
    4. Subsections shall be named using the same format. Example: `0-Introduction.md`.
    5. Each unit folder shall contain an `img` folder, which will hold all images used in that unit.
    6. Each unit folder shall have a file called `0-Introduction.md` that introduces the Unit.
+   7. Units may have "subunits", aka Chapters, which are structured exactly the same as a unit; only they reside inside a unit.
 2. Each section file shall contain a second-level section named Contents.
    1. This Contents section shall contain an accurate table of contents.
 3. Definitions shall be bolded and underlined. They shall be followed by a hyphen.
-   1. Example: ***Term*** - this is a definition of a term.
+   1. Example: **_Term_** - this is a definition of a term.
 4. Mathematical notations shall use LaTeX.
 5. Hyperlinks shall exist throughout the book to point to related material.
 6. Colons are used to separate things general things, like `Example:` or `Note:`

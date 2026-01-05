@@ -86,12 +86,13 @@ The first pair is going to be $(x, y)$, as you are defining the behavior between
 >
 > Example:
 >
-> $$
-> y - 3 = 2(x-4) \\
-> y - 3 = 2x - 2(4) \\
-> y - 3 = 2x - 8 \\
-> \boxed{y = 2x - 5}
-> $$
+> $$y - 3 = 2(x-4)$$
+>
+> $$y - 3 = 2x - 2(4)$$
+>
+> $$y - 3 = 2x - 8$$
+>
+> $$\boxed{y = 2x - 5}$$
 >
 > Point-slope form is converted to slope-intercept by solving for y!
 >
@@ -104,21 +105,20 @@ The first pair is going to be $(x, y)$, as you are defining the behavior between
 >
 > This is your $(x_1, y_1)$ ordered pair. Now, we know that the original slope is 2 (since, in slope intercept form, we have $y = \underline{2}x - 5$). Plug this into the point-slope form template:
 >
-> $$
-> y - y_1 = m(x - x_1) \\
-> y - 19 = 2(x - 12)
-> $$
+> $$y - y_1 = m(x - x_1)$$
+>
+> $$y - 19 = 2(x - 12)$$
 >
 > To confirm there are no more mistakes, you can convert it back to slope intercept form, to ensure that the original form is the same as this new form!
 >
-> $$
-> y - 19 = 2(x - 12) \\
-> y - 19 = 2x - 24 \\
-> \boxed{y = 2x - 5} \space\checkmark
-> $$
+> $$y - 19 = 2(x - 12)$$
+>
+> $$y - 19 = 2x - 24$$
+>
+> $$\boxed{y = 2x - 5} \space\checkmark$$
 
 ## Closing
 
-| Previous Section                                            | Next Section                                    |
-| ----------------------------------------------------------- | ----------------------------------------------- |
-| $\leftarrow$ [Classes of Functions](./4-FunctionClasses.md) | [Polynomials](./6-Polynomials.md) $\rightarrow$ |
+| Previous Section                                            | Next Section                                                                                    |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| $\leftarrow$ [Classes of Functions](./4-FunctionClasses.md) | [Chapter 2: Intermediate Functions](../2-IntermediateFunctions/0-Introduction.md) $\rightarrow$ |

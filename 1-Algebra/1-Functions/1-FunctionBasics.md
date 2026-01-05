@@ -193,32 +193,29 @@ $$
 
 Notice therefore, that because the variables are being multiplied together, you can simplify the $x*x$ to $x^2$. Using this, the simplification can reduce down to a single term:
 
-$$
-x \cdot 2x \cdot 3x = x \cdot (x + x) \cdot (x + x + x) \\
-= (x\cdot x+x\cdot x) \cdot (x + x + x) \\
-= (x^2+x^2) \cdot (x + x + x) \\
-= (x^2\cdot x+x^2\cdot x+x^2\cdot x) + (x^2\cdot x+x^2\cdot x+x^2\cdot x) \\
-= x^3 + x^3 + x^3 + x^3 + x^3 + x^3 \\
-= 6x^3
-$$
+$$x \cdot 2x \cdot 3x $$
+$$ = x \cdot (x + x) \cdot (x + x + x)$$
+$$ = (x\cdot x+x\cdot x) \cdot (x + x + x)$$
+$$ = (x^2+x^2) \cdot (x + x + x)$$
+$$ = (x^2\cdot x+x^2\cdot x+x^2\cdot x) + (x^2\cdot x+x^2\cdot x+x^2\cdot x)$$
+$$ = x^3 + x^3 + x^3 + x^3 + x^3 + x^3$$
+$$ = \boxed{6x^3}$$
 
 Therefore, when multiplying values, the coefficients multiply, and the variables are raised to the power such that the exponents are added.
 
 In fact, this can be demonstrated with a slightly more complex version. You would expect the result to be $6x^4$, since there are 4 exponents.
 
-$$
-x \cdot 2x \cdot 3x^2 = x \cdot (x + x) \cdot (x^2 + x^2 + x^2) \\
-= (x\cdot x+x\cdot x) \cdot (x^2 + x^2 + x^2) \\
-= (x^2+x^2) \cdot (x^2 + x^2 + x^2) \\
-= (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) + (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) \\
-= x^4 + x^4 + x^4 + x^4 + x^4 + x^4 \\
-= 6x^4
-$$
+$$x \cdot 2x \cdot 3x^2 = x \cdot (x + x) \cdot (x^2 + x^2 + x^2)$$
+$$= (x\cdot x+x\cdot x) \cdot (x^2 + x^2 + x^2)$$
+$$= (x^2+x^2) \cdot (x^2 + x^2 + x^2)$$
+$$= (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) + (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2)$$
+$$= x^4 + x^4 + x^4 + x^4 + x^4 + x^4$$
+$$= \boxed{6x^4}$$
 
 Thus, any arbitrary problem involving this will be able to be solved without having to show all this work. You could, if you wanted, but these properties enable quicker simplifications. For instance, the following simplification becomes second nature.
 
 $$
-x * 5x * 4y * 2x^2 * 15y^5 = 600x^4y^6
+x \cdot 5x \cdot 4y \cdot 2x^2 \cdot 15y^5 = \boxed{600x^4y^6}
 $$
 
 ### Distribution
@@ -232,7 +229,7 @@ $$
 It follows that you may _distribute_ the $x$ on the outside of the parentheses to **each term** inside the parentheses, as shown below:
 
 $$
-x(x^2 + xy + 5a) = x*x^2 + x*xy + x*5a = x^3 + x^2y + 5ax
+x(x^2 + xy + 5a) = x*x^2 + x*xy + x*5a = \boxed{x^3 + x^2y + 5ax}
 $$
 
 Notice two important conventions in algebra:
@@ -249,17 +246,13 @@ Notice two important conventions in algebra:
 
 As an example, consider the following expression.
 
-$$
-6x^5 + 8x^4 + 4x^3 + 2x^2
-$$
+$$ 6x^5 + 8x^4 + 4x^3 + 2x^2 $$
 
 You'll notice that there is a common piece in each term: $2x^2$. That is, each term is _divisible_ by $2x^2$, which enables the following simplification:
 
-$$
-6x^5 + 8x^4 + 4x^3 + 2x^2 \\
-= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2) \\
-= 2x^2(3x^3 + 4x^2 + 2x + 1)
-$$
+$$6x^5 + 8x^4 + 4x^3 + 2x^2$$
+$$= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2)$$
+$$= 2x^2(3x^3 + 4x^2 + 2x + 1)$$
 
 Notice that this equation is much simpler. The means of finding the greatest common factor will be discussed later.
 

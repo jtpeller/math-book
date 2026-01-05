@@ -151,7 +151,7 @@ Real numbers describe essentially any number on a number line. For instance, $3.
 
 - **_Real Numbers_** ($\mathbb{R}$) - Continuous values of the number line. Includes decimals, integers, negative and positive numbers, fractions, etc. A sign is used to denote a specific range (e.g., $\mathbb{R}^+$ represents positive real numbers, while $\mathbb{R}^-$ represents negative real numbers).
 - **_Rational Numbers_** ($\mathbb{Q}$) - Ratio of an integer to a non-zero integer.
-  - Subset of the real numbers that can be described by a fraction of integers. For instance: $2/3, 1/2, 3/4, 7/8, 58/123, etc.$
+  - Subset of the real numbers that can be described by a fraction of integers. For instance: $\frac{2}{3}, \frac{1}{2}, \frac{3}{4}, \frac{7}{8}, \frac{58}{123}, etc.$
 - **_Irrational Numbers_** - Real numbers that cannot be described by a fraction. For instance, $\pi, \sqrt{2}$, etc.
 
 ### Imaginary Numbers

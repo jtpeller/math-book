@@ -36,6 +36,10 @@ The graph above has a linear scale. You can see that because each tick is labele
 
 A graph can be created for any function or relationship by computing input and output pairs. These input and output pairs are called **_ordered pairs_**, named because the input comes first, then the output: $(x, y)$.
 
+Every place in a cartesian plane may be indexed via a pair of values; one from the x-axis and one from the y-axis. These are coupled together in an ordered pair, like this: $(x_1, y_1)$. This allows referring to any given point in a cartesian plane.
+
+Now, the center point, when $x_1=0$ and $y_1=0$ is referred to as the **_origin_**. It is the point at which the axes cross. Where $x$ and $y$ are zero.
+
 To create a graph, you need at least two ordered pairs, since two points create a line. The chart above utilizes two points: $(-3, -6)$ and $(3, 6)$ to create the plot. Now, that line that is graphed actually has an INFINITE number of ordered pairs! That's because you can use any real number as an input, meaning you can have any ordered pair you want, like $(1.25, 2.5)$ or maybe even $(2.2222222, 4.4444444)$.
 
 ## Tables
@@ -43,8 +47,6 @@ To create a graph, you need at least two ordered pairs, since two points create 
 Rather than taking the effort of drawing functions every single time, an alternative is to list the ordered pairs in a table. Tables help organize the values and enable quick numerical comparisons. The problem with graphs is that it may be difficult to tell the exact values that "lie on the graph", unless you have the function handy.
 
 If you don't tables are a great alternative. Imagine instead representing $f(x)=2x$ using the table below:
-
-<center>
 
 | x   | y   |
 | --- | --- |
@@ -55,8 +57,6 @@ If you don't tables are a great alternative. Imagine instead representing $f(x)=
 | 1   | 2   |
 | 2   | 4   |
 | 3   | 6   |
-
-</center>
 
 This makes it very easy to see a handful of inputs and their corresponding outputs. It also more easily allows computing different charactistics about the function, such as its rate of change, horizontal intercept (aka $x$-intercept), and vertical intercept (aka $y$-intercept). These characteristics will be discussed in [Function Types](./4-FunctionTypes.md).
 
