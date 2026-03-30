@@ -10,10 +10,11 @@
   - [Values](#values)
   - [Representing Partial Numbers](#representing-partial-numbers)
   - [Numerical Bases](#numerical-bases)
+  - [Closing](#closing)
 
 ## What are Numbers?
 
-As mentioned in the previous section, numbers are the most fundamental block of mathematics. They represent a quantity, which is really just some amount of something.
+As mentioned in the previous section, $\textcolor{cyan}{\textit{numbers}}$ are the most fundamental block of mathematics. They represent a quantity, which is really just some amount of something.
 
 Since numbers represent a quantity, they can intuitively be used to count how many of an object. Say you open your fridge and find that you have 452 cartons of apple juice (you must have a substantial fridge and a large apple juice budget), or maybe your look at your desk and count 4 legs, 1 surface, and 3 drawers.
 
@@ -21,19 +22,21 @@ Since numbers represent a quantity, they can intuitively be used to count how ma
 
 Numbers can be represented in so many ways. Most obvious is that they can be used to count how many items exist. Like 1 water bottle, 15 watermelons, or maybe 350 dollars.
 
-You may notice that each of those quantities also have something called a _unit_; that is, what the number represents. In this case, the units above are water bottles, watermelons, and dollars.
+You may notice that each of those quantities also have something called a $\textcolor{cyan}{\textit{unit}}$; that is, what the number represents. In this case, the units above are water bottles, watermelons, and dollars.
 
-Numbers and units are both important to mathematics, although arguably units are more useful in applied mathematics, since you don't _need_ to have a unit in the most fundamental levels of math.
+Numbers and units are both important to mathematics, although arguably units are more useful in applied mathematics, since you don't *need* to have a unit in the most fundamental levels of math.
 
 ## Numerals
 
-Numbers can be represented via words ('one', 'two', 'three', ...) or via **_numerals_**.
+Numbers can be represented via words ('one', 'two', 'three', ...) or via ***numerals***.
 
-**_Numerals_** describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading; in other words, how the quantity is represented. Representation of numbers is crucial. For instance, **_Arabic Numerals_** include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
+$\textcolor{cyan}{\textit{Numerals}}$ describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading; in other words, how the quantity is represented. Representation of numbers is crucial. For instance, $\textcolor{cyan}{\textit{Arabic Numerals}}$ include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
 
 > ### Extra Credit
 >
-> Another representation is **_Roman Numerals_**. It looks like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$ The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
+> Another representation is $\textcolor{cyan}{\textit{Roman Numerals}}$. This numbering system looks something like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$
+>
+> The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
 >
 > | Symbol | Value  |
 > | ------ | ------ |
@@ -45,7 +48,7 @@ Numbers can be represented via words ('one', 'two', 'three', ...) or via **_nume
 > | $D$    | $500$  |
 > | $M$    | $1000$ |
 >
-> Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions (like, you wouldn't want to represent $4$ by $IIII$) and rules, but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic Numerals anyway.
+> Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions and rules (for instance, you wouldn't want to represent $4$ by $IIII$), but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic Numerals anyway.
 
 ## Values
 
@@ -53,7 +56,7 @@ Numerals represent a particular quantity, and are thus placed in a particular or
 
 For instance, $42$ represents four tens, and two ones. Or, $1,234$ represents one thousands, two hundreds, three tens, and four ones. To see how this works and why, see [Numerical Bases](#numerical-bases). You may also have partial numbers, which is discussed in [Representing Partial Numbers](#representing-partial-numbers).
 
-Values can be represented on a **_number line_**, which is a means of graphically displaying the relative values of numbers.
+Values can be represented on a $\textcolor{cyan}{\textit{number line}}$, which is a means of graphically displaying the relative values of numbers.
 
 <p align='center'>
     <img src='./img/number-line.png' alt="Number Line from -3.5 to 3.5, with tick marks at whole numbers." width=50%>
@@ -65,57 +68,46 @@ Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, f
 
 ## Representing Partial Numbers
 
-Number lines do not have to represent whole numbers; they can instead represent decimals, fractions, mixed numbers, etc. The value just has to be in the correct location (i.e., you would not place 3.5 anywhere except halfway between 3 and 4). Number lines are _continuous_ in that it represents every number.
+Number lines do not have to represent whole numbers; they can instead represent decimals, fractions, mixed numbers, etc. The value just has to be in the correct location (i.e., you would not place 3.5 anywhere except halfway between 3 and 4). Number lines are *continuous* in that it represents every number.
 
-You can represent partial numbers using the following two representations. _(That partial apple juice should come to mind, unless you finished it already...)_
+You can represent partial numbers using the following two representations. *(That partial apple juice should come to mind, unless you finished it already...)*
 
-The first representation is a **_Decimal_** which involves a dot (or comma, in some parts in the world) between the ones place and values smaller than it.
+The first representation is a $\textcolor{cyan}{\textit{Decimal}}$ which involves a dot (or comma, in some parts in the world) between the ones place and values smaller than it.
 
-- Example: $2.4$, $2$ is in the _ones_ place, while $4$ is in the _tenths_ place.
-- The "th" suffix denotes the digit's place after a decimal point. So, $0.1234$ means 1 _tenths_, 2 _hundredths_, 3 _thousandths_ and 4 _ten-thousandths_.
+- Example: $2.4$, $2$ is in the *ones* place, while $4$ is in the *tenths* place.
+- The "th" suffix denotes the digit's place after a decimal point. So, $0.1234$ means 1 *tenths*, 2 *hundredths*, 3 *thousandths* and 4 *ten-thousandths*.
 
-The second representation is a **_Fraction_**, which represents a ratio of two numbers (that is, one number divided by another).
+The second representation is a $\textcolor{cyan}{\textit{Fraction}}$, which represents a ratio of two numbers (that is, one number divided by another).
 
-- The top of the ratio is the numerator, and the bottom is the denominator. The resulting representation is called the fraction.
-- Example: $\frac{numerator}{denominator} = fraction$
-- **_Mixed Fractions_** - Represent the ratio with only the decimal part as a fraction.
-  - Example: $2\frac{2}{5}$ represents the value $2.4$
-- **_Improper fraction_** - Fraction such that the numerator is larger than the denominator.
-  - Example: $\frac{12}{5}$, which also represents $2.4$
-
-To switch between these forms, apply a series of rules.
-
-For instance, switching from improper fractions to mixed fractions, you "simplify" the fraction by extracting whole, divisible parts out of the fraction. As an example:
-
-$$\frac{12}{5} = \frac{10}{5}+\frac{2}{5} = 2+\frac{2}{5} = 2\frac{2}{5}$$
-
-> If you need more information on these operations (e.g., addition, $+$ or division $/$), see [Operations](./2-Operations.md)!
-
-Or, to switch from mixed fractions to improper fractions, you convert the whole part to have the same denominator as the fraction part. As an example:
-
-$$4\frac{6}{13} = \frac{13\cdot4}{13}+\frac{6}{13} = \frac{52}{13}+\frac{6}{13} = \frac{58}{13}$$
-
-Notice that to convert a whole number to a fraction with an arbitrary denominator (say, $d$), you simply multiply that number by $\frac{d}{d}$. Since **every whole number is technically a fraction** (e.g., $4 = \frac{4}{1}$), then this because $\frac{d\cdot4}{d}$.
+For more on the concept of division, on fractions, or on decimals, see [Division](../2-Operations/5-Division.md). This will provide the necessary context for understanding what a fraction actually represents and why.
 
 ## Numerical Bases
 
-Numbers can also be represented by a "base". **_Base_** refers to how many numerals there are. For instance, base-10 includes 10 numerals: 0 through 9. That means there are 10 representations before a new digit must be added to continue counting. That is, $0, 1, 2, ..., 8, 9, 10, 11, 12, ..., 98, 99, 100, ...$
+Numbers can also be represented by a "base". $\textcolor{cyan}{\textit{Base}}$ refers to how many numerals there are. For instance, base-10 includes 10 numerals: 0 through 9. That means there are 10 representations before a new digit must be added to continue counting. That is, $0, 1, 2, ..., 8, 9, 10, 11, 12, ..., 98, 99, 100, ...$
 
-Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1\cdot10^2 + 2\cdot10^1 + 3\cdot10^3$. This is how every single base-representation works. This is also known as a **_radix positional numeral system_**.
+Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1\cdot10^2 + 2\cdot10^1 + 3\cdot10^3$. This is how every single base-representation works. This is also known as a ***radix positional numeral system***.
 
 Here are some base values you may come across:
 
-- **_Binary_** (_base-2_) - Represented by two numerals: $0, 1$. For instance, $5$ in base-2 is $0b101$.
+- $\textcolor{cyan}{\textit{Binary}}$ (*base-2*) - Represented by two numerals: $0, 1$. For instance, $5$ in base-2 is $0b101$.
   - In other words, $(1\cdot2^2)+(0\cdot2^1)+(1\cdot2^0) = 4 + 0 + 1 = 5$
   - The prefix of $0b$ is common to differentiate between numbers represented by different bases.
-- **_Octal_** (_base-8_) - Represented by 8 numerals $(0 ... 7)$.
-- **_Decimal_** (_base-10_) - Represented by 10 numerals $(0 ... 9)$.
-- **_Hexadecimal_** (_base-16_) - Represented by 16 numerals $(0 ... 9, a ... f)$
+- $\textcolor{cyan}{\textit{Octal}}$ (*base-8*) - Represented by 8 numerals $(0 ... 7)$.
+- $\textcolor{cyan}{\textit{Decimal}}$ (*base-10*) - Represented by 10 numerals $(0 ... 9)$.
+- $\textcolor{cyan}{\textit{Hexadecimal}}$ (*base-16*) - Represented by 16 numerals $(0 ... 9, a ... f)$
   - So, 38 in base-16 is $0x26$, because $(2\cdot16^1)+(6\cdot16^0) = 38$
   - You would represent 15 as 0xf (usually read as "zero hex f"), but 16 as 0x10 (read as "zero hex ten" or "zero hex one zero")
 
+> [!WARNING]
 > You might be tempted to say that Roman numerals are "base-7", since there are 7 symbols. While true that there are 7 symbols, each one represents a non-sequential values, so this does not apply. You wouldn't count like this: $I, V, X, ...$, but instead by $I, II, III, IV, ...$ (you count sequentially). Roman numerals technically don't have a base at all, since it's not a radix numeral system.
 
 Various number representations are useful for different reasons, for instance, binary and hexadecimal are central to computing.
 
-> **Note**: This book will use base-10 unless noted otherwise.
+> [!NOTE]
+> **This book will use base-10 unless noted otherwise.**
+
+## Closing
+
+|                Previous                 |                                           Next                                           |
+| :-------------------------------------: | :--------------------------------------------------------------------------------------: |
+| $\leftarrow$ [0.0.1: Math](./1-Math.md) | [0.1.3: Characteristics of Numbers](./3-Characteristics%20of%20Numbers.md) $\rightarrow$ |

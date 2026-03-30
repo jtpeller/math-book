@@ -9,8 +9,10 @@
 
 ## Overview
 
+TODO: Define limits.
+
 ## Closing
 
-| Previous Section                               | Next Section                                                                       |
+| Previous                                       | Next                                                                               |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------- |
 | $\leftarrow$ [Polynomials](./6-Polynomials.md) | [Unit II: Introduction to Geometry](../2-Geometry/0-Introduction.md) $\rightarrow$ |

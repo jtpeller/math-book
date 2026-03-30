@@ -21,7 +21,7 @@ While linear functions represent a broad range of functions, the rest of functio
 
 One important type of non-linear function are polynomial functions. As a simple exercise, imagine what would happen to a function like $y = 2x + 5$ if $x$ was raised to the power of 2, 3, or any other number.
 
-Such a function is a _polynomial_. This class of functions encompass a whole range of functions with unique characteristics, which will be explored in this section.
+Such a function is a *polynomial*. This class of functions encompass a whole range of functions with unique characteristics, which will be explored in this section.
 
 ## Introduction to Polynomials
 
@@ -31,7 +31,7 @@ $$
 f(x) = a_nx^n + a_{n-1}x^{n-2}+...+a_1x+a_0
 $$
 
-Here, $a$ simply represents a constant (e.g., $a_n$ may be 4, while $a_{n-1}$ may be 15). $n$ is some non-negative integer that represents the _degree_ of the polynomial. That is, the **_degree_** of a polynomial is the largest power of the polynomial.
+Here, $a$ simply represents a constant (e.g., $a_n$ may be 4, while $a_{n-1}$ may be 15). $n$ is some non-negative integer that represents the *degree* of the polynomial. That is, the ***degree*** of a polynomial is the largest power of the polynomial.
 
 For example, $x^3+2x^2+5x+4$ has a degree of 3, since $x^3$ has the largest power.
 
@@ -41,11 +41,11 @@ For example, $x^3+2x^2+5x+4$ has a degree of 3, since $x^3$ has the largest powe
 
 ### Quadratic Function
 
-A **_Quadratic function_** is a polynomial function of degree 2. It has a **standard form** of:
+A ***Quadratic function*** is a polynomial function of degree 2. It has a **standard form** of:
 
 $$ f(x) = ax^2 + bx + c $$
 
-If b & c are 0, then the quadratic function, when graphed, will look like the following. This shape is called a **_parabola_**.
+If b & c are 0, then the quadratic function, when graphed, will look like the following. This shape is called a ***parabola***.
 
 <p align="center">
     <img src="img/quadratic.png" alt="Quadratic Function, where f(x)=x^2" width="35%" style="max-width: 300px"/>
@@ -61,7 +61,7 @@ The values of b and c influence the positioning of the graph, while $a$ influenc
 
 Notice that the graph has different values for its minimum, its intercept, etc. This is due to the values of $a, b, c$. There are more useful forms of a quadratic function, which enable a more direct impact on these characteristics.
 
-For instance, if you wanted to influence the roots of the quadratic (roots are the x-intercept of the graph. Also known as a **_zero_**, a **_horizontal intercept_**, etc.), then you would utilize the form:
+For instance, if you wanted to influence the roots of the quadratic (roots are the x-intercept of the graph. Also known as a ***zero***, a ***horizontal intercept***, etc.), then you would utilize the form:
 
 $$ f(x) = a(x-r_1)(x-r_2) $$
 
@@ -85,7 +85,7 @@ As proof, we can graph this equation, and see that the roots are indeed at the o
 
 ---
 
-Alternatively, you may need to define a quadratic based on the vertex of the quadratic. The vertex is the minimum (or maximum, in case $a$ is negative) point on the graph. To do so, you would utilize the **_vertex form_**, which is shown below:
+Alternatively, you may need to define a quadratic based on the vertex of the quadratic. The vertex is the minimum (or maximum, in case $a$ is negative) point on the graph. To do so, you would utilize the ***vertex form***, which is shown below:
 
 $$ f(x) = a(x-x_1)^2 + y_1 $$
 
@@ -107,7 +107,7 @@ This, when graphed, would look as follows:
 
 Now, we had discussed controlling roots, but you can also control how many roots by a simple series of rules:
 
-1. If the difference between $r_1$ and $r_2$ is less than 0, then there are _no real roots_. Instead, these roots are complex numbers. The parabola does not and will never intersect the $x$-axis!
+1. If the difference between $r_1$ and $r_2$ is less than 0, then there are *no real roots*. Instead, these roots are complex numbers. The parabola does not and will never intersect the $x$-axis!
 2. If the difference between $r_1$ and $r_2$ is zero, then there is exactly 1 root, and exactly 1 complex root. The vertex of the parabola intersects the x-axis. This is the only point of intersection seen on a Cartesian plane.
 3. If the difference between $r_1$ and $r_2$ is zero, then there is exactly 2 real roots. The parabola intersects the x-axis twice.
 
@@ -137,6 +137,6 @@ TODO: Roots
 
 ## Closing
 
-| Previous Section                                 | Next Section                          |
+| Previous                                         | Next                                  |
 | ------------------------------------------------ | ------------------------------------- |
 | $\leftarrow$ [Introduction](./0-Introduction.md) | [Limits](./2-Limits.md) $\rightarrow$ |

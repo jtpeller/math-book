@@ -7,12 +7,13 @@
   - [Overview](#overview)
   - [Branches of Math](#branches-of-math)
   - [Brief History of Math](#brief-history-of-math)
+  - [Closing](#closing)
 
 ## Overview
 
-**_Math_** is a subject of knowledge focused on quantities of values, items, things, etc. It is also focused on the operations that can be done on or to these quantities.
+$\textcolor{cyan}{\textbf{Math}}$ is a subject of knowledge focused on quantities of values, items, things, etc. It is also focused on the operations that can be done on or to these quantities.
 
-Math, therefore, is fundamentally based upon _numbers_, which, simply speaking, is a way of representing a quantity.
+Math, therefore, is fundamentally based upon *numbers*, which, simply speaking, is a way of representing a quantity.
 
 ## Branches of Math
 
@@ -38,3 +39,9 @@ There are of course, many, MANY more fields than this, but I'm using these branc
 Math itself is a long-standing historically-rich subject that has spanned across millennia of human existence. It's basically been around for as long as society has.
 
 TODO
+
+## Closing
+
+|                        Previous                        |                      Next                      |
+| :----------------------------------------------------: | :--------------------------------------------: |
+| $\leftarrow$ [Prologue Introduction](../0-Prologue.md) | [0.1.2: Numbers](./2-Numbers.md) $\rightarrow$ |
