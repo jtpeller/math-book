@@ -129,6 +129,6 @@ This makes it very easy to see a handful of inputs and their corresponding outpu
 
 The next few sections will discuss characteristics of functions, that can help in describing functions and their behaviors.
 
-| Previous                                               | Next                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------------ |
-| $\leftarrow$ [Basics of Algebra](./2-AlgebraBasics.md) | [Classes of Functions](./4-FunctionClasses.md) $\rightarrow$ |
+| Previous                                          | Next                                                                                         |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| $\leftarrow$ [1.1.1: Functions](./1-Functions.md) | [1.1.3: Characteristics of Functions](./3-Characteristics%20of%20Functions.md) $\rightarrow$ |

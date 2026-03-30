@@ -26,6 +26,6 @@ There are two important conventions in algebra to know:
 
 ## Closing
 
-| Previous                                 | Next                                                    |
-| ---------------------------------------- | ------------------------------------------------------- |
-| $\leftarrow$ [Graphing](./3-Graphing.md) | [Simplifications](./1-Simplifications.md) $\rightarrow$ |
+| Previous                                                                                                 | Next                                                           |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| $\leftarrow$ [1.1.3: Characteristics of Functions](../1-Functions/3-Characteristics%20of%20Functions.md) | [1.2.1: Simplifications](./1-Simplifications.md) $\rightarrow$ |

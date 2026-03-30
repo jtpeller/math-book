@@ -301,6 +301,6 @@ $$
 
 ## Closing
 
-| Previous                                         | Next                                        |
-| ------------------------------------------------ | ------------------------------------------- |
-| $\leftarrow$ [Introduction](./0-Introduction.md) | [Factoring](./2-Factoring.md) $\rightarrow$ |
+| Previous                                                | Next                                               |
+| ------------------------------------------------------- | -------------------------------------------------- |
+| $\leftarrow$ [1.2.0: Introduction](./0-Introduction.md) | [1.2.2: Factoring](./2-Factoring.md) $\rightarrow$ |

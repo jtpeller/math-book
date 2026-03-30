@@ -13,6 +13,6 @@ Linear Functions are those with a constant rate of change. That means, for a giv
 
 ## Closing
 
-| Next                                             |
-| ------------------------------------------------ |
-| [Functions](./1-FunctionBasics.md) $\rightarrow$ |
+| Previous                                                                | Next                                                               |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| $\leftarrow$ [1.2.4: Limits](../2-Manipulating%20Functions/4-Limits.md) | [1.3.1: Linear Functions](./1-Linear%20Functions.md) $\rightarrow$ |

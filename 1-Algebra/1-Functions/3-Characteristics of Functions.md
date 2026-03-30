@@ -159,6 +159,6 @@ Functions like the Quadratic function is symmetric across the $y$ axis. Some fun
 
 ## Closing
 
-| Previous                                 | Next                                                     |
-| ---------------------------------------- | -------------------------------------------------------- |
-| $\leftarrow$ [Graphing](./3-Graphing.md) | [Linear Functions](./5-LinearFunctions.md) $\rightarrow$ |
+| Previous                                                                    | Next                                                                                               |
+| --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| $\leftarrow$ [1.1.2: Visualizing Functions](./2-Visualizing%20Functions.md) | [Chapter 2: Manipulating Functions](../2-Manipulating%20Functions/0-Introduction.md) $\rightarrow$ |

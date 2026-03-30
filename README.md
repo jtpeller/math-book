@@ -29,10 +29,10 @@ The goal is to have a free, open-source centralized book that can be used as a r
 
 There are currently 4 units (more are in the works). Each are split into their own folders:
 
-0. [Prologue: The Foundation](./0-Prologue/)
-1. [Unit I: Algebra](./1-Algebra/)
-2. [Unit II: Geometry](./2-Geometry/)
-3. [Unit III: Discrete Math](./3-DiscreteMath/)
+0. [Prologue: The Foundation](./0-Prologue/0-Prologue.md)
+1. [Unit I: Algebra](./1-Algebra/0-Algebra.md)
+2. [Unit II: Geometry](./2-Geometry/0-Geometry.md)
+3. [Unit III: Discrete Math](./3-DiscreteMath/0-DiscreteMath.md)
 4. Unit IV and beyond TBD.
 
 ## Conventions

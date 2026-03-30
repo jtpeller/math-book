@@ -98,6 +98,6 @@ TODO: Define the AC Method
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.
 
-| Previous                                              | Next                                              |
-| ----------------------------------------------------- | ------------------------------------------------- |
-| $\leftarrow$ [Simplification](./1-Simplifications.md) | [Distribution](./3-Distribution.md) $\rightarrow$ |
+| Previous                                                     | Next                                                     |
+| ------------------------------------------------------------ | -------------------------------------------------------- |
+| $\leftarrow$ [1.2.1: Simplification](./1-Simplifications.md) | [1.2.3: Distribution](./3-Distribution.md) $\rightarrow$ |

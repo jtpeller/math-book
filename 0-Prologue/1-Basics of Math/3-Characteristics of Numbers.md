@@ -118,6 +118,6 @@ $$\phi = 2\cdot\sin{54\degree} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
 
 ## Closing
 
-|                   Previous                    |                                                  Next                                                  |
-| :-------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-| $\leftarrow$ [0.1.2: Numbers](./2-Numbers.md) | [0.2.1: Introduction to Operations](../2-Operations/1-Introduction%20to%20Operations.md) $\rightarrow$ |
+|                   Previous                    |                                Next                                |
+| :-------------------------------------------: | :----------------------------------------------------------------: |
+| $\leftarrow$ [0.1.2: Numbers](./2-Numbers.md) | [0.2.1: Arithmetic](../2-Operations/1-Arithmetic.md) $\rightarrow$ |

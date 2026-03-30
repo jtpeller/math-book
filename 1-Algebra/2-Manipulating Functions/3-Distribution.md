@@ -88,6 +88,6 @@ You will distribute when you are trying to simplify the equation to the point wh
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.
 
-| Previous                                   | Next                                        |
-| ------------------------------------------ | ------------------------------------------- |
-| $\leftarrow$ [Factoring](./2-Factoring.md) | [Distribution](./4-Limits.md) $\rightarrow$ |
+| Previous                                          | Next                                         |
+| ------------------------------------------------- | -------------------------------------------- |
+| $\leftarrow$ [1.2.2: Factoring](./2-Factoring.md) | [1.2.4: Limits](./4-Limits.md) $\rightarrow$ |
