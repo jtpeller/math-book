@@ -13,6 +13,6 @@ TODO: Define limits.
 
 ## Closing
 
-| Previous                                       | Next                                                                               |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------- |
-| $\leftarrow$ [Polynomials](./6-Polynomials.md) | [Unit II: Introduction to Geometry](../2-Geometry/0-Introduction.md) $\rightarrow$ |
+| Previous                                         | Next                                                                                   |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| $\leftarrow$ [Distribution](./3-Distribution.md) | [Chapter 3: Linear Functions](../3-Linear%20Functions/0-Introduction.md) $\rightarrow$ |
