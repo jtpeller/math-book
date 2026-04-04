@@ -76,11 +76,9 @@ $\textcolor{cyan}{\textit{Discontinuous}}$ functions feature a characteristic kn
 
 The "simplest" kind of discontinuity is a $\textcolor{cyan}{\textit{Removable Discontinuity}}$, which is one in which the function approaches the same values regardless of the direction $x$ is approaching.
 
-<p align="center">
-    <img src="img/removable-discontinuity.png" alt="Removable Discontinuity at x0" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 1.3.1: Removable Discontinuity at x0
-</p>
+![Removable Discontinuity at x0](img/removable-discontinuity.png)
+
+Figure 1.3.1: Removable Discontinuity at x0
 
 Notice that if you approach $x_0$ from the left side (that is, $x$ increases from $-\infty$ to $x_0$), then the function approaches the y-value denoted at the red-circle.
 
@@ -96,11 +94,9 @@ Likewise, when approaching $x_0$ from the right side (that is, $x$ decreases fro
 
 Another type of discontinuity is a $\textcolor{cyan}{\textit{Jump Discontinuity}}$, where the function approaches different values based on the direction $x$ is approaching.
 
-<p align="center">
-    <img src="img/jump-discontinuity.png" alt="Jump Discontinuity at x0" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 1.3.2: Jump Discontinuity at x0
-</p>
+![Jump Discontinuity at x0](img/jump-discontinuity.png)
+
+Figure 1.3.2: Jump Discontinuity at x0
 
 You'll notice that if you do the same approach of approaching $x_0$ from the left and right, the values they approach do not match. When approaching from the left, you approach $P$. When approaching from the right, you approach $M$. This is the fundamental characteristic of a jump discontinuity.
 
@@ -108,11 +104,9 @@ You'll notice that if you do the same approach of approaching $x_0$ from the lef
 
 The final kind of discontinuity to discuss is an $\textcolor{cyan}{\textit{Infinite Discontinuity}}$. This is a special kind of jump discontinuity such that the limits from either side approach infinity (may be both positive, both negative, or one each):
 
-<p align="center" >
-    <img src="img/infinite-discontinuity.png" alt="Jump Discontinuity at x0" width="35%" style="max-width: 300px; background-color: white"/>
-    <br>
-    Figure 1.3.3: Infinite Discontinuity at x=0, for function <code><i>f(x)=1/x </i></code>
-</p>
+![Infinite Discontinuity at x0](img/infinite-discontinuity.png)
+
+Figure 1.3.3: Infinite Discontinuity at x=0, for function <code><i>f(x)=1/x </i></code>
 
 These kinds of discontinuities are also known as a $\textcolor{cyan}{\textit{Vertical Asymptote}}$.
 
@@ -121,6 +115,7 @@ These kinds of discontinuities are also known as a $\textcolor{cyan}{\textit{Ver
 A $\textcolor{cyan}{\textit{bounded}}$ function is one that is finite.
 
 In other words, all values of the function will lie between some values $k$ and $m$, where both $k$ and $m$ are real numbers. That is, the following will be true:
+
 $$
 \begin{aligned}
 &f(x) \leq k \\
@@ -143,11 +138,9 @@ Some functions are "semi-bounded", meaning they are only bounded on one side of 
 
 A $\textcolor{cyan}{\textit{smooth}}$ function describes one such that the function is *differentiable* everywhere. Put more simply, a smooth function is essentially a special type of continuous function where there are no immediate shifts in its rate of change. For instance, a linear graph is smooth, while the following graph is not smooth. It is a graph of the absolute value of $x$ (that is, $f(x) = |x|$)
 
-<p align="center" >
-    <img src="img/absolute-graph.png" alt="Graph of an Absolute Value function" width="45%" style="max-width: 500px"/>
-    <br>
-    Figure 1.4.7: Graph of an Absolute Value function, which is not smooth.
-</p>
+![Graph of an Absolute Value function](img/absolute-graph.png)
+
+Figure 1.3.4: Graph of an Absolute Value function, which is not smooth.
 
 ### Symmetry
 
@@ -159,6 +152,6 @@ Functions like the Quadratic function is symmetric across the $y$ axis. Some fun
 
 ## Closing
 
-| Previous                                                                    | Next                                                                                               |
-| --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| $\leftarrow$ [1.1.2: Visualizing Functions](./2-Visualizing%20Functions.md) | [Chapter 2: Manipulating Functions](../2-Manipulating%20Functions/0-Introduction.md) $\rightarrow$ |
+| Previous                                                         | Next                                                                                   |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| ← [1.1.2: Visualizing Functions](./2-Visualizing%20Functions.md) | [Chapter 2: Manipulating Functions](../2-Manipulating%20Functions/0-Introduction.md) → |

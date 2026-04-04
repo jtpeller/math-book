@@ -79,94 +79,115 @@ The general algorithm (process) to do this is to:
 
 $$
 \begin{aligned}
-\phantom{00}_1\phantom{0}\\
-\phantom{\times0}52 \\
-\underline{\times\phantom{00}29} \\
-\phantom{\times000}8 \\
-\end{aligned}\\
+&\phantom{000}_1\phantom{0}\\
+&\phantom{\times00}52 \\
+&\underline{\times\phantom{00}29} \\
+&\phantom{\times000}8 \\
+&\end{aligned}
+$$
 
-9 \cdot 2 = 18. \text{ You must carry!} \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{Notice that you must carry, since }9 \cdot 2 = 18
+$$
 
+$$
 \begin{aligned}
 \phantom{0}_4\phantom{00}\\
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times00}68 \\
-\end{aligned}\\
+\end{aligned}
+$$
 
-9 \cdot 5 = 45. \text{ But don't forget the carry! } 45+1 = 46 \\
-\rule{8cm}{0.4pt}\\
-\phantom{\space} \\
-\text{At this point, the ones place is done! Bring the carry down!} \\
+$$
+\text{You must consider the carry. We know that }9 \cdot 5 = 45 \text{, but then include the carry: }45+1 = 46.\\
+\phantom{\n} \\
+\text{Now, the ones place is done! Bring the carry down!}
+$$
 
+$$
 \begin{aligned}
 \phantom{00}\phantom{00}\\
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
-\end{aligned}\\
+\end{aligned}
+$$
 
-\text{ Now, move onto the next digit. } \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{Then, move onto the next digit.}
+$$
 
+$$
 \begin{aligned}
 \phantom{00}\phantom{00}\\
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
 \phantom{\times000}0 \\
-\end{aligned}\\
+\end{aligned}
+$$
 
-\text{First, add the 0 as a placeholder.} \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{The first step is to add the 0 as a placeholder.}
+$$
 
+$$
 \begin{aligned}
 \phantom{00}\phantom{00}\\
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
 \phantom{\times00}40 \\
-\end{aligned}\\
+\end{aligned}
+$$
 
-2 \cdot 2 = 4. \text{ No carry!} \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{There's no carry here, because }2 \cdot 2 = 4
+$$
 
+$$
 \begin{aligned}
 \phantom{}_1\phantom{000}\\
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
 \phantom{\times0}040 \\
-\end{aligned}\\
+\end{aligned}
+$$
 
-2 \cdot 5 = 10. \text{ Carry the 1.} \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{We need to carry the 1, since }2 \cdot 5 = 10
+$$
 
+$$
 \begin{aligned}
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
 \phantom{\times}1040 \\
-\end{aligned}\\
+\end{aligned}
+$$
 
-\text{Bring the carry down.} \\
-\phantom{\space} \\
-\text{Now you will perform long addition!} \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{Once you bring the carry down, you can perform long addition!}
+$$
 
+$$
 \begin{aligned}
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
 \underline{+\phantom{0}1040} \\
 \phantom{0000}8
-\end{aligned}\\
+\end{aligned}
+$$
 
-8 + 0 = 8. \text{ No carry!}\\
-\rule{8cm}{0.4pt}\\
-\phantom{\space} \\
+$$
+\text{The addition is: } 8+0=8 \text{, which results in no carry. Continue:}
+$$
 
+$$
 \begin{aligned}
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
@@ -174,11 +195,14 @@ $$
 \phantom{\times0}468 \\
 \underline{+\phantom{0}1040} \\
 \phantom{000}08
-\end{aligned}\\
+\end{aligned}
+$$
 
-6 + 4 = 10. \text{ Carry the 1 to the next digit!} \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{This step's addition is }6 + 4 = 10.\text{ Carry the 1 to the next digit, and continue.}
+$$
 
+$$
 \begin{aligned}
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
@@ -186,29 +210,33 @@ $$
 \phantom{\times0}468 \\
 \underline{+\phantom{0}1040} \\
 \phantom{00}508
-\end{aligned}\\
+\end{aligned}
+$$
 
-4 + 1 + 0 = 5 \\
-\rule{8cm}{0.4pt}\\
+$$
+\text{This step's addition must include the carry: }4 + 1 + 0 = 5
+$$
 
+$$
 \begin{aligned}
 \phantom{\times0}52 \\
 \underline{\times\phantom{00}29} \\
 \phantom{\times0}468 \\
 \underline{+\phantom{0}1040} \\
 \phantom{0}1508
-\end{aligned}\\
+\end{aligned}
+$$
 
-\rule{8cm}{0.4pt}\\
-\phantom{\space}\\
-\text{Congratulations! You're finished! We computed that }\\
-\phantom{\space}\\
+$$
+\text{Congratulations! You're finished! We computed that:}
+$$
 
+$$
 \boxed{52 \cdot 29 = 1508}
 $$
 
 ## Closing
 
-|                       Previous                        | Next                                             |
-| :---------------------------------------------------: | :----------------------------------------------- |
-| $\leftarrow$ [0.2.3: Subtraction](./3-Subtraction.md) | [0.2.5: Division](./5-Division.md) $\rightarrow$ |
+|                  Previous                  | Next                                 |
+| :----------------------------------------: | :----------------------------------- |
+| ← [0.2.3: Subtraction](./3-Subtraction.md) | [0.2.5: Division](./5-Division.md) → |

@@ -79,6 +79,6 @@ For larger numbers, or if the result isn't easily calculable, operations would n
 
 ## Closing
 
-|                                                   Previous                                                    |                       Next                       |
-| :-----------------------------------------------------------------------------------------------------------: | :----------------------------------------------: |
-| $\leftarrow$ [0.1.3: Characteristics of Numbers](../1-Basics%20of%20Math/3-Characteristics%20of%20Numbers.md) | [0.2.2: Addition](./2-Addition.md) $\rightarrow$ |
+|                                              Previous                                              |                 Next                 |
+| :------------------------------------------------------------------------------------------------: | :----------------------------------: |
+| ← [0.1.3: Characteristics of Numbers](../1-Basics%20of%20Math/3-Characteristics%20of%20Numbers.md) | [0.2.2: Addition](./2-Addition.md) → |

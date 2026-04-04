@@ -152,6 +152,6 @@ TODO
 
 ## Closing
 
-|                    Previous                     | Next                                                                                 |
-| :---------------------------------------------: | :----------------------------------------------------------------------------------- |
-| $\leftarrow$ [0.2.5: Division](./5-Division.md) | [0.2.7: Properties of Operations](./7-Properties%20of%20Operations.md) $\rightarrow$ |
+|               Previous               | Next                                                                     |
+| :----------------------------------: | :----------------------------------------------------------------------- |
+| ← [0.2.5: Division](./5-Division.md) | [0.2.7: Properties of Operations](./7-Properties%20of%20Operations.md) → |

@@ -25,13 +25,18 @@ $$
 
 As an example, consider the following expression.
 
-$$ 6x^5 + 8x^4 + 4x^3 + 2x^2 $$
+$$
+6x^5 + 8x^4 + 4x^3 + 2x^2 $$
 
 You'll notice that there is a common piece in each term: $2x^2$. That is, each term is *divisible* by $2x^2$, which enables the following simplification:
 
-$$6x^5 + 8x^4 + 4x^3 + 2x^2$$
-$$= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2)$$
-$$= 2x^2(3x^3 + 4x^2 + 2x + 1)$$
+$$
+\begin{aligned}
+&6x^5 + 8x^4 + 4x^3 + 2x^2 \\
+&= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2) \\
+&= 2x^2(3x^3 + 4x^2 + 2x + 1)
+\end{aligned}
+$$
 
 This $2x^2$ term is referred to as the Greatest Common Factor, and will be discussed in the next section.
 
@@ -98,6 +103,6 @@ TODO: Define the AC Method
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.
 
-| Previous                                                     | Next                                                     |
-| ------------------------------------------------------------ | -------------------------------------------------------- |
-| $\leftarrow$ [1.2.1: Simplification](./1-Simplifications.md) | [1.2.3: Distribution](./3-Distribution.md) $\rightarrow$ |
+| Previous                                          | Next                                         |
+| ------------------------------------------------- | -------------------------------------------- |
+| ← [1.2.1: Simplification](./1-Simplifications.md) | [1.2.3: Distribution](./3-Distribution.md) → |

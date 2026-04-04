@@ -17,6 +17,6 @@ This section introduces Functions, a fundemental building block of Algebra. A ma
 
 ## Closing
 
-| Previous                                       | Next                                               |
-| ---------------------------------------------- | -------------------------------------------------- |
-| $\leftarrow$ [1.0.0: Algebra](../0-Algebra.md) | [1.1.1: Functions](./1-Functions.md) $\rightarrow$ |
+| Previous                            | Next                                   |
+| ----------------------------------- | -------------------------------------- |
+| ← [1.0.0: Algebra](../0-Algebra.md) | [1.1.1: Functions](./1-Functions.md) → |

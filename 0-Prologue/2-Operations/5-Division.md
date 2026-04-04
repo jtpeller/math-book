@@ -236,7 +236,7 @@ $\textcolor{cyan}{\textit{Long Division}}$ is a method of division where the div
 $$
 \begin{aligned}
 \phantom{00000}274.\bar{3} \\
-45\overline{\rparen 12345.0}\\
+45\overline{)12345.0}\\
 \phantom{000}-\underline{90\phantom{0}}\phantom{0.0} \\
 \phantom{0000}334\phantom{0.0} \\
 \phantom{000}-\underline{315\phantom{0}}\phantom{.0} \\
@@ -256,6 +256,6 @@ Long division should be continued until either enough precision is reached (say,
 
 ## Closing
 
-|                          Previous                           | Next                                             |
-| :---------------------------------------------------------: | :----------------------------------------------- |
-| $\leftarrow$ [0.2.4: Multiplication](./4-Multiplication.md) | [0.2.6: Equality](./6-Equality.md) $\rightarrow$ |
+|                     Previous                     | Next                                 |
+| :----------------------------------------------: | :----------------------------------- |
+| ← [0.2.4: Multiplication](./4-Multiplication.md) | [0.2.6: Equality](./6-Equality.md) → |

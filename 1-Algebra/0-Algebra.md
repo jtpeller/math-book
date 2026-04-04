@@ -19,6 +19,6 @@ This section introduces Algebra. Algebra is broken into multiple chapters:
 
 ## Closing
 
-| Next                                                         |
-| ------------------------------------------------------------ |
-| [Functions](./1-Functions/1-FunctionBasics.md) $\rightarrow$ |
+| Next                                             |
+| ------------------------------------------------ |
+| [Functions](./1-Functions/1-FunctionBasics.md) → |

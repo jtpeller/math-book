@@ -40,13 +40,13 @@ $\textcolor{cyan}{\textit{Numerals}}$ describe the symbols used to represent a n
 >
 > | Symbol | Value  |
 > | ------ | ------ |
-> | $I$    | $1$    |
-> | $V$    | $5$    |
-> | $X$    | $10$   |
-> | $L$    | $50$   |
-> | $C$    | $100$  |
-> | $D$    | $500$  |
-> | $M$    | $1000$ |
+> | I      | 1      |
+> | V      | 5      |
+> | X      | 10     |
+> | L      | 50     |
+> | C      | 100    |
+> | D      | 500    |
+> | M      | 1000   |
 >
 > Roman numerals work by addition or subtraction represented by the order of these symbols. There are all sorts of conventions and rules (for instance, you wouldn't want to represent $4$ by $IIII$), but they aren't really important to this section. Really, the point is that there are many representations possible. In fact, there are plenty of numeral systems that won't be discussed here, since this book will be using Arabic Numerals anyway.
 
@@ -58,11 +58,9 @@ For instance, $42$ represents four tens, and two ones. Or, $1,234$ represents on
 
 Values can be represented on a $\textcolor{cyan}{\textit{number line}}$, which is a means of graphically displaying the relative values of numbers.
 
-<p align='center'>
-    <img src='./img/number-line.png' alt="Number Line from -3.5 to 3.5, with tick marks at whole numbers." width=50%>
-    <br>
-    Figure 0.1.1: Number Line Example
-</p>
+![Number Line from -3.5 to 3.5, with tick marks at whole numbers.](./img/number-line.png)
+
+Figure 0.1.1: Number Line Example
 
 Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, from smallest (left) to largest (right).
 
@@ -108,6 +106,6 @@ Various number representations are useful for different reasons, for instance, b
 
 ## Closing
 
-|                Previous                 |                                           Next                                           |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------: |
-| $\leftarrow$ [0.0.1: Math](./1-Math.md) | [0.1.3: Characteristics of Numbers](./3-Characteristics%20of%20Numbers.md) $\rightarrow$ |
+|           Previous           |                                     Next                                     |
+| :--------------------------: | :--------------------------------------------------------------------------: |
+| ← [0.0.1: Math](./1-Math.md) | [0.1.3: Characteristics of Numbers](./3-Characteristics%20of%20Numbers.md) → |

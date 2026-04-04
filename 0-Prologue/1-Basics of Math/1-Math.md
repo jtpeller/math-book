@@ -42,6 +42,6 @@ TODO
 
 ## Closing
 
-|                        Previous                        |                      Next                      |
-| :----------------------------------------------------: | :--------------------------------------------: |
-| $\leftarrow$ [Prologue Introduction](../0-Prologue.md) | [0.1.2: Numbers](./2-Numbers.md) $\rightarrow$ |
+|                  Previous                   |                Next                |
+| :-----------------------------------------: | :--------------------------------: |
+| ← [Prologue Introduction](../0-Prologue.md) | [0.1.2: Numbers](./2-Numbers.md) → |

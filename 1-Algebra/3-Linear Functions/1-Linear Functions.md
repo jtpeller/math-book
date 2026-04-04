@@ -24,27 +24,21 @@ To think about this much more easily, ***Linear Functions*** are functions where
 
 ***Linear functions*** present themselves like the following chart. Notice that the graph is just a line (hence, *LINEar*)
 
-<p align="center">
-    <img src="img/linear-graph.png" alt="Linear Function, where f(x)=-2x+2" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 1.4.1: Graph of linear function: <code><i>f(x) = -2x + 2</i></code>
-</p>
+![Linear Function, where f(x)=-2x+2](img/linear-graph.png)
+
+Figure 1.4.1: Graph of linear function: <code><i>f(x) = -2x + 2</i></code>
 
 ***Constant functions*** are a special type of linear function where, for all output, the output is the same value. These are of the form $f(x) = c$, where $c$ simply represents some numerical value.
 
-<p align="center">
-    <img src="img/constant-graph.png" alt="Constant Function, where f(x)=4" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 1.4.2: Graph of constant function: <code><i>f(x) = 4</i></code>
-</p>
+![Constant Function, where f(x)=4](img/constant-graph.png)
+
+Figure 1.4.2: Graph of constant function: <code><i>f(x) = 4</i></code>
 
 ***Identity***: A special type of **linear** function where the output is the same as the input. It is of the form, $f(x) = x$.
 
-<p align="center">
-    <img src="img/identity-graph.png" alt="Identity Function, where f(x)=4" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 1.4.3: Graph of identity function: <code><i>f(x) = x</i></code>
-</p>
+![Identity Function, where f(x)=4](img/identity-graph.png)
+
+Figure 1.4.3: Graph of identity function: <code><i>f(x) = x</i></code>
 
 ## Forms
 
@@ -115,10 +109,10 @@ The first pair is going to be $(x, y)$, as you are defining the behavior between
 >
 > $$y - 19 = 2x - 24$$
 >
-> $$\boxed{y = 2x - 5} \space\checkmark$$
+> $$\boxed{y = 2x - 5} \; \checkmark$$
 
 ## Closing
 
-| Previous                                  | Next                                       |
-| ----------------------------------------- | ------------------------------------------ |
-| $\leftarrow$ [1.3.0](./0-Introduction.md) | [1.3.2: Forms](./2-Forms.md) $\rightarrow$ |
+| Previous                       | Next                           |
+| ------------------------------ | ------------------------------ |
+| ← [1.3.0](./0-Introduction.md) | [1.3.2: Forms](./2-Forms.md) → |

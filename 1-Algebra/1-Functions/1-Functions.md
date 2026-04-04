@@ -237,6 +237,6 @@ Therefore, you need to follow a general process for defining a function to model
 
 ## Closing
 
-| Previous                                                | Next                                                                         |
-| ------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| $\leftarrow$ [1.1.0: Introduction](./0-Introduction.md) | [1.1.2: Visualizing Functions](./2-Visualizing%20Functions.md) $\rightarrow$ |
+| Previous                                     | Next                                                             |
+| -------------------------------------------- | ---------------------------------------------------------------- |
+| ← [1.1.0: Introduction](./0-Introduction.md) | [1.1.2: Visualizing Functions](./2-Visualizing%20Functions.md) → |

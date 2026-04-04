@@ -125,16 +125,16 @@ That is, $4 \cdot 5/2$ would be the same whether you reduced the division first:
 > There are three main ways operations can be expressed:
 >
 > ***Pre-order*** - Operator comes before the operands.
-> $$+ \space 2 \space 2$$
+> $$+ \; 2 \; 2$$
 > ***In-order*** - Operator is between the operands.
 > $$2+2$$
 > ***Post-order*** - Operator comes after the operands.
-> $$2 \space 2 \space +$$
+> $$2 \; 2 \; +$$
 >
-> Both Pre- and Post-order rely on clear handwriting to be able to distinguish between $22$ and $2 \space 2$, and thus, in-order is the most common operator ordering convention used.
+> Both Pre- and Post-order rely on clear handwriting to be able to distinguish between $22$ and $2 \; 2$, and thus, in-order is the most common operator ordering convention used.
 
 ## Closing
 
-|                    Previous                     | Next                                                         |
-| :---------------------------------------------: | :----------------------------------------------------------- |
-| $\leftarrow$ [0.2.6: Equality](./6-Equality.md) | [0.2.8: Exponentiation](./8-Exponentiation.md) $\rightarrow$ |
+|               Previous               | Next                                             |
+| :----------------------------------: | :----------------------------------------------- |
+| ← [0.2.6: Equality](./6-Equality.md) | [0.2.8: Exponentiation](./8-Exponentiation.md) → |

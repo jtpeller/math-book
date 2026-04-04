@@ -172,7 +172,7 @@ $$
 &w = \frac{12xy}{6x} && \text{Start} \\
 &w = \frac{12\cancel{x}{y}}{6\cancel{x}} && \text{We know that: } 12x/6x=2 \\
 &w = \frac{12y}{6} && \text{Removed the cancelled terms} \\
-&\boxed{w = 2y}
+&\boxed{w = 2y} \\
 \end{aligned}
 $$
 
@@ -202,9 +202,9 @@ Here's an example covering all 4 arithmetic operations:
 $$
 \begin{aligned}
 &z = \frac{3x + 6xy - 18x \cdot 21xy + (6x)^2 - 15}{3x} \\
-\space \\
+\; \\
 &z = \frac{3x + 6xy - 378x^2y + 36x^2 - 15}{3x} \\
-\space \\
+\; \\
 &z = \boxed{\frac{x + 2xy - 126x^2y + 12x^2 - 5}{x}} \\
 \end{aligned}
 $$
@@ -245,7 +245,7 @@ $$
 > &\frac{2(2) + (10)}{(2)} = 2 + \frac{(10)}{(2)} && \text{Plug in the chosen values} \\
 > &\frac{4 + 10}{2} = 2 + 5 && \text{Simplify some of the operations} \\
 > &\frac{14}{2} = 7  && \text{Addition!} \\
-> &\boxed{7 = 7} \space\checkmark && \text{Both sides are indeed equal!} \\
+> &\boxed{7 = 7} \; \checkmark && \text{Both sides are indeed equal!} \\
 > \end{aligned}
 > $$
 >
@@ -258,7 +258,7 @@ $$
 > &(\frac{2x + y}{\cancel{x}}) \cdot \cancel{x} = (2 + \frac{y}{x}) \cdot x && \text{Cancel out }x\text{ on the left side}\\
 > &2x + y = 2x + \frac{yx}{x} && \text{Distribute $x$ to each term in the parentheses} \\
 > &2x + y = 2x + \frac{y\cancel{x}}{\cancel{x}} && \text{Cancel out }x \\
-> &\boxed{2x + y = 2x + y}\space\checkmark && \text{Both sides are the same!}
+> &\boxed{2x + y = 2x + y}\; \checkmark && \text{Both sides are the same!}
 > \end{aligned}
 > $$
 >
@@ -301,6 +301,6 @@ $$
 
 ## Closing
 
-| Previous                                                | Next                                               |
-| ------------------------------------------------------- | -------------------------------------------------- |
-| $\leftarrow$ [1.2.0: Introduction](./0-Introduction.md) | [1.2.2: Factoring](./2-Factoring.md) $\rightarrow$ |
+| Previous                                     | Next                                   |
+| -------------------------------------------- | -------------------------------------- |
+| ← [1.2.0: Introduction](./0-Introduction.md) | [1.2.2: Factoring](./2-Factoring.md) → |

@@ -29,11 +29,9 @@ Functions are most commonly graphed on Cartesian planes.
 
 Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be discussed (see: dimensions, planes, etc. in [Geometry](../2-Geometry/0-Introduction.md)). A $\textcolor{cyan}{\textit{Cartesian plane}}$ can be thought of as a flat surface (it has a length and a width, sometimes infinite) with two perpendicular number lines. Simply put, make a cartesian plane by simply overlapping two number lines so they overlap to make a big plus sign.
 
-<p align='center'>
-    <img src='./img/cartesian-plane.png' alt="Example Cartesian Plane, with both axes ranging from -6 to 6." width=35%>
-    <br>
-    Figure 1.2.1: Example Cartesian Plane with a Linear Plot in Blue.
-</p>
+![Example Cartesian Plane, with both axes ranging from -6 to 6.](./img/cartesian-plane.png)
+
+Figure 1.2.1: Example Cartesian Plane with a Linear Plot in Blue.
 
 ## Parts of a Cartesian Plane
 
@@ -129,6 +127,6 @@ This makes it very easy to see a handful of inputs and their corresponding outpu
 
 The next few sections will discuss characteristics of functions, that can help in describing functions and their behaviors.
 
-| Previous                                          | Next                                                                                         |
-| ------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| $\leftarrow$ [1.1.1: Functions](./1-Functions.md) | [1.1.3: Characteristics of Functions](./3-Characteristics%20of%20Functions.md) $\rightarrow$ |
+| Previous                               | Next                                                                             |
+| -------------------------------------- | -------------------------------------------------------------------------------- |
+| ← [1.1.1: Functions](./1-Functions.md) | [1.1.3: Characteristics of Functions](./3-Characteristics%20of%20Functions.md) → |

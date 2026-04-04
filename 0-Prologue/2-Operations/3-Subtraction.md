@@ -61,36 +61,33 @@ $$
 \underline{-\phantom{0}299} \\
 \phantom{-055}3 \\
 \end{aligned} \\
-
+\\
 2-9 \text{ is negative, so you need to borrow from the tens place to change the 2 into a 12:} \\
 12-9=3\\
 \text{Notice the borrow is marked as negative; this indicates a borrow.}\\
 \phantom{\n} \\
-
 \begin{aligned}
 \phantom{0}_{-1}\phantom{00}\\
 \phantom{-}852 \\
 \underline{-\phantom{0}299} \\
 \phantom{-05}53 \\
 \end{aligned} \\
-
+\\
 -1 - 5 - 9 \text{ also requires a borrow:}\\
 15 - 1 - 9 = 14-9=5 \\
-\phantom{\n} \\
-
+\\
 \begin{aligned}
 \phantom{-}852 \\
 \underline{-\phantom{0}299} \\
 \phantom{-0}553 \\
 \end{aligned} \\
-
-8 - 2 - 1 = 5\\
+8 - 2 - 1 = 5 \\
+\\
 \text{ This requires no borrow!}\\
-\phantom{\n} \\
 $$
 
 ## Closing
 
-|                    Previous                     | Next                                                         |
-| :---------------------------------------------: | :----------------------------------------------------------- |
-| $\leftarrow$ [0.2.2: Addition](./2-Addition.md) | [0.2.4: Multiplication](./4-Multiplication.md) $\rightarrow$ |
+|               Previous               | Next                                             |
+| :----------------------------------: | :----------------------------------------------- |
+| ← [0.2.2: Addition](./2-Addition.md) | [0.2.4: Multiplication](./4-Multiplication.md) → |

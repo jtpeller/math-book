@@ -13,6 +13,6 @@ TODO: Polynomials Intro
 
 ## Closing
 
-| Previous                                                               | Next                                                   |
-| ---------------------------------------------------------------------- | ------------------------------------------------------ |
-| $\leftarrow$ [1.3.2: Linear Forms](../3-Linear%20Functions/2-Forms.md) | [1.4.1: Polynomials](./1-Polynomials.md) $\rightarrow$ |
+| Previous                                                    | Next                                       |
+| ----------------------------------------------------------- | ------------------------------------------ |
+| ← [1.3.2: Linear Forms](../3-Linear%20Functions/2-Forms.md) | [1.4.1: Polynomials](./1-Polynomials.md) → |

@@ -54,6 +54,6 @@ $$x^{\frac{m}{n}} = (\sqrt[n]{x})^m$$
 
 ## Closing
 
-|                          Previous                           |                          Next                          |
-| :---------------------------------------------------------: | :----------------------------------------------------: |
-| $\leftarrow$ [0.2.8: Exponentiation](./8-Exponentiation.md) | [0.2.10: Logarithms](./10-Logarithms.md) $\rightarrow$ |
+|                     Previous                     |                    Next                    |
+| :----------------------------------------------: | :----------------------------------------: |
+| ← [0.2.8: Exponentiation](./8-Exponentiation.md) | [0.2.10: Logarithms](./10-Logarithms.md) → |

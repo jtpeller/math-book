@@ -101,7 +101,7 @@ Some of the essential constants include:
 - $\textcolor{cyan}{\textit{Pi}}$ $(\pi)$ - Constant that is involved with everything from probability to geometry to calculus and beyond. Geometrically, it is the ratio between the circumference of a circle and its diameter.
 - $\textcolor{cyan}{\textit{Euler's Number}}$ $(e)$ - Related to exponential growth (hence it's alternative name, the \_exponential growth constant\*). Commonly defined as:
 
-$$e = \lim_{n\rightarrow\infty}{\lparen1 + \frac{1}{n}\rparen^n}$$
+$$e = \lim_{n\rightarrow\infty}{(1 + \frac{1}{n})^n}$$
 
 - $\textcolor{cyan}{\textit{Imaginary Unit}}$ $(i)$ - Used for imaginary numbers. $i = \sqrt{-1}$. This constant has special properties:
   $$i^2=-1$$
@@ -114,10 +114,10 @@ $$e = \lim_{n\rightarrow\infty}{\lparen1 + \frac{1}{n}\rparen^n}$$
   - Can be approximated by $99/70$.
 - $\textcolor{cyan}{\textit{Golden Ratio}}$ $(\phi)$ - A special ratio that frequently appears in geometry. It is represented by the following:
 
-$$\phi = 2\cdot\sin{54\degree} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
+$$\phi = 2\cdot\sin{54^\circ} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
 
 ## Closing
 
-|                   Previous                    |                                Next                                |
-| :-------------------------------------------: | :----------------------------------------------------------------: |
-| $\leftarrow$ [0.1.2: Numbers](./2-Numbers.md) | [0.2.1: Arithmetic](../2-Operations/1-Arithmetic.md) $\rightarrow$ |
+|              Previous              |                          Next                          |
+| :--------------------------------: | :----------------------------------------------------: |
+| ← [0.1.2: Numbers](./2-Numbers.md) | [0.2.1: Arithmetic](../2-Operations/1-Arithmetic.md) → |

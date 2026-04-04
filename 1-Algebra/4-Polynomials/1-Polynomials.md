@@ -47,11 +47,9 @@ $$ f(x) = ax^2 + bx + c $$
 
 If b & c are 0, then the quadratic function, when graphed, will look like the following. This shape is called a ***parabola***.
 
-<p align="center">
-    <img src="img/quadratic.png" alt="Quadratic Function, where f(x)=x^2" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 2.1.1: Graph of Quadratic Function: <code><i>f(x) = x^2</i></code>
-</p>
+![Quadratic Function, where f(x)=x^2](img/quadratic.png)
+
+Figure 2.1.1: Graph of Quadratic Function: <code><i>f(x) = x^2</i></code>
 
 The values of b and c influence the positioning of the graph, while $a$ influences the width of the graph. For instance, the following plot is a graph of $f(x) = 5x^2 - x + 1$.
 
@@ -77,11 +75,9 @@ $$ f(x) = x^2 + 10x - 75 $$
 
 As proof, we can graph this equation, and see that the roots are indeed at the ordered pairs $(0, 5)$ and $(0, -15)$:
 
-<p align="center">
-    <img src="img/quadratic-roots.png" alt="Quadratic Function, where f(x)=(x-5)(x+15)" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 2.1.2: Graph of Quadratic Function: <code><i>f(x) = (x-5)(x+15)</i></code>
-</p>
+![Quadratic Function, where f(x)=(x-5)(x+15)](img/quadratic-roots.png)
+
+Figure 2.1.2: Graph of Quadratic Function: <code><i>f(x) = (x-5)(x+15)</i></code>
 
 ---
 
@@ -97,11 +93,9 @@ $$ f(x) = -2(x-2)^2 + 3 $$
 
 This, when graphed, would look as follows:
 
-<p align="center">
-    <img src="img/quadratic-vertex.png" alt="Quadratic Function, where f(x)=-2(x-2)^2 + 3" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 2.1.3: Graph of Quadratic Function: <code><i>f(x) = -2(x-2)^2 + 3</i></code>
-</p>
+![Quadratic Function, where f(x)=-2(x-2)^2 + 3](img/quadratic-vertex.png)
+
+Figure 2.1.3: Graph of Quadratic Function: <code><i>f(x) = -2(x-2)^2 + 3</i></code>
 
 #### Quadratic Roots
 
@@ -119,11 +113,9 @@ We have already seen that when the difference of the roots is zero, then there i
 
 Rule 1 really just requires shifting this graph upward. Let's imagine a parabola that points up (so $a$ must be positive), where the vertex has a $y$ value greater than 0. For instance, $f(x) = (x-2)^2 + 2$.
 
-<p align="center">
-    <img src="img/quadratic-rootless.png" alt="Quadratic Function, where f(x)=(x-2)^2 + 2" width="35%" style="max-width: 300px"/>
-    <br>
-    Figure 2.1.4: Graph of Quadratic Function: <code><i>f(x) = (x-2)^2 + 2</i></code>
-</p>
+![Quadratic Function, where f(x)=(x-2)^2 + 2](img/quadratic-rootless.png)
+
+Figure 2.1.4: Graph of Quadratic Function: <code><i>f(x) = (x-2)^2 + 2</i></code>
 
 Finally, rule 3 has already been demonstrated by earlier graphs. These are the three rules that can be used to assess the behavior of a quadratic's roots!
 
@@ -137,6 +129,6 @@ TODO: Roots
 
 ## Closing
 
-| Previous                                         | Next                                  |
-| ------------------------------------------------ | ------------------------------------- |
-| $\leftarrow$ [Introduction](./0-Introduction.md) | [Limits](./2-Limits.md) $\rightarrow$ |
+| Previous                              | Next                      |
+| ------------------------------------- | ------------------------- |
+| ← [Introduction](./0-Introduction.md) | [Limits](./2-Limits.md) → |

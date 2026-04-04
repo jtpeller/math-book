@@ -106,7 +106,7 @@ $$
 &\frac{x^3}{x} && \text{Starting point.}\\
 &= \frac{x \cdot x \cdot x}{x} && \text{We know that: } x^3 = x \cdot x \cdot x\\
 &= \frac{x \cdot x \cdot \cancel{x}}{\cancel{x}} && \text{Cancel, since } x / x = 1\\
-&\boxed{= x}\space\checkmark && \text{All done!}
+&\boxed{= x}\; \checkmark && \text{All done!}
 \end{aligned}
 $$
 
@@ -258,6 +258,6 @@ Likewise, this demonstrates the idea of "multiplying-by-10-repeatedly" to identi
 
 ## Closing
 
-|                                      Previous                                       |                        Next                        |
-| :---------------------------------------------------------------------------------: | :------------------------------------------------: |
-| $\leftarrow$ [0.2.7: Properties of Operations](./7-Properties%20of%20Operations.md) | [0.2.9: Nth Root](./9-Nth%20Root.md) $\rightarrow$ |
+|                                 Previous                                 |                  Next                  |
+| :----------------------------------------------------------------------: | :------------------------------------: |
+| ← [0.2.7: Properties of Operations](./7-Properties%20of%20Operations.md) | [0.2.9: Nth Root](./9-Nth%20Root.md) → |
