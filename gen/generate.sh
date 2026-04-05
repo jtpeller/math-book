@@ -8,8 +8,9 @@ OUTPUT_DIR="$ROOT_DIR/math-book-web"
 CSS_MAIN="styles/styles.css"
 CSS_EXTRA="styles/extra.css"
 LUA_FILTER="filters.lua"
+NAV_PATH="$INPUT_DIR/gen/nav.html"
 
-# Check if the provided directory exists
+# Check if the root directory exists
 if [ ! -d "$ROOT_DIR" ]; then
     echo "Error: Directory '$ROOT_DIR' does not exist."
     exit 1
@@ -21,14 +22,34 @@ if [ ! -d "$INPUT_DIR" ]; then
     exit 1
 fi
 
+
+# Make the output directory if needed.
+if [ ! -d "$INPUT_DIR" ]; then
+    echo "Creating output directory: $OUTPUT_DIR"
+    mkdir -p "$OUTPUT_DIR"
+fi
+
 echo "Starting conversion for: $INPUT_DIR"
 
-# 1. Targeted Image Sync
-rsync -avm \
-    --include="*/" \
-    --include="*.{png,jpg,jpeg,gif,svg,webp}" \
-    --exclude="*" \
-    "$INPUT_DIR/" "$OUTPUT_DIR/"
+# Generate the navigation.
+python3 gen_nav.py -i "$INPUT_DIR"
+
+# Check if the nav fragment exists.
+if [ ! -e "$NAV_PATH" ]; then
+    echo "Error: File '$NAV_PATH' does not exist."
+    exit 1
+fi
+
+# Copy it over into the output directory
+cp "$INPUT_DIR/gen/nav.html" "$OUTPUT_DIR/util/nav.html"
+
+# Sync all 'img' folders from source to build
+# -a: archive mode (preserves permissions/dates)
+# -v: verbose (shows what is happening)
+# --include='*/': look in all directories
+# --include='img/***': include everything inside any folder named 'img'
+# --exclude='*': ignore everything else
+rsync -avm --include='*/' --include='img/***' --exclude='*' $INPUT_DIR/ $OUTPUT_DIR/
 
 # 2. Find and Convert Markdown
 # We use -L in case you have symbolic links in your repo
@@ -47,6 +68,7 @@ find "$INPUT_DIR" -name "*.md" | while read -r md_file; do
     # Pandoc + Tidy
     pandoc "$md_file" -s \
         --template=minimal.html \
+        --include-before-body="$NAV_PATH" \
         --mathjax \
         --from markdown+tex_math_dollars+raw_tex \
         --to html5 \

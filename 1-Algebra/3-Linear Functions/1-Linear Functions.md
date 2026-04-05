@@ -24,21 +24,15 @@ To think about this much more easily, ***Linear Functions*** are functions where
 
 ***Linear functions*** present themselves like the following chart. Notice that the graph is just a line (hence, *LINEar*)
 
-![Linear Function, where f(x)=-2x+2](img/linear-graph.png)
-
-Figure 1.4.1: Graph of linear function: <code><i>f(x) = -2x + 2</i></code>
+![Figure 1.4.1: Linear Function, where f(x)=-2x+2](img/linear-graph.png)
 
 ***Constant functions*** are a special type of linear function where, for all output, the output is the same value. These are of the form $f(x) = c$, where $c$ simply represents some numerical value.
 
-![Constant Function, where f(x)=4](img/constant-graph.png)
-
-Figure 1.4.2: Graph of constant function: <code><i>f(x) = 4</i></code>
+![Figure 1.4.2: Constant Function, where f(x)=4](img/constant-graph.png)
 
 ***Identity***: A special type of **linear** function where the output is the same as the input. It is of the form, $f(x) = x$.
 
-![Identity Function, where f(x)=4](img/identity-graph.png)
-
-Figure 1.4.3: Graph of identity function: <code><i>f(x) = x</i></code>
+![Figure 1.4.3: Identity Function, where f(x)=4](img/identity-graph.png)
 
 ## Forms
 

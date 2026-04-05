@@ -58,9 +58,7 @@ For instance, $42$ represents four tens, and two ones. Or, $1,234$ represents on
 
 Values can be represented on a $\textcolor{cyan}{\textit{number line}}$, which is a means of graphically displaying the relative values of numbers.
 
-![Number Line from -3.5 to 3.5, with tick marks at whole numbers.](./img/number-line.png)
-
-Figure 0.1.1: Number Line Example
+![Figure 0.1.1: Number Line from -3.5 to 3.5, with tick marks at whole numbers.](./img/number-line.png)
 
 Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, from smallest (left) to largest (right).
 

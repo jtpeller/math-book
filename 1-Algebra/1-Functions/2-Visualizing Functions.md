@@ -29,9 +29,7 @@ Functions are most commonly graphed on Cartesian planes.
 
 Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be discussed (see: dimensions, planes, etc. in [Geometry](../2-Geometry/0-Introduction.md)). A $\textcolor{cyan}{\textit{Cartesian plane}}$ can be thought of as a flat surface (it has a length and a width, sometimes infinite) with two perpendicular number lines. Simply put, make a cartesian plane by simply overlapping two number lines so they overlap to make a big plus sign.
 
-![Example Cartesian Plane, with both axes ranging from -6 to 6.](./img/cartesian-plane.png)
-
-Figure 1.2.1: Example Cartesian Plane with a Linear Plot in Blue.
+![Figure 1.2.1: Example Cartesian Plane, with both axes ranging from -6 to 6.](./img/cartesian-plane.png)
 
 ## Parts of a Cartesian Plane
 
