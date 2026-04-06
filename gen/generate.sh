@@ -5,8 +5,8 @@
 ROOT_DIR="${1:-.}"
 INPUT_DIR="$ROOT_DIR/math-book"
 OUTPUT_DIR="$ROOT_DIR/math-book-web"
-CSS_MAIN="styles/styles.css"
-CSS_EXTRA="styles/extra.css"
+CSS_MAIN="__ROOT__/styles/styles.css"
+CSS_EXTRA="__ROOT__/styles/extra.css"
 LUA_FILTER="filters.lua"
 NAV_PATH="$INPUT_DIR/gen/nav.html"
 
