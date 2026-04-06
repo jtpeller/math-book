@@ -299,6 +299,10 @@ $$
 \end{aligned}
 $$
 
+---
+
+---
+
 ## Closing
 
 | Previous                                     | Next                                   |

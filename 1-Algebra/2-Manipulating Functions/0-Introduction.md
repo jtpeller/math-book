@@ -24,6 +24,10 @@ There are two important conventions in algebra to know:
    1. For instance, you would write: $x^3 + x^2 + y^2 + xy + x + y$ or $x + y + xy + x^2 + y^2 + x^3$
    2. This "power" here is referred to as the term's *degree* (a concept discussed in Polynomials).
 
+---
+
+---
+
 ## Closing
 
 | Previous                                                                                      | Next                                               |

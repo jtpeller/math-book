@@ -17,6 +17,10 @@ This section introduces Algebra. Algebra is broken into multiple chapters:
 |   2   | Non-Linear Functions | Introduction of non-linear functions, including polynomials and more.           | [Chapter 2](./2-IntermediateFunctions/0-Introduction.md) |
 |   3   |         TBD          | TBD                                                                             |                           TBD                            |
 
+---
+
+---
+
 ## Closing
 
 | Next                                             |

@@ -116,6 +116,10 @@ $$e = \lim_{n\rightarrow\infty}{(1 + \frac{1}{n})^n}$$
 
 $$\phi = 2\cdot\sin{54^\circ} = \frac{1 + \sqrt{5}}{2} \approx 1.618033988...$$
 
+---
+
+---
+
 ## Closing
 
 |              Previous              |                          Next                          |

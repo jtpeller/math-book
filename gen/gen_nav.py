@@ -33,8 +33,8 @@ def format_label(raw_name, prefix):
 
 
 def has_markdown(path):
-    """Checks if a directory or any of its subdirectories contain a .md file."""
-    for root, dirs, files in os.walk(path):
+    """ Checks if a directory or any of its subdirectories contain a .md file. """
+    for _, _, files in os.walk(path):
         if any(f.endswith('.md') for f in files):
             return True
     return False
@@ -77,7 +77,7 @@ def generate_nav(input_dir):
         dirs[:] = [d for d in dirs if not d.startswith('.') and d.lower() not in ['img', 'gen', 'latex']]
 
         # Calculate depth (0 = root, 1 = first subfolder, etc.)
-        rel_root = os.path.relpath(root, input_dir)
+        rel_root = os.path.relpath(root, input_dir).replace(os.sep, "/")
         depth = 0 if rel_root == "." else rel_root.count(os.sep) + 1
 
         # Add Folder Headers (Indented)
@@ -95,13 +95,22 @@ def generate_nav(input_dir):
         # Sort this properly
         sorted_files = sorted(files, key=natural_keys)
 
-        # Add Files (Indented one level further than their folder)
+        # Calculate how many levels deep we are
+        # 0 = root, 1 = Unit, 2 = Chapter
+        levels_deep = rel_root.count('/') if rel_root != "." else 0
+
         for file in sorted_files:
             if file.endswith('.md') and file != 'index.md':
-                # Web Path
-                rel_path = os.path.relpath(os.path.join(root, file), input_dir)
-                web_path = rel_path.replace('.md', '.html').replace('\\', '/')
-                encoded_path = urllib.parse.quote(web_path)
+                # Get path from the input_dir (e.g., "unit2/chap/sect.md")
+                rel_from_input = os.path.relpath(os.path.join(root, file), input_dir)
+
+                # Use a placeholder to allow replacement later with sed.
+                web_path = "__ROOT__/" + rel_from_input.replace(os.sep, '/').replace('.md', '.html')
+
+                # Now encode (safe='/' is indeed default, but good to keep explicit)
+                encoded_path = urllib.parse.quote(web_path, safe='/')
+
+                print(f"link for {file} is {encoded_path}")
 
                 # Format section label
                 raw_filename = file.replace('.md', '')
@@ -113,7 +122,7 @@ def generate_nav(input_dir):
                 # Add the elements.
                 nav_html.append('          <li class="nav-item">')
                 nav_html.append(
-                    f'            <a class="nav-link" href="/{encoded_path}" style="padding-left: {file_indent}px;">{label}</a>')
+                    f'            <a class="nav-link" href="{encoded_path}" style="padding-left: {file_indent}px;">{label}</a>')
                 nav_html.append('          </li>')
 
     nav_html.extend(['        </ul>', '      </div>', '    </div>', '  </div>', '</nav>'])

@@ -77,6 +77,10 @@ In many cases with smaller numbers, you'll have memorized the results so the amo
 
 For larger numbers, or if the result isn't easily calculable, operations would need to be calculated by hand. To show your work on how to perform these operations by hand, you will use something called the "long-form" methods of computing the result of these operations. These will be introduced in their respective section (e.g., Long-Form Addition will be presented in Addition!) and will detail how to show the work properly.
 
+---
+
+---
+
 ## Closing
 
 |                                              Previous                                              |                 Next                 |

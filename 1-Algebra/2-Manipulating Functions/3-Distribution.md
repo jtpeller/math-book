@@ -84,6 +84,10 @@ One important aspect of distribution is recognizing the need to distribute. You 
 
 You will distribute when you are trying to simplify the equation to the point where, perhaps, there are no parentheses. Or, you have reached a completely simplified expression.
 
+---
+
+---
+
 ## Closing
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.

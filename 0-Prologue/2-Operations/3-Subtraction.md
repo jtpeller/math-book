@@ -86,6 +86,10 @@ $$
 \text{ This requires no borrow!}\\
 $$
 
+---
+
+---
+
 ## Closing
 
 |               Previous               | Next                                             |

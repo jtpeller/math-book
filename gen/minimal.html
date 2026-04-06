@@ -2,6 +2,7 @@
 <html lang="$lang$">
 
 <head>
+    <!-- This script handles light/dark theming. -->
     <script>
         function updateTheme() {
             // Check if the user has a manually saved preference
@@ -68,7 +69,7 @@
 
         const currentPath = window.location.pathname;
             document.querySelectorAll('.nav-link').forEach(link => {
-                if (link.getAttribute('href') === currentPath) {
+                if (link.href === window.location.href) {
                     link.classList.add('text-white', 'fw-bold');
                     link.style.borderLeft = "2px solid #0dcaf0";
                 }

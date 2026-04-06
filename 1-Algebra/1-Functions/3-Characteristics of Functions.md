@@ -142,6 +142,10 @@ Typically, symmetry for functions applies across the $y$ axis.
 
 Functions like the Quadratic function is symmetric across the $y$ axis. Some functions, like the Cubic function, are actually symmetric across $f(x)=-x$ (that is, reflected diagonally).
 
+---
+
+---
+
 ## Closing
 
 | Previous                                                         | Next                                                                                   |

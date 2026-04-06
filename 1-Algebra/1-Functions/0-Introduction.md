@@ -15,6 +15,10 @@ When working on algebraic problems, you'll find yourself working with graphs, ta
 
 This section introduces Functions, a fundemental building block of Algebra. A massive chunk of work done in Algebra-related work will involve functions, so this section lays that groundwork.
 
+---
+
+---
+
 ## Closing
 
 | Previous                            | Next                                   |

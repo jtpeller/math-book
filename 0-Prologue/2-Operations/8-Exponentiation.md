@@ -256,6 +256,10 @@ You counted that it would take 5 decimal places to get to scientific notation! T
 
 Likewise, this demonstrates the idea of "multiplying-by-10-repeatedly" to identify the exponent.
 
+---
+
+---
+
 ## Closing
 
 |                                 Previous                                 |                  Next                  |

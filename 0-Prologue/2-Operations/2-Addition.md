@@ -130,6 +130,10 @@ $$
 \text{Simply bring the final carried 1 down. Congrats!} \\
 $$
 
+---
+
+---
+
 ## Closing
 
 |                 Previous                 | Next                                       |

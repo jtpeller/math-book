@@ -8,6 +8,10 @@
 
 This unit goes over discrete mathematics, a field of mathematics including logic, Boolean Algebra, truth tables, graph and set theory, and more.
 
+---
+
+---
+
 ## Closing
 
 | Next                        |

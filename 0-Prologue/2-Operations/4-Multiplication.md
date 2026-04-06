@@ -235,6 +235,10 @@ $$
 \boxed{52 \cdot 29 = 1508}
 $$
 
+---
+
+---
+
 ## Closing
 
 |                  Previous                  | Next                                 |

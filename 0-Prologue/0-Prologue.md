@@ -1,11 +1,12 @@
 # Prologue: The Foundation
 
-## Section Contents
+## Contents
 
-- [Introduction](./0-Introduction.md)
-- [Numbers](./1-Numbers.md)
-- [Operations](./2-Operations.md)
-- [Terminology](./3-Terminology.md)
+- [Prologue: The Foundation](#prologue-the-foundation)
+  - [Contents](#contents)
+  - [Introduction](#introduction)
+  - [Chapter Contents](#chapter-contents)
+  - [Closing](#closing)
 
 ## Introduction
 
@@ -25,6 +26,10 @@ This unit introduces the concept of math, numbers, quantities, and operations. T
 | :---: | :------------: | :----------------------------------------------------------------------------------------------- | :-------------------------------------------: |
 |   1   | Basics of Math | Basics of math, numbers, and quantities.                                                         | [Chapter 1](./1-Basics%20of%20Math/1-Math.md) |
 |   2   |   Operations   | Introduction to Arithmetic Operations, like addition, subtraction, multiplication, and division. |  [Chapter 2](./2-Operations/1-Arithmetic.md)  |
+
+---
+
+---
 
 ## Closing
 

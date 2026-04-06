@@ -133,6 +133,10 @@ That is, $4 \cdot 5/2$ would be the same whether you reduced the division first:
 >
 > Both Pre- and Post-order rely on clear handwriting to be able to distinguish between $22$ and $2 \; 2$, and thus, in-order is the most common operator ordering convention used.
 
+---
+
+---
+
 ## Closing
 
 |               Previous               | Next                                             |

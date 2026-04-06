@@ -11,6 +11,10 @@
 
 TODO: Polynomials Intro
 
+---
+
+---
+
 ## Closing
 
 | Previous                                                    | Next                                       |

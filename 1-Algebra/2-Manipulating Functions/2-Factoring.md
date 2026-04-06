@@ -99,6 +99,10 @@ Regardless of which method you choose, you have to be careful to ensure that eac
 
 TODO: Define the AC Method
 
+---
+
+---
+
 ## Closing
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.

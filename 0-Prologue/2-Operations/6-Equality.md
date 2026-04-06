@@ -150,6 +150,10 @@ There are special rules in order to preserve the "truthiness" of an Inequality; 
 
 TODO
 
+---
+
+---
+
 ## Closing
 
 |               Previous               | Next                                                                     |

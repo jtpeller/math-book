@@ -105,6 +105,10 @@ The first pair is going to be $(x, y)$, as you are defining the behavior between
 >
 > $$\boxed{y = 2x - 5} \; \checkmark$$
 
+---
+
+---
+
 ## Closing
 
 | Previous                       | Next                           |

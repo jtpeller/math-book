@@ -53,6 +53,10 @@ $$\log_b{b}=1$$
 $$\log_b(b^k)=k$$
 $$b^{log_b{k}}=k$$
 
+---
+
+---
+
 ## Closing
 
 |                Previous                |                      Next                      |

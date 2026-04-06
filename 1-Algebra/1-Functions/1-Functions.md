@@ -235,6 +235,10 @@ Therefore, you need to follow a general process for defining a function to model
 5. Create the function that will model your scenario.
    1. You know what the outputs are, you know what the inputs are, and you know the relevant constants! Define the relationship!
 
+---
+
+---
+
 ## Closing
 
 | Previous                                     | Next                                                             |

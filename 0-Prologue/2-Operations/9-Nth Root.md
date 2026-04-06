@@ -52,6 +52,10 @@ $$x^{\frac{m}{n}} = (\sqrt[n]{x})^m$$
 >
 > In addition, you could also consider a root where $n=0$. You could see why mathematically; if you express this as exponentiation, it results in $x^{1/0}$, which is undefined (division by zero). Conceptually too, this operation does not really make any sense.
 
+---
+
+---
+
 ## Closing
 
 |                     Previous                     |                    Next                    |

@@ -102,6 +102,10 @@ Various number representations are useful for different reasons, for instance, b
 > [!NOTE]
 > **This book will use base-10 unless noted otherwise.**
 
+---
+
+---
+
 ## Closing
 
 |           Previous           |                                     Next                                     |

@@ -23,6 +23,8 @@ $\textcolor{cyan}{\textit{Division}}$ is essentially repeated subtraction.
 
 > Division answers: "What if I take away some number of things a specific number of times from a starting quantity?"
 
+---
+
 ### Example of Division
 
 Once again, this sounds complicated, so let's look at an example. Say you had 100 cupcakes and wanted to figure out how many cupcakes each person could have if the party size was 20. You could represent this via subtraction, where you repeatedly subtract 20 from 100, and count how many times you performed that operation until you reach 0.
@@ -41,6 +43,8 @@ $$100 * 5 = 500$$
 $$500 / 5 = 100$$
 
 Therefore, you can see that, with these arithmetic operations, you can model a wide range of quantifiable real-life situations.
+
+---
 
 ### Division Operands
 
@@ -92,6 +96,8 @@ $$\frac{\text{numerator}}{\text{denominator}}$$
 
 Fractions are simply another means of representing division and/or rational numbers.
 
+---
+
 ### Types of Fractions
 
 There are two main types of fractions: Mixed and Improper.
@@ -107,6 +113,8 @@ The other type of fraction is an $\textcolor{cyan}{\textit{Improper Fraction}}$,
 $$2.4 = \frac{12}{5}$$
 
 > Notice that the numerator is smaller than the denominator. This is why it is called "improper", since convention dictates that the numerator is smaller for most fractions.
+
+---
 
 ### Writing Fractions
 
@@ -127,6 +135,8 @@ Now it is extremely clear. You could also write:
 $$(1/4)(3+2)$$
 
 Which is also extremely clear.
+
+---
 
 ### Mixed Fractions
 
@@ -156,6 +166,10 @@ $$
 
 Notice that to convert a whole number to a fraction with an arbitrary denominator (say, $d$), you simply multiply that number by $\frac{d}{d}$. Since **every whole number is technically a fraction** (e.g., $4 = \frac{4}{1}$), then this because $\frac{d\cdot4}{d}$.
 
+---
+
+---
+
 ## Decimals
 
 Decimals are a more straightforward way of representing a number. While they were briefly mentioned in Chapter 1, this will be revisited now that division is understood.
@@ -173,6 +187,8 @@ Similar to whole numbers, each digit has a specific place that represents a part
 Now, decimals are often the result of division of some kind. This means that all decimals can be represented by a division operation (and thus, a fraction). HOWEVER, not all decimals represent a **rational** number, as it may be impossible to represent the number as the ratio (fraction) of 2 *whole* numbers.
 
 For instance, $\pi$ is the ratio between the circumference of a circle $(C)$ and the circle's diameter $(d)$ (*do not worry about these terms, the idea of a rational number is the important part*). That means that $\pi=C/d$, making it representative by a fraction. However, $\pi$ is irrational because there does not exist 2 whole numbers whose fraction can define it (in fact, the closest is $22/7$).
+
+---
 
 ## Percentages
 
@@ -229,6 +245,8 @@ $$
 
 This means that the price increased by $66.67\%$. This is useful because it ensures that changes are comparable, since they are on the same scale (due to the nature of all percentages being ratios of 100).
 
+---
+
 ## Long Division
 
 $\textcolor{cyan}{\textit{Long Division}}$ is a method of division where the divisor is placed under a special symbol. The dividend is placed to the left, and the quotient is calculated step by step above. Differences are computed below the divisor. This is a method of doing division by hand.
@@ -253,6 +271,10 @@ Notice that this is a case (among many) where division is not "even". In other w
 The $\textcolor{cyan}{\textit{remainder}}$ is the number left over from division. Like, $5 / 2 = 2.5$. You could also state that $5 / 2 = 2$ with a remainder of $1$. This remainder can also be used to make a mixed form (number and fraction): $5 / 2 = 2 \frac{1}{2}$
 
 Long division should be continued until either enough precision is reached (say, 3 decimal places, perhaps; this depends on your needs) or if the remainder becomes zero. In the case above, you could continue this forever. Notice the repetition of the 15 as 1.5, which is just a factor of 10 less. You can see this pattern will exist forever: $15.0$ then $1.5$, then $0.15$, then $0.015$, etc. That is why the long division ends; we know the quotient will end in $3$ repeating forever.
+
+---
+
+---
 
 ## Closing
 

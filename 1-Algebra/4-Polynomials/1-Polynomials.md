@@ -119,6 +119,10 @@ TODO: polynomial limits influenced by degree + sign on highest term
 
 TODO: Roots
 
+---
+
+---
+
 ## Closing
 
 | Previous                              | Next                      |

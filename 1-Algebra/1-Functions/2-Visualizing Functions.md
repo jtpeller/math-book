@@ -121,6 +121,10 @@ If you do not have it handy, or want to know the exact values at a particular po
 
 This makes it very easy to see a handful of inputs and their corresponding outputs. It also more easily allows computing different charactistics about the function, such as its rate of change, horizontal intercept (aka $x$-intercept), and vertical intercept (aka $y$-intercept). These characteristics will be discussed in Chapter 3.
 
+---
+
+---
+
 ## Closing
 
 The next few sections will discuss characteristics of functions, that can help in describing functions and their behaviors.

@@ -11,6 +11,10 @@
 
 TODO: Define limits.
 
+---
+
+---
+
 ## Closing
 
 | Previous                                     | Next                                                                       |
