@@ -125,8 +125,8 @@ find "$INPUT_DIR" -name "*.md" | while read -r md_file; do
         --to html5 \
         --no-highlight \
         --lua-filter="$LUA_FILTER" \
-        --css="${prefix}${CSS_MAIN}" \
-        --css="${prefix}${CSS_EXTRA}" \
+        --css="${CSS_MAIN}" \
+        --css="${CSS_EXTRA}" \
         --metadata lang=en \
         --metadata title="$(basename "$custom_title" .md)" \
         | tidy -indent --indent-spaces 4 -quiet -wrap 0 --tidy-mark no --doctype html5 --output-xhtml no --escape-cdata yes --preserve-entities yes -o "$html_file"
