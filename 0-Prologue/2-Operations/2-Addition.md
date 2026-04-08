@@ -14,7 +14,7 @@
 
 Addition and subtraction represent the two simplest arithmetic operations.
 
-$\textcolor{cyan}{\textit{Addition}}$ is the act of aggregating two numbers together.
+$\textcolor{cyan}{\textnormal{Addition}}$ is the act of aggregating two numbers together.
 
 > Addition answers: "What happens when I combine one group of things with another group of things to make a larger group of things?"
 
@@ -32,7 +32,7 @@ $$5 + 10$$
 
 > This is spoken as "Five plus ten."
 
-Which represents the actual act of adding the two numbers. The next step when writing an expression is to $\textcolor{cyan}{\textit{simplify}}$ it. That is, make the expression as consolidated as possible. In this case, you would add the two numbers to get $15$. You can write this statement as the equation:
+Which represents the actual act of adding the two numbers. The next step when writing an expression is to $\textcolor{cyan}{\textnormal{simplify}}$ it. That is, make the expression as consolidated as possible. In this case, you would add the two numbers to get $15$. You can write this statement as the equation:
 
 $$5 + 10 = 15$$
 
@@ -49,11 +49,11 @@ $$
 
 ## Addition Operands
 
-Addition refers to their terms as $\textcolor{cyan}{\textit{addends}}$ and the result of the operation is called the $\textcolor{cyan}{\textit{sum}}$. That is, for $2 + 3 = 5$ the addends are $2$ and $3$, while $5$ represents the sum. So, it can be modeled as:
+Addition refers to their terms as $\textcolor{cyan}{\textnormal{addends}}$ and the result of the operation is called the $\textcolor{cyan}{\textnormal{sum}}$. That is, for $2 + 3 = 5$ the addends are $2$ and $3$, while $5$ represents the sum. So, it can be modeled as:
 
 $$\text{addend} + \text{addend} = \text{sum}$$
 
-> The operands is sometimes referred to as $\textcolor{cyan}{\textit{summands}}$
+> The operands is sometimes referred to as $\textcolor{cyan}{\textnormal{summands}}$
 
 ## Long Addition
 
@@ -136,6 +136,6 @@ $$
 
 ## Closing
 
-|                 Previous                 | Next                                       |
-| :--------------------------------------: | :----------------------------------------- |
+|                 Previous                 |                    Next                    |
+| :--------------------------------------: | :----------------------------------------: |
 | ← [0.2.1: Arithmetic](./1-Arithmetic.md) | [0.2.3: Subtraction](./3-Subtraction.md) → |

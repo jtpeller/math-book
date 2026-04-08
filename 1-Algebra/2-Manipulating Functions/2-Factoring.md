@@ -13,7 +13,7 @@
 
 ## Overview
 
-$\textcolor{cyan}{\textit{Factoring}}$ is the act of dividing terms out of an expression to simplify it. Sometimes the end result is not actually simplification, but rather to identify function behaviors.
+$\textcolor{cyan}{\textnormal{Factoring}}$ is the act of dividing terms out of an expression to simplify it. Sometimes the end result is not actually simplification, but rather to identify function behaviors.
 
 The result generally involves the factor multiplied by an expression wrapped in parentheses.
 
@@ -42,7 +42,7 @@ This $2x^2$ term is referred to as the Greatest Common Factor, and will be discu
 
 ### Factoring Method: Greatest Common Factor
 
-When factoring, you almost always want to factor-out the $\textcolor{cyan}{\textit{Greatest Common Factor (GCF)}}$, which is the largest possible value that exists among all terms in the expression you are factoring.
+When factoring, you almost always want to factor-out the $\textcolor{cyan}{\textnormal{Greatest Common Factor (GCF)}}$, which is the largest possible value that exists among all terms in the expression you are factoring.
 
 So, if you are provided the following expression, what would the GCF be?
 
@@ -77,17 +77,17 @@ While this method always works, it is also quite exhausting and relatively ineff
 
 ### Factoring Method: Prime Factorization
 
-$\textcolor{cyan}{\textit{Prime Factorization}}$ is a technique where the number is factored into its prime numbers. You simply divide it by a prime number until you can no longer divide.
+$\textcolor{cyan}{\textnormal{Prime Factorization}}$ is a technique where the number is factored into its prime numbers. You simply divide it by a prime number until you can no longer divide.
 
 So, you would do the following:
 
 $$
 \begin{aligned} \\
-&16 = 2 \cdot 8 = 2 \cdot 2 \cdot 4 = 2 \cdot 2 \cdot 2 \cdot 2 \\
-&64 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \\
-&24 = 2 \cdot 2 \cdot 2 \cdot 3 \\
-&96 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \\
-&184 = 2 \cdot 2 \cdot 2 \cdot 23 \\
+16 &= 2 \cdot 8 = 2 \cdot 2 \cdot 4 = 2 \cdot 2 \cdot 2 \cdot 2 \\
+64 &= 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \\
+24 &= 2 \cdot 2 \cdot 2 \cdot 3 \\
+96 &= 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \\
+184 &= 2 \cdot 2 \cdot 2 \cdot 23 \\
 \end{aligned}
 $$
 
@@ -107,6 +107,6 @@ TODO: Define the AC Method
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.
 
-| Previous                                          | Next                                         |
-| ------------------------------------------------- | -------------------------------------------- |
+|                     Previous                      |                     Next                     |
+| :-----------------------------------------------: | :------------------------------------------: |
 | ← [1.2.1: Simplification](./1-Simplifications.md) | [1.2.3: Distribution](./3-Distribution.md) → |

@@ -13,15 +13,15 @@ function Image(el)
     -- Ensure attributes table exists
     el.attr = el.attr or pandoc.Attr()
 
-    -- 1. Remove old align, if it exists
+    -- Remove old align, if it exists
     if el.attr.attributes['align'] then
         el.attr.attributes['align'] = nil
     end
 
     -- 2. Force CSS Centering
     -- display:block and margin:auto is the most reliable way to center images in HTML
-    local base_style = "display: block; margin-left: auto; margin-right: auto; text-align: center;"
-    el.attr.attributes['style'] = base_style .. (el.attr.attributes['style'] or "")
+    -- local base_style = "display: block; margin-left: auto; margin-right: auto; text-align: center;"
+    -- el.attr.attributes['style'] = base_style .. (el.attr.attributes['style'] or "")
 
     return el
 end
@@ -57,39 +57,18 @@ end
 
 -- LaTeX Color & Style Fix
 function Math(el)
-    -- If it doesn't include \textcolor, allow mathtex to render it.
-    if not el.text:find("\\textcolor") then
-        return el
-    end
+    -- Check if \textcolor is present
+    if el.text:match("\\textcolor") then
+        local res = el.text
 
-    -- Try to match the \textit version
-    -- Format: \textcolor{color}{\textit{word}}
-    local color, text_it = el.text:match("\\textcolor%{(.-)%}%{\\textit%{(.-)%}%}")
-    if color and text_it then
-        return pandoc.Span(text_it, {
-            style = "color: var(--color-definition); font-style: italic;"
-        })
-    end
+        -- Transform \textcolor{color}{text} into KaTeX-friendly \color{color}{text}
+        res = res:gsub("\\textcolor%{(.-)%}%{(.-)%}", function(color, content)
+            return "\\color{" .. color .. "}{" .. content .. "}"
+        end)
 
-    -- Try to match the \textbf version
-    -- Format: \textcolor{color}{\textbf{word}}
-    local color_b, text_bf = el.text:match("\\textcolor%{(.-)%}%{\\textbf%{(.-)%}%}")
-    if color_b and text_bf then
-        return pandoc.Span(text_bf, {
-            style = "color: var(--color-definition); font-weight: bold;"
-        })
+        -- Return the element with the updated text
+        return pandoc.Math(el.mathtype, res)
     end
-
-    -- Fallback for plain \textcolor{color}{word}
-    local color_p, text_p = el.text:match("\\textcolor%{(.-)%}%{(.-)%}")
-    if color_p and text_p then
-        return pandoc.Span(text_p, {
-            style = "color: var(--color-definition);"
-        })
-    end
-
-    -- If no match at all, return the original element
-    return el
 end
 
 function BlockQuote(el)

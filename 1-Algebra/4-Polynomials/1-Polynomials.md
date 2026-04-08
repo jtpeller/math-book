@@ -125,6 +125,6 @@ TODO: Roots
 
 ## Closing
 
-| Previous                              | Next                      |
-| ------------------------------------- | ------------------------- |
+|               Previous                |           Next            |
+| :-----------------------------------: | :-----------------------: |
 | ← [Introduction](./0-Introduction.md) | [Limits](./2-Limits.md) → |

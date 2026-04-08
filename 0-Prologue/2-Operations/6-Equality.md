@@ -77,7 +77,7 @@ When you simplify an expression, it is critical that you simplify it in a way wh
 
 ## Inequalities
 
-$\textcolor{cyan}{\textit{Inequalities}}$ constrain the values of the two expressions for which they define a relationship. They are depicted in the table above, but are reproduced here for ease of reference:
+$\textcolor{cyan}{\textnormal{Inequalities}}$ constrain the values of the two expressions for which they define a relationship. They are depicted in the table above, but are reproduced here for ease of reference:
 
 - Less than
 - Less than or equal to
@@ -156,6 +156,6 @@ TODO
 
 ## Closing
 
-|               Previous               | Next                                                                     |
-| :----------------------------------: | :----------------------------------------------------------------------- |
+|               Previous               |                                   Next                                   |
+| :----------------------------------: | :----------------------------------------------------------------------: |
 | ← [0.2.5: Division](./5-Division.md) | [0.2.7: Properties of Operations](./7-Properties%20of%20Operations.md) → |

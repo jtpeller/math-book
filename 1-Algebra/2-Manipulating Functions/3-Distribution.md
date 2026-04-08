@@ -13,7 +13,7 @@
 
 ## Overview
 
-$\textcolor{cyan}{\textit{Distribution}}$ is a technique of *distributing* a term that rests outside parentheses to each term inside the parentheses. That is, you simply multiply each term inside the parentheses by each term inside the parentheses.
+$\textcolor{cyan}{\textnormal{Distribution}}$ is a technique of *distributing* a term that rests outside parentheses to each term inside the parentheses. That is, you simply multiply each term inside the parentheses by each term inside the parentheses.
 
 > This relies on the [**Distribution Property**](../0-Prologue/3-Terminology.md#properties) of arithmetic operations.
 
@@ -40,16 +40,16 @@ Now, if you wanted to distribute where the "outside" term is actually a binomial
 
 ### Distribution Method: FOIL
 
-$\textcolor{cyan}{\textit{First, Outer, Inner, Last (FOIL)}}$ is a technique for multiplying two binomials. It describes the order for distribution. Let's try with an example:
+$\textcolor{cyan}{\textnormal{First, Outer, Inner, Last (FOIL)}}$ is a technique for multiplying two binomials. It describes the order for distribution. Let's try with an example:
 
 $$(ax + by)(cx + dy)$$
 
 FOIL describes the order of operations as follows:
 
-1. $\textcolor{cyan}{\textit{FIRST}}$: First term of the first binomial multiplied by the first term of the second binomial (that is: $ax \cdot cx$)
-2. $\textcolor{cyan}{\textit{OUTER}}$: First term of the first binomial multiplied by the last term of the second binomial (that is: $ax \cdot dy$)
-3. $\textcolor{cyan}{\textit{INNER}}$: Last term of the first binomial multiplied by the first term of the second binomial (that is: $by \cdot cx$)
-4. $\textcolor{cyan}{\textit{LAST}}$: Last term of the first binomial multiplied by the last term of the second binomial (that is: $by \cdot dy$)
+1. $\textcolor{cyan}{\textnormal{FIRST}}$: First term of the first binomial multiplied by the first term of the second binomial (that is: $ax \cdot cx$)
+2. $\textcolor{cyan}{\textnormal{OUTER}}$: First term of the first binomial multiplied by the last term of the second binomial (that is: $ax \cdot dy$)
+3. $\textcolor{cyan}{\textnormal{INNER}}$: Last term of the first binomial multiplied by the first term of the second binomial (that is: $by \cdot cx$)
+4. $\textcolor{cyan}{\textnormal{LAST}}$: Last term of the first binomial multiplied by the last term of the second binomial (that is: $by \cdot dy$)
 
 Therefore, your distribution, following FOIL order would be:
 
@@ -92,6 +92,6 @@ You will distribute when you are trying to simplify the equation to the point wh
 
 Factoring can be "undone" by distribution, which will be discussed in the next section.
 
-| Previous                               | Next                             |
-| -------------------------------------- | -------------------------------- |
+|                Previous                |               Next               |
+| :------------------------------------: | :------------------------------: |
 | ← [1.2.2: Factoring](./2-Factoring.md) | [1.2.4: Limits](./4-Limits.md) → |

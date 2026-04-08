@@ -19,7 +19,7 @@
 
 ## Overview
 
-$\textcolor{cyan}{\textit{Division}}$ is essentially repeated subtraction.
+$\textcolor{cyan}{\textnormal{Division}}$ is essentially repeated subtraction.
 
 > Division answers: "What if I take away some number of things a specific number of times from a starting quantity?"
 
@@ -48,7 +48,7 @@ Therefore, you can see that, with these arithmetic operations, you can model a w
 
 ### Division Operands
 
-Like subtraction, the order of the terms is important. Division refers to their operands as $\textcolor{cyan}{\textit{divisor}}$ (the first term) and $\textcolor{cyan}{\textit{dividend}}$ (the second term). The result is known as the $\textcolor{cyan}{\textit{quotient}}$.
+Like subtraction, the order of the terms is important. Division refers to their operands as $\textcolor{cyan}{\textnormal{divisor}}$ (the first term) and $\textcolor{cyan}{\textnormal{dividend}}$ (the second term). The result is known as the $\textcolor{cyan}{\textnormal{quotient}}$.
 
 $$\text{divisor} / \text{dividend} = \text{quotient}$$
 $$\text{divisor} \div \text{dividend} = \text{quotient}$$
@@ -56,7 +56,7 @@ $$\frac{divisor}{dividend} = \text{quotient}$$
 
 > The final equation utilizes a fraction. See more on [Fractions](#fractions).
 
-Fractions also refer to their top and bottom values differently. In a fraction, you typically see the top (divisor) being referred to as the $\textcolor{cyan}{\textit{numerator}}$ and the bottom being referred to as the $\textcolor{cyan}{\textit{denominator}}$. This is a common case, and can be seen below:
+Fractions also refer to their top and bottom values differently. In a fraction, you typically see the top (divisor) being referred to as the $\textcolor{cyan}{\textnormal{numerator}}$ and the bottom being referred to as the $\textcolor{cyan}{\textnormal{denominator}}$. This is a common case, and can be seen below:
 
 $$\frac{\text{numerator}}{\text{denominator}} = \text{quotient}$$
 
@@ -66,9 +66,9 @@ There are many different conventions, properties, characteristics, and miscellan
 
 ## Fractions
 
-$\textcolor{cyan}{\textit{Fractions}}$ represent two numbers divided by each other. Fractions are ways to represent Rational Numbers. The name "rational" comes from the word "ratio"; to which fractions are closely related.
+$\textcolor{cyan}{\textnormal{Fractions}}$ represent two numbers divided by each other. Fractions are ways to represent Rational Numbers. The name "rational" comes from the word "ratio"; to which fractions are closely related.
 
-A $\textcolor{cyan}{\textit{ratio}}$ is simply a means of expressing how many times a given number contains another number. For instance, if you had 15 apples and 3 oranges, you would say there is a ***ratio*** of apples to oranges of 5:1. In other words, for every 1 orange, there are 5 apples!
+A $\textcolor{cyan}{\textnormal{ratio}}$ is simply a means of expressing how many times a given number contains another number. For instance, if you had 15 apples and 3 oranges, you would say there is a ***ratio*** of apples to oranges of 5:1. In other words, for every 1 orange, there are 5 apples!
 
 > ### Extra Credit: Ratio Notation
 >
@@ -102,13 +102,13 @@ Fractions are simply another means of representing division and/or rational numb
 
 There are two main types of fractions: Mixed and Improper.
 
-$\textcolor{cyan}{\textit{Mixed Fractions}}$ represent the ratio with only the decimal part as a fraction. That is, if you had the value of $2.4$, you could represent this as a mixed fraction:
+$\textcolor{cyan}{\textnormal{Mixed Fractions}}$ represent the ratio with only the decimal part as a fraction. That is, if you had the value of $2.4$, you could represent this as a mixed fraction:
 
 $$2.4 = 2\frac{2}{5}$$
 
 > The reason it is called "mixed" is because it consists of a whole number $(2)$ and a fraction $(\frac{2}{5})$.
 
-The other type of fraction is an $\textcolor{cyan}{\textit{Improper Fraction}}$, which is a fraction such that the numerator is larger than the denominator. You could represent $2.4$ as an improper fraction as well:
+The other type of fraction is an $\textcolor{cyan}{\textnormal{Improper Fraction}}$, which is a fraction such that the numerator is larger than the denominator. You could represent $2.4$ as an improper fraction as well:
 
 $$2.4 = \frac{12}{5}$$
 
@@ -174,7 +174,7 @@ Notice that to convert a whole number to a fraction with an arbitrary denominato
 
 Decimals are a more straightforward way of representing a number. While they were briefly mentioned in Chapter 1, this will be revisited now that division is understood.
 
-$\textcolor{cyan}{\textit{Decimals}}$ are a means of representing any kind of number. You can represent whole numbers with decimals: $4.0$; rational numbers: $5.25$ and even irrational numbers, like: $\pi=3.14159265...$, which makes decimals incredibly useful to use.
+$\textcolor{cyan}{\textnormal{Decimals}}$ are a means of representing any kind of number. You can represent whole numbers with decimals: $4.0$; rational numbers: $5.25$ and even irrational numbers, like: $\pi=3.14159265...$, which makes decimals incredibly useful to use.
 
 There's not much else to say about decimals, except to briefly talk about how they relate to division, and what the positions of each digit represent.
 
@@ -192,7 +192,7 @@ For instance, $\pi$ is the ratio between the circumference of a circle $(C)$ and
 
 ## Percentages
 
-A $\textcolor{cyan}{\textit{percentage}}$ is a special way of representing a quantity, where the number is expressed as a fraction of 100. It is denoted with the percent sign: $\%$.
+A $\textcolor{cyan}{\textnormal{percentage}}$ is a special way of representing a quantity, where the number is expressed as a fraction of 100. It is denoted with the percent sign: $\%$.
 
 > It literally means "per cent", which is derived from the Latin *per centum*, or "by the hundred".
 
@@ -224,7 +224,7 @@ Notice that percentages can be larger than $100\%$, since they are ultimately ju
 
 ### Percent Change
 
-A $\textcolor{cyan}{\textit{Percent Change}}$ (aka, $\% \text{ Change}$) is a means of expressing how a value has changed from one value to another.
+A $\textcolor{cyan}{\textnormal{Percent Change}}$ (aka, $\% \text{ Change}$) is a means of expressing how a value has changed from one value to another.
 
 Say that you see the price of a 5 lb bag of rice change from $\$3$ to $\$5$ in a year. To represent this situation, you may utilize the method of computing percent change:
 
@@ -249,7 +249,7 @@ This means that the price increased by $66.67\%$. This is useful because it ensu
 
 ## Long Division
 
-$\textcolor{cyan}{\textit{Long Division}}$ is a method of division where the divisor is placed under a special symbol. The dividend is placed to the left, and the quotient is calculated step by step above. Differences are computed below the divisor. This is a method of doing division by hand.
+$\textcolor{cyan}{\textnormal{Long Division}}$ is a method of division where the divisor is placed under a special symbol. The dividend is placed to the left, and the quotient is calculated step by step above. Differences are computed below the divisor. This is a method of doing division by hand.
 
 $$
 \begin{aligned}
@@ -268,7 +268,7 @@ $$
 
 Notice that this is a case (among many) where division is not "even". In other words, the quotient is a decimal. In this case, the "leftover" is known as the *remainder*.
 
-The $\textcolor{cyan}{\textit{remainder}}$ is the number left over from division. Like, $5 / 2 = 2.5$. You could also state that $5 / 2 = 2$ with a remainder of $1$. This remainder can also be used to make a mixed form (number and fraction): $5 / 2 = 2 \frac{1}{2}$
+The $\textcolor{cyan}{\textnormal{remainder}}$ is the number left over from division. Like, $5 / 2 = 2.5$. You could also state that $5 / 2 = 2$ with a remainder of $1$. This remainder can also be used to make a mixed form (number and fraction): $5 / 2 = 2 \frac{1}{2}$
 
 Long division should be continued until either enough precision is reached (say, 3 decimal places, perhaps; this depends on your needs) or if the remainder becomes zero. In the case above, you could continue this forever. Notice the repetition of the 15 as 1.5, which is just a factor of 10 less. You can see this pattern will exist forever: $15.0$ then $1.5$, then $0.15$, then $0.015$, etc. That is why the long division ends; we know the quotient will end in $3$ repeating forever.
 
@@ -278,6 +278,6 @@ Long division should be continued until either enough precision is reached (say,
 
 ## Closing
 
-|                     Previous                     | Next                                 |
-| :----------------------------------------------: | :----------------------------------- |
+|                     Previous                     |                 Next                 |
+| :----------------------------------------------: | :----------------------------------: |
 | ← [0.2.4: Multiplication](./4-Multiplication.md) | [0.2.6: Equality](./6-Equality.md) → |

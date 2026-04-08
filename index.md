@@ -64,9 +64,9 @@ This follows a few conventions, written as requirements to be extra fancy.
 2. Sections' first line shall be their Section Name.
 3. Then, each section file shall contain a second-level section named Contents.
    1. This Contents section shall contain an accurate table of contents.
-4. Words that are being defined must be in the LaTeX format: `$\textcolor{cyan}{\textit{TermName}}$`
+4. Words that are being defined must be in the LaTeX format: `$\textcolor{cyan}{\textnormal{TermName}}$`
    1. Definitions may be included in-line, or be defined in a more Glossary style, like "term - definition". This depends on context.
-   2. The inclusion of `\textit` is not necessary, but it (1) is more explicit and (2) allows for easy find-and-replace if I decide to change the format!
+   2. The inclusion of `\textnormal` is not necessary, but it (1) is more explicit and (2) allows for easy find-and-replace if I decide to change the format!
 5. Mathematical notations shall use LaTeX.
 6. Hyperlinks shall exist throughout the book to point to related material.
 7. Hyperlinks shall utilize relative linking.

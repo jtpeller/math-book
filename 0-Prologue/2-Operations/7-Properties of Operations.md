@@ -16,25 +16,25 @@ TODO: This could be written better.
 
 > Note: These are arithmetic properties, which mean they apply to specific operations, namely: addition, subtraction, multiplication, and division.
 
-$\textcolor{cyan}{\textit{Commutative Property}}$ - Describes a system (or more specifically, the operations), where the order of the operands is negligible.
+$\textcolor{cyan}{\textnormal{Commutative Property}}$ - Describes a system (or more specifically, the operations), where the order of the operands is negligible.
 
 - Note that addition and multiplication are commutative. In other words, $a+b=b+a$ and $a\cdot b=b\cdot a$. The order does not matter, since the result will be the same.
 
-$\textcolor{cyan}{\textit{Associative Property}}$ - Describes a system where parenthesis can be rearranged, and the result will be the same.
+$\textcolor{cyan}{\textnormal{Associative Property}}$ - Describes a system where parenthesis can be rearranged, and the result will be the same.
 
 - Once again, addition and multiplication stand out. They are associative.
 - For example: $a+(b+c) = (a+b)+c$
 - Or for multiplication: $a\cdot (b\cdot c) = (a\cdot b)\cdot c$
 
-$\textcolor{cyan}{\textit{Distributive Property}}$ - Describes a system where a term multiplying terms surrounded by parenthesis is equal to each term in the parenthesis multiplied by that outside term.
+$\textcolor{cyan}{\textnormal{Distributive Property}}$ - Describes a system where a term multiplying terms surrounded by parenthesis is equal to each term in the parenthesis multiplied by that outside term.
 
 - For instance, $a\cdot (b+c) = a\cdot b+a\cdot c$. Note how the $a$ is *distributed* to the inside terms ($b$ and $c$).
-- $\textcolor{cyan}{\textit{First, Outer, Inner, Last (FOIL)}}$ - Mnemonic to describe how to distribute when the outside term is itself a binomial.
+- $\textcolor{cyan}{\textnormal{First, Outer, Inner, Last (FOIL)}}$ - Mnemonic to describe how to distribute when the outside term is itself a binomial.
   - General example: $(a+b)\cdot(c+d) = ad + ac + bd + bc$
   - This is just one way to distribute a term. You can always verify equality by plugging in values for each variable.
   - This will be investigated further in Unit 1.
 
-$\textcolor{cyan}{\textit{Identity Property}}$ - Describes situations where a number can be multiplied by 1 and the product is itself, or added to 0 and is itself. These are all equivalent.
+$\textcolor{cyan}{\textnormal{Identity Property}}$ - Describes situations where a number can be multiplied by 1 and the product is itself, or added to 0 and is itself. These are all equivalent.
 
 $$ a + 0 = a \cdot 1 = a$$
 
@@ -139,6 +139,6 @@ That is, $4 \cdot 5/2$ would be the same whether you reduced the division first:
 
 ## Closing
 
-|               Previous               | Next                                             |
-| :----------------------------------: | :----------------------------------------------- |
+|               Previous               |                       Next                       |
+| :----------------------------------: | :----------------------------------------------: |
 | ← [0.2.6: Equality](./6-Equality.md) | [0.2.8: Exponentiation](./8-Exponentiation.md) → |

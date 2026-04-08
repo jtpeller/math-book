@@ -14,6 +14,6 @@ This unit goes over discrete mathematics, a field of mathematics including logic
 
 ## Closing
 
-| Next                        |
-| --------------------------- |
+|            Next             |
+| :-------------------------: |
 | [Numbers](./1-Numbers.md) → |

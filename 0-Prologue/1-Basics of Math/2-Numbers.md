@@ -14,7 +14,7 @@
 
 ## What are Numbers?
 
-As mentioned in the previous section, $\textcolor{cyan}{\textit{numbers}}$ are the most fundamental block of mathematics. They represent a quantity, which is really just some amount of something.
+As mentioned in the previous section, $\textcolor{cyan}{\textnormal{numbers}}$ are the most fundamental block of mathematics. They represent a quantity, which is really just some amount of something.
 
 Since numbers represent a quantity, they can intuitively be used to count how many of an object. Say you open your fridge and find that you have 452 cartons of apple juice (you must have a substantial fridge and a large apple juice budget), or maybe your look at your desk and count 4 legs, 1 surface, and 3 drawers.
 
@@ -22,7 +22,7 @@ Since numbers represent a quantity, they can intuitively be used to count how ma
 
 Numbers can be represented in so many ways. Most obvious is that they can be used to count how many items exist. Like 1 water bottle, 15 watermelons, or maybe 350 dollars.
 
-You may notice that each of those quantities also have something called a $\textcolor{cyan}{\textit{unit}}$; that is, what the number represents. In this case, the units above are water bottles, watermelons, and dollars.
+You may notice that each of those quantities also have something called a $\textcolor{cyan}{\textnormal{unit}}$; that is, what the number represents. In this case, the units above are water bottles, watermelons, and dollars.
 
 Numbers and units are both important to mathematics, although arguably units are more useful in applied mathematics, since you don't *need* to have a unit in the most fundamental levels of math.
 
@@ -30,11 +30,11 @@ Numbers and units are both important to mathematics, although arguably units are
 
 Numbers can be represented via words ('one', 'two', 'three', ...) or via ***numerals***.
 
-$\textcolor{cyan}{\textit{Numerals}}$ describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading; in other words, how the quantity is represented. Representation of numbers is crucial. For instance, $\textcolor{cyan}{\textit{Arabic Numerals}}$ include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
+$\textcolor{cyan}{\textnormal{Numerals}}$ describe the symbols used to represent a number. For instance, $1$ represents having a single item, while $2$ represents two items. Numerals are how numbers are displayed for reading; in other words, how the quantity is represented. Representation of numbers is crucial. For instance, $\textcolor{cyan}{\textnormal{Arabic Numerals}}$ include what you probably are familiar with: $0, 1, 2, 3, 4, ...$
 
 > ### Extra Credit
 >
-> Another representation is $\textcolor{cyan}{\textit{Roman Numerals}}$. This numbering system looks something like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$
+> Another representation is $\textcolor{cyan}{\textnormal{Roman Numerals}}$. This numbering system looks something like this: $I, II, III, IV, V, VI, VII, VIII, IX, X, ...$
 >
 > The full table of Roman Numeral symbols and their values is shown in the table below. Note that there is no zero.
 >
@@ -56,7 +56,7 @@ Numerals represent a particular quantity, and are thus placed in a particular or
 
 For instance, $42$ represents four tens, and two ones. Or, $1,234$ represents one thousands, two hundreds, three tens, and four ones. To see how this works and why, see [Numerical Bases](#numerical-bases). You may also have partial numbers, which is discussed in [Representing Partial Numbers](#representing-partial-numbers).
 
-Values can be represented on a $\textcolor{cyan}{\textit{number line}}$, which is a means of graphically displaying the relative values of numbers.
+Values can be represented on a $\textcolor{cyan}{\textnormal{number line}}$, which is a means of graphically displaying the relative values of numbers.
 
 ![Figure 0.1.1: Number Line from -3.5 to 3.5, with tick marks at whole numbers.](./img/number-line.png)
 
@@ -68,29 +68,29 @@ Number lines do not have to represent whole numbers; they can instead represent 
 
 You can represent partial numbers using the following two representations. *(That partial apple juice should come to mind, unless you finished it already...)*
 
-The first representation is a $\textcolor{cyan}{\textit{Decimal}}$ which involves a dot (or comma, in some parts in the world) between the ones place and values smaller than it.
+The first representation is a $\textcolor{cyan}{\textnormal{Decimal}}$ which involves a dot (or comma, in some parts in the world) between the ones place and values smaller than it.
 
 - Example: $2.4$, $2$ is in the *ones* place, while $4$ is in the *tenths* place.
 - The "th" suffix denotes the digit's place after a decimal point. So, $0.1234$ means 1 *tenths*, 2 *hundredths*, 3 *thousandths* and 4 *ten-thousandths*.
 
-The second representation is a $\textcolor{cyan}{\textit{Fraction}}$, which represents a ratio of two numbers (that is, one number divided by another).
+The second representation is a $\textcolor{cyan}{\textnormal{Fraction}}$, which represents a ratio of two numbers (that is, one number divided by another).
 
 For more on the concept of division, on fractions, or on decimals, see [Division](../2-Operations/5-Division.md). This will provide the necessary context for understanding what a fraction actually represents and why.
 
 ## Numerical Bases
 
-Numbers can also be represented by a "base". $\textcolor{cyan}{\textit{Base}}$ refers to how many numerals there are. For instance, base-10 includes 10 numerals: 0 through 9. That means there are 10 representations before a new digit must be added to continue counting. That is, $0, 1, 2, ..., 8, 9, 10, 11, 12, ..., 98, 99, 100, ...$
+Numbers can also be represented by a "base". $\textcolor{cyan}{\textnormal{Base}}$ refers to how many numerals there are. For instance, base-10 includes 10 numerals: 0 through 9. That means there are 10 representations before a new digit must be added to continue counting. That is, $0, 1, 2, ..., 8, 9, 10, 11, 12, ..., 98, 99, 100, ...$
 
 Each place in the base-representation corresponds to a power of that base. For instance, for the number 123, that represents: one 100, 2 ten, and 3 ones. In other words: $1\cdot10^2 + 2\cdot10^1 + 3\cdot10^3$. This is how every single base-representation works. This is also known as a ***radix positional numeral system***.
 
 Here are some base values you may come across:
 
-- $\textcolor{cyan}{\textit{Binary}}$ (*base-2*) - Represented by two numerals: $0, 1$. For instance, $5$ in base-2 is $0b101$.
+- $\textcolor{cyan}{\textnormal{Binary}}$ (*base-2*) - Represented by two numerals: $0, 1$. For instance, $5$ in base-2 is $0b101$.
   - In other words, $(1\cdot2^2)+(0\cdot2^1)+(1\cdot2^0) = 4 + 0 + 1 = 5$
   - The prefix of $0b$ is common to differentiate between numbers represented by different bases.
-- $\textcolor{cyan}{\textit{Octal}}$ (*base-8*) - Represented by 8 numerals $(0 ... 7)$.
-- $\textcolor{cyan}{\textit{Decimal}}$ (*base-10*) - Represented by 10 numerals $(0 ... 9)$.
-- $\textcolor{cyan}{\textit{Hexadecimal}}$ (*base-16*) - Represented by 16 numerals $(0 ... 9, a ... f)$
+- $\textcolor{cyan}{\textnormal{Octal}}$ (*base-8*) - Represented by 8 numerals $(0 ... 7)$.
+- $\textcolor{cyan}{\textnormal{Decimal}}$ (*base-10*) - Represented by 10 numerals $(0 ... 9)$.
+- $\textcolor{cyan}{\textnormal{Hexadecimal}}$ (*base-16*) - Represented by 16 numerals $(0 ... 9, a ... f)$
   - So, 38 in base-16 is $0x26$, because $(2\cdot16^1)+(6\cdot16^0) = 38$
   - You would represent 15 as 0xf (usually read as "zero hex f"), but 16 as 0x10 (read as "zero hex ten" or "zero hex one zero")
 

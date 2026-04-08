@@ -110,8 +110,6 @@ def generate_nav(input_dir):
                 # Now encode (safe='/' is indeed default, but good to keep explicit)
                 encoded_path = urllib.parse.quote(web_path, safe='/')
 
-                print(f"link for {file} is {encoded_path}")
-
                 # Format section label
                 raw_filename = file.replace('.md', '')
                 label = format_label(raw_filename, "Section")

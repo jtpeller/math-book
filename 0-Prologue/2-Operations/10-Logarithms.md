@@ -13,7 +13,7 @@
 
 Exponentiation determines the result of repeatedly multiplying a value (the base) by itself a specific number of times (that is, the exponent), resulting in the "power".
 
-$\textcolor{cyan}{\textit{Logarithms}}$ can "undo" this operation by discovering the exponent to which a base must be raised to obtain some specific value.
+$\textcolor{cyan}{\textnormal{Logarithms}}$ can "undo" this operation by discovering the exponent to which a base must be raised to obtain some specific value.
 
 > Often, "log" is said instead of logarithm, due to its symbol: $\log$
 
@@ -21,13 +21,13 @@ Now, a typical logarithm looks as follows:
 
 $$\log_{\text{base}}(\text{anti-logarithm}) = \text{exponent}$$
 
-The antilog, or $\textcolor{cyan}{\textit{antilogarithm}}$, is the "power" in a typical exponentiation expression (it is the result of the exponentiation). The base is the value such that $\text{base}^{\text{exponent}} = \text{antilog}$.
+The antilog, or $\textcolor{cyan}{\textnormal{antilogarithm}}$, is the "power" in a typical exponentiation expression (it is the result of the exponentiation). The base is the value such that $\text{base}^{\text{exponent}} = \text{antilog}$.
 
 Now, you may see that the base is omitted. In such cases, it is assumed that the base value is actually $10$ (since, numbers are in base-10).
 
 ## Natural Logarithms
 
-A special type of log known as the $\textcolor{cyan}{\textit{Natural Logarithm}}$ is a logarithm such that the base is the Natural Number $e$ (aka Euler's Constant). This is expressed as:
+A special type of log known as the $\textcolor{cyan}{\textnormal{Natural Logarithm}}$ is a logarithm such that the base is the Natural Number $e$ (aka Euler's Constant). This is expressed as:
 
 $$\log_{e}(x) = \ln(x)$$
 

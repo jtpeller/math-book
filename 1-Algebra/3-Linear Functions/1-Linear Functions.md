@@ -111,6 +111,6 @@ The first pair is going to be $(x, y)$, as you are defining the behavior between
 
 ## Closing
 
-| Previous                       | Next                           |
-| ------------------------------ | ------------------------------ |
+|            Previous            |              Next              |
+| :----------------------------: | :----------------------------: |
 | ← [1.3.0](./0-Introduction.md) | [1.3.2: Forms](./2-Forms.md) → |

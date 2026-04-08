@@ -19,6 +19,6 @@ TODO: Define Linear Forms
 
 TODO: Update this.
 
-| Previous                             | Next                                                           |
-| ------------------------------------ | -------------------------------------------------------------- |
+|               Previous               |                              Next                              |
+| :----------------------------------: | :------------------------------------------------------------: |
 | ← [1.3.1](./1-Linear%20Functions.md) | [Chapter 4: Polynomials](../4-Polynomials/0-Introduction.md) → |

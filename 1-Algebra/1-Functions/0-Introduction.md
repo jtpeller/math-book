@@ -9,7 +9,7 @@
 
 ## Overview
 
-$\textcolor{cyan}{\textit{Algebra}}$ is most simply the use of symbols to represent numbers (variables) to create expressions or equations that model some quantitative behavior.
+$\textcolor{cyan}{\textnormal{Algebra}}$ is most simply the use of symbols to represent numbers (variables) to create expressions or equations that model some quantitative behavior.
 
 When working on algebraic problems, you'll find yourself working with graphs, tables, matrices, arithmetic, simplification, factoring, distribution, and plenty of other techniques to model or analyze the situation.
 
@@ -21,6 +21,6 @@ This section introduces Functions, a fundemental building block of Algebra. A ma
 
 ## Closing
 
-| Previous                            | Next                                   |
-| ----------------------------------- | -------------------------------------- |
+|              Previous               |                  Next                  |
+| :---------------------------------: | :------------------------------------: |
 | ← [1.0.0: Algebra](../0-Algebra.md) | [1.1.1: Functions](./1-Functions.md) → |

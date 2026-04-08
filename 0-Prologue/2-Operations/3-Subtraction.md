@@ -12,7 +12,7 @@
 
 ## Overview
 
-$\textcolor{cyan}{\textit{Subtraction}}$ is the act of separating numbers.
+$\textcolor{cyan}{\textnormal{Subtraction}}$ is the act of separating numbers.
 
 > Subtraction answers: "What happens when I take away a certain amount of things from another group?"
 
@@ -32,7 +32,7 @@ $$20 - 12 = 8$$
 
 > This is spoken as "Twenty minus twelve equals eight."
 
-Subtraction is the $\textcolor{cyan}{\textit{inverse operation}}$ to addition. That is, the following is true:
+Subtraction is the $\textcolor{cyan}{\textnormal{inverse operation}}$ to addition. That is, the following is true:
 
 $$20 + 12 - 12 = 20$$
 
@@ -42,15 +42,15 @@ Inverse operations are critical for simplifications and other work, which will b
 
 ## Subtraction Operands
 
-Subtraction refers to their terms in a particular order, since the order of the terms is more important for subtraction. The first term is known as the $\textcolor{cyan}{\textit{subtrahend}}$ or $\textcolor{cyan}{\textit{minuend}}$, while the second term is known as the $\textcolor{cyan}{\textit{subtrahere}}$. It is extremely unlikely that you will come across these names (I had to look them up myself) but come trivia night you may have the upper hand. The result of subtraction is known as the $\textcolor{cyan}{\textit{difference}}$, which is a much more common term to know.
+Subtraction refers to their terms in a particular order, since the order of the terms is more important for subtraction. The first term is known as the $\textcolor{cyan}{\textnormal{subtrahend}}$ or $\textcolor{cyan}{\textnormal{minuend}}$, while the second term is known as the $\textcolor{cyan}{\textnormal{subtrahere}}$. It is extremely unlikely that you will come across these names (I had to look them up myself) but come trivia night you may have the upper hand. The result of subtraction is known as the $\textcolor{cyan}{\textnormal{difference}}$, which is a much more common term to know.
 
 $$\text{subtrahend} + \text{subtrahere} = \text{difference}$$
 
 ## Long Subtraction
 
-$\textcolor{cyan}{\textit{Long Subtraction}}$ is similar to long addition, except instead of a carry, you may require what is called a *borrow*!
+$\textcolor{cyan}{\textnormal{Long Subtraction}}$ is similar to long addition, except instead of a carry, you may require what is called a *borrow*!
 
-$\textcolor{cyan}{\textit{Borrows}}$ work how you probably think they do. Rather than carrying the overflow over to the next column, you instead may take away from the next column (hence, borrow).
+$\textcolor{cyan}{\textnormal{Borrows}}$ work how you probably think they do. Rather than carrying the overflow over to the next column, you instead may take away from the next column (hence, borrow).
 
 For example, if you take the addition step and instead execute it as subtraction, you may see how this could happen.
 
@@ -92,6 +92,6 @@ $$
 
 ## Closing
 
-|               Previous               | Next                                             |
-| :----------------------------------: | :----------------------------------------------- |
+|               Previous               |                       Next                       |
+| :----------------------------------: | :----------------------------------------------: |
 | ← [0.2.2: Addition](./2-Addition.md) | [0.2.4: Multiplication](./4-Multiplication.md) → |

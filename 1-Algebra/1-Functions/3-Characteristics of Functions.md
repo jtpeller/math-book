@@ -42,11 +42,11 @@ This is a particularly useful tool when graphing a function, because it gives a 
 
 For a 2D function (that is, only one input, and thus one corresponding output) there are 2 intercepts.
 
-The $\textcolor{cyan}{x-\textit{intercept}}$ is the point at which the function intersects with the $x$ axis. That is, what value of $x$ results in a value of the function of $0$?
+The $\textcolor{cyan}{x-\textnormal{intercept}}$ is the point at which the function intersects with the $x$ axis. That is, what value of $x$ results in a value of the function of $0$?
 
 You can find the $x$-intercept by solving for $x$ when $f(x) = 0$.
 
-The other intercept is the $\textcolor{cyan}{y-\textit{intercept}}$, which is the point at which the function intersects with the $y$ axis. That is, what value of $y$ results from an input value of $x=0$?
+The other intercept is the $\textcolor{cyan}{y-\textnormal{intercept}}$, which is the point at which the function intersects with the $y$ axis. That is, what value of $y$ results from an input value of $x=0$?
 
 You can find the $y$-intercept by calculating $f(0)$.
 
@@ -56,7 +56,7 @@ Some functions may have more than one $x$-intercept, but no ***function*** shoul
 
 Functions may be described as *continuous* or *discontinuous*.
 
-Functions lacking abrupt changes in value are considered $\textcolor{cyan}{\textit{continuous}}$.
+Functions lacking abrupt changes in value are considered $\textcolor{cyan}{\textnormal{continuous}}$.
 
 > [!NOTE]
 >
@@ -70,11 +70,11 @@ Functions lacking abrupt changes in value are considered $\textcolor{cyan}{\text
 
 ---
 
-$\textcolor{cyan}{\textit{Discontinuous}}$ functions feature a characteristic known as a $\textcolor{cyan}{\textit{discontinuity}}$, which is any abrupt change in value.
+$\textcolor{cyan}{\textnormal{Discontinuous}}$ functions feature a characteristic known as a $\textcolor{cyan}{\textnormal{discontinuity}}$, which is any abrupt change in value.
 
 #### Removable Discontinuity
 
-The "simplest" kind of discontinuity is a $\textcolor{cyan}{\textit{Removable Discontinuity}}$, which is one in which the function approaches the same values regardless of the direction $x$ is approaching.
+The "simplest" kind of discontinuity is a $\textcolor{cyan}{\textnormal{Removable Discontinuity}}$, which is one in which the function approaches the same values regardless of the direction $x$ is approaching.
 
 ![Figure 1.3.1: Removable Discontinuity at x0](img/removable-discontinuity.png)
 
@@ -84,13 +84,13 @@ Likewise, when approaching $x_0$ from the right side (that is, $x$ decreases fro
 
 > This solid versus hollow circle notation is important.
 >
-> A ***hollow circle*** denotes that the value does NOT exist at this location. It indicates a $\textcolor{cyan}{\textit{hole}}$ in the graph.
+> A ***hollow circle*** denotes that the value does NOT exist at this location. It indicates a $\textcolor{cyan}{\textnormal{hole}}$ in the graph.
 >
 > A ***solid circle*** denotes an output at a particular point, which should be labelled. In the case of the Figure above, it is labelled at $x_0$
 
 #### Jump Discontinuity
 
-Another type of discontinuity is a $\textcolor{cyan}{\textit{Jump Discontinuity}}$, where the function approaches different values based on the direction $x$ is approaching.
+Another type of discontinuity is a $\textcolor{cyan}{\textnormal{Jump Discontinuity}}$, where the function approaches different values based on the direction $x$ is approaching.
 
 ![Figure 1.3.2: Jump Discontinuity at x0](img/jump-discontinuity.png)
 
@@ -98,15 +98,15 @@ You'll notice that if you do the same approach of approaching $x_0$ from the lef
 
 #### Infinite Discontinuity
 
-The final kind of discontinuity to discuss is an $\textcolor{cyan}{\textit{Infinite Discontinuity}}$. This is a special kind of jump discontinuity such that the limits from either side approach infinity (may be both positive, both negative, or one each):
+The final kind of discontinuity to discuss is an $\textcolor{cyan}{\textnormal{Infinite Discontinuity}}$. This is a special kind of jump discontinuity such that the limits from either side approach infinity (may be both positive, both negative, or one each):
 
 ![Figure 1.3.3: Infinite Discontinuity at x0, for f(x)=1/x](img/infinite-discontinuity.png)
 
-These kinds of discontinuities are also known as a $\textcolor{cyan}{\textit{Vertical Asymptote}}$.
+These kinds of discontinuities are also known as a $\textcolor{cyan}{\textnormal{Vertical Asymptote}}$.
 
 ### Bounded Functions
 
-A $\textcolor{cyan}{\textit{bounded}}$ function is one that is finite.
+A $\textcolor{cyan}{\textnormal{bounded}}$ function is one that is finite.
 
 In other words, all values of the function will lie between some values $k$ and $m$, where both $k$ and $m$ are real numbers. That is, the following will be true:
 
@@ -119,24 +119,24 @@ $$
 
 Because both $k$ and $m$ are real numbers, this enforces the concept that no value of $f(x)$ will be infinite!
 
-$\textcolor{cyan}{\textit{Unbounded}}$ functions are those that extend toward infinity. Many functions are *unbounded*. For instance, Linear functions are unbounded.
+$\textcolor{cyan}{\textnormal{Unbounded}}$ functions are those that extend toward infinity. Many functions are *unbounded*. For instance, Linear functions are unbounded.
 
 Some functions are "semi-bounded", meaning they are only bounded on one side of the output. That is, there may be functions that are...
 
-- $\textcolor{cyan}{\textit{Bounded above}}$, which means that only $f(x) \leq k$ holds true. In other words, all function values are less than (or equal to) some real number $k$.
-- $\textcolor{cyan}{\textit{Bounded below}}$, which means that only $f(x) \geq m$ holds true. In other words, all function values are greater than (or equal to) some real number $m$.
+- $\textcolor{cyan}{\textnormal{Bounded above}}$, which means that only $f(x) \leq k$ holds true. In other words, all function values are less than (or equal to) some real number $k$.
+- $\textcolor{cyan}{\textnormal{Bounded below}}$, which means that only $f(x) \geq m$ holds true. In other words, all function values are greater than (or equal to) some real number $m$.
 
 ## Describing a Function's Shape
 
 ### Smooth Functions
 
-A $\textcolor{cyan}{\textit{smooth}}$ function describes one such that the function is *differentiable* everywhere. Put more simply, a smooth function is essentially a special type of continuous function where there are no immediate shifts in its rate of change. For instance, a linear graph is smooth, while the following graph is not smooth. It is a graph of the absolute value of $x$ (that is, $f(x) = |x|$)
+A $\textcolor{cyan}{\textnormal{smooth}}$ function describes one such that the function is *differentiable* everywhere. Put more simply, a smooth function is essentially a special type of continuous function where there are no immediate shifts in its rate of change. For instance, a linear graph is smooth, while the following graph is not smooth. It is a graph of the absolute value of $x$ (that is, $f(x) = |x|$)
 
 ![Figure 1.3.4: Graph of an Absolute Value function](img/absolute-graph.png)
 
 ### Symmetry
 
-A $\textcolor{cyan}{\textit{symmetrical}}$ function describes a function such that the function is the same across an axis.
+A $\textcolor{cyan}{\textnormal{symmetrical}}$ function describes a function such that the function is the same across an axis.
 
 Typically, symmetry for functions applies across the $y$ axis.
 
@@ -148,6 +148,6 @@ Functions like the Quadratic function is symmetric across the $y$ axis. Some fun
 
 ## Closing
 
-| Previous                                                         | Next                                                                                   |
-| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+|                             Previous                             |                                          Next                                          |
+| :--------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 | ← [1.1.2: Visualizing Functions](./2-Visualizing%20Functions.md) | [Chapter 2: Manipulating Functions](../2-Manipulating%20Functions/0-Introduction.md) → |

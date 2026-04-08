@@ -23,9 +23,9 @@ These "new" operations are useful in many different fields of math, such as Alge
 
 This first section introduces *Exponentiation*!
 
-$\textcolor{cyan}{\textit{Exponentiation}}$ is most simply repeated multiplication, but in a very particular manner. It involves multiplying a number by itself a specified number of times.
+$\textcolor{cyan}{\textnormal{Exponentiation}}$ is most simply repeated multiplication, but in a very particular manner. It involves multiplying a number by itself a specified number of times.
 
-The $\textcolor{cyan}{\textit{Base}}$ specifies the number undergoing the operation. The number of multiplication operations to perform is designated by the $\textcolor{cyan}{\textit{Exponent}}$. Finally, the result of exponentiation is known as the $\textcolor{cyan}{\textit{Power}}$.
+The $\textcolor{cyan}{\textnormal{Base}}$ specifies the number undergoing the operation. The number of multiplication operations to perform is designated by the $\textcolor{cyan}{\textnormal{Exponent}}$. Finally, the result of exponentiation is known as the $\textcolor{cyan}{\textnormal{Power}}$.
 
 An example is:
 
@@ -192,7 +192,7 @@ $$(x/y)^n = \frac{x^n}{y^n}$$
 
 ## Scientific Notation
 
-Exponentiation can be used to represent very large numbers in an extremely helpful way. For instance, take the (estimated and approximate) U.S. National Debt at the time of writing this (2026.03.22): $\$39,021,882,900,000$. Rather than having to write out this number all the time, it is possible to write the number in $\textcolor{cyan}{\textit{Scientific Notation}}$, which allows for improved readability and far less writing.
+Exponentiation can be used to represent very large numbers in an extremely helpful way. For instance, take the (estimated and approximate) U.S. National Debt at the time of writing this (2026.03.22): $\$39,021,882,900,000$. Rather than having to write out this number all the time, it is possible to write the number in $\textcolor{cyan}{\textnormal{Scientific Notation}}$, which allows for improved readability and far less writing.
 
 Writing this National Debt number would be:
 

@@ -10,7 +10,7 @@
 
 ## Overview
 
-The $\textcolor{cyan}{\textit{N-th Root}}$ is essentially repeated division, defined in a way similar to exponentiation. Divides a number by itself $n$ times. It looks like this:
+The $\textcolor{cyan}{\textnormal{N-th Root}}$ is essentially repeated division, defined in a way similar to exponentiation. Divides a number by itself $n$ times. It looks like this:
 
 $$\sqrt[n]{x} = \text{root}$$
 
@@ -24,7 +24,7 @@ This should illustrate the relationship between the two operations. Exponentiati
 
 ### Common Roots
 
-There are two special kinds of roots that are very common to mathematics and even more common in applied mathematics. Those are the $\textcolor{cyan}{\textit{square root}}$ and the $\textcolor{cyan}{\textit{cube root}}$. The square root is when $n=2$ and the cube root describes a root such that $n=3$.
+There are two special kinds of roots that are very common to mathematics and even more common in applied mathematics. Those are the $\textcolor{cyan}{\textnormal{square root}}$ and the $\textcolor{cyan}{\textnormal{cube root}}$. The square root is when $n=2$ and the cube root describes a root such that $n=3$.
 
 For square roots, you will most commonly see it with the 2 omitted:
 

@@ -20,15 +20,15 @@ Operations are essentially means of manipulating numbers in some specific way. T
 
 ## Terminology
 
-Operations are performed on *terms*. $\textcolor{cyan}{\textit{Terms}}$ are most commonly numbers, but as you'll see in algebra, may be variable quantities (like $x$ or $y$).
+Operations are performed on *terms*. $\textcolor{cyan}{\textnormal{Terms}}$ are most commonly numbers, but as you'll see in algebra, may be variable quantities (like $x$ or $y$).
 
 Operations are most commonly shown as a term, then an operation, then another term, such as:
 
 $$2 + 2$$
 
-This mathematical phrase is known as an $\textcolor{cyan}{\textit{expression}}$, which is most simply a couple of terms with an operation performed on them.
+This mathematical phrase is known as an $\textcolor{cyan}{\textnormal{expression}}$, which is most simply a couple of terms with an operation performed on them.
 
-Now, you may show equality between two expressions via an $\textcolor{cyan}{\textit{equal sign}}$. An equal sign (that is, $=$) denotes that the two expressions represent the same exact quantity. So, when you see something like: $2 + 2 = 4$, this states that the expression $2+2$ is equal to $4$. This mathematical sentence is known as an $\textcolor{cyan}{\textit{equation}}$.
+Now, you may show equality between two expressions via an $\textcolor{cyan}{\textnormal{equal sign}}$. An equal sign (that is, $=$) denotes that the two expressions represent the same exact quantity. So, when you see something like: $2 + 2 = 4$, this states that the expression $2+2$ is equal to $4$. This mathematical sentence is known as an $\textcolor{cyan}{\textnormal{equation}}$.
 
 ---
 
@@ -48,10 +48,10 @@ Now, some extra details can be added to each of these operations.
 
 Each term in an expression have a particular name to explicitly refer to them. In general, these terms are:
 
-- $\textcolor{cyan}{\textit{Operand}}$: Number or *term* that is undergoing the action from an *operator* to produce a solution.
-- $\textcolor{cyan}{\textit{Operator}}$: A symbol used to denote a specific action to be done to the operands.
+- $\textcolor{cyan}{\textnormal{Operand}}$: Number or *term* that is undergoing the action from an *operator* to produce a solution.
+- $\textcolor{cyan}{\textnormal{Operator}}$: A symbol used to denote a specific action to be done to the operands.
   - Examples: addition (Symbol: $+$), subtraction (Symbol: $-$), etc.
-- $\textcolor{cyan}{\textit{Operation}}$: Describes the overall actions being done to operands.
+- $\textcolor{cyan}{\textnormal{Operation}}$: Describes the overall actions being done to operands.
   - Examples: addition, subtraction, multiplication, division, etc.
 
 As an example, in $2 + 3$, the *operand* describes the $2$ and the $3$, the *operator* describes the $+$, and the *operation* is *addition*!

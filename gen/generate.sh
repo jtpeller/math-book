@@ -120,7 +120,7 @@ find "$INPUT_DIR" -name "*.md" | while read -r md_file; do
     pandoc "$md_file" -s \
         --template=minimal.html \
         --include-before-body="$NAV_PATH" \
-        --mathjax \
+        --katex \
         --from markdown+tex_math_dollars+raw_tex \
         --to html5 \
         --no-highlight \
@@ -129,7 +129,9 @@ find "$INPUT_DIR" -name "*.md" | while read -r md_file; do
         --css="${CSS_EXTRA}" \
         --metadata lang=en \
         --metadata title="$(basename "$custom_title" .md)" \
-        | tidy -indent --indent-spaces 4 -quiet -wrap 0 --tidy-mark no --doctype html5 --output-xhtml no --escape-cdata yes --preserve-entities yes -o "$html_file"
+        | tidy -indent --indent-spaces 4 -quiet -wrap 0 \
+          --tidy-mark no --doctype html5 --output-xhtml no \
+          --escape-cdata yes --preserve-entities yes -o "$html_file"
 
 
     # After Pandoc runs, fix the links in the output HTML

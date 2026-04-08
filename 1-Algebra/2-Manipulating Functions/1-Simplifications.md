@@ -26,7 +26,7 @@ This section details common simplifications that can be done and why they can be
 
 ## Combining Like Terms
 
-One of the most useful simplifications is to $\textcolor{cyan}{\textit{Combining "Like" Terms}}$, which is a concept where terms with similar characteristics may be combined across arithmetic operations to simplify the expression, equation, or function.
+One of the most useful simplifications is to $\textcolor{cyan}{\textnormal{Combining "Like" Terms}}$, which is a concept where terms with similar characteristics may be combined across arithmetic operations to simplify the expression, equation, or function.
 
 At a basic level, think about writing $1 + 1 + 1 + 1 + 1$ to represent 5. You could just write $5$ instead! Similarly, you may be writing $x+x+x+x+x$, when you could just write $5x$.
 
@@ -43,7 +43,7 @@ $$
 &3x + 5x + 2x && \text{Starting point.}\\
 &(x+x+x) + (x+x+x+x+x) + (x+x) && \text{Multiplication is repeated addition!} \\
 &x+x+x + x+x+x+x+x + x+x && \text{Addition is associative! No need for parentheses; the order is guaranteed OK.} \\
-&\boxed{= 10x}&& \text{There are 10 }x\text{'s, hence: } 10x\\
+&\boxed{= 10x}&& \text{There are 10 $x$'s, hence: $10x$}\\
 \end{aligned}
 $$
 
@@ -72,7 +72,7 @@ Recall that a coefficient is simply the numerical term that is being multiplied 
 
 $$ f(x) = 5x^2 - 3x + 2 - b $$
 
-The coefficients are $5$ and $-3$. Both $2$ and the $b$ are ***constants***. $\textcolor{cyan}{\textit{Constants}} are simply terms that are not impacted by the input variable (in this case, $x$). That is, they stay the same no matter the input into the equation (hence, *constant*).
+The coefficients are $5$ and $-3$. Both $2$ and the $b$ are ***constants***. $\textcolor{cyan}{\textnormal{Constants}} are simply terms that are not impacted by the input variable (in this case, $x$). That is, they stay the same no matter the input into the equation (hence, *constant*).
 
 ### Multiplication & Division
 
@@ -106,7 +106,7 @@ $$
 &= (x^2+x^2) \cdot (x + x + x) \\
 &= (x^2\cdot x+x^2\cdot x+x^2\cdot x) + (x^2\cdot x+x^2\cdot x+x^2\cdot x) \\
 &= x^3 + x^3 + x^3 + x^3 + x^3 + x^3 \\
-&\boxed{= 6x^3} \\
+&= 6x^3 \\
 \end{aligned}
 $$
 
@@ -305,6 +305,6 @@ $$
 
 ## Closing
 
-| Previous                                     | Next                                   |
-| -------------------------------------------- | -------------------------------------- |
+|                   Previous                   |                  Next                  |
+| :------------------------------------------: | :------------------------------------: |
 | ← [1.2.0: Introduction](./0-Introduction.md) | [1.2.2: Factoring](./2-Factoring.md) → |

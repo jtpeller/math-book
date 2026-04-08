@@ -11,7 +11,7 @@
 
 ## Overview
 
-$\textcolor{cyan}{\textbf{Math}}$ is a subject of knowledge focused on quantities of values, items, things, etc. It is also focused on the operations that can be done on or to these quantities.
+$\textcolor{cyan}{\textnormal{Math}}$ is a subject of knowledge focused on quantities of values, items, things, etc. It is also focused on the operations that can be done on or to these quantities.
 
 Math, therefore, is fundamentally based upon *numbers*, which, simply speaking, is a way of representing a quantity.
 

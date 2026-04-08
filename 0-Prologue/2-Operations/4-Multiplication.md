@@ -35,7 +35,7 @@ Now multiplication actually has multiple symbols (*go figure*), which can be any
 
 ## Operands of Multiplication
 
-Multiplication refers to their operands as $\textcolor{cyan}{\textit{factors}}$. Sometimes, you will hear $\textcolor{cyan}{\textit{multiplicand}}$ and $\textcolor{cyan}{\textit{multiplier}}$, which refer to the first and second terms respectively. The result of multiplication is known as the $\textcolor{cyan}{\textit{product}}$. That is, multiplication can be modeled as either:
+Multiplication refers to their operands as $\textcolor{cyan}{\textnormal{factors}}$. Sometimes, you will hear $\textcolor{cyan}{\textnormal{multiplicand}}$ and $\textcolor{cyan}{\textnormal{multiplier}}$, which refer to the first and second terms respectively. The result of multiplication is known as the $\textcolor{cyan}{\textnormal{product}}$. That is, multiplication can be modeled as either:
 
 $$\text{factor} \cdot \text{factor} = \text{product}$$
 $$\text{multiplicand} \cdot \text{multiplier} = \text{product}$$
@@ -56,7 +56,7 @@ Typically, to avoid confusion, if you are using an kind of letters or non-numeri
 
 ## Long Multiplication
 
-$\textcolor{cyan}{\textit{Long Multiplication}}$ is a common way of performing multiplication by-hand. It is of a similar form as long subtraction and long addition. In fact, it will utilize long addition as a means of computing the final result.
+$\textcolor{cyan}{\textnormal{Long Multiplication}}$ is a common way of performing multiplication by-hand. It is of a similar form as long subtraction and long addition. In fact, it will utilize long addition as a means of computing the final result.
 
 Let's start with a simple example:
 
@@ -241,6 +241,6 @@ $$
 
 ## Closing
 
-|                  Previous                  | Next                                 |
-| :----------------------------------------: | :----------------------------------- |
+|                  Previous                  |                 Next                 |
+| :----------------------------------------: | :----------------------------------: |
 | ← [0.2.3: Subtraction](./3-Subtraction.md) | [0.2.5: Division](./5-Division.md) → |

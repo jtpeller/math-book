@@ -33,6 +33,6 @@ This unit introduces the concept of math, numbers, quantities, and operations. T
 
 ## Closing
 
-| Next                                                              |
-| ----------------------------------------------------------------- |
+|                               Next                                |
+| :---------------------------------------------------------------: |
 | [0.1.1: Introduction to Math](./1-Basics%20of%20Math/1-Math.md) → |

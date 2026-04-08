@@ -27,7 +27,7 @@ Alternatively, you can utilize a table, which depicts different calculated value
 
 Functions are most commonly graphed on Cartesian planes.
 
-Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be discussed (see: dimensions, planes, etc. in [Geometry](../2-Geometry/0-Introduction.md)). A $\textcolor{cyan}{\textit{Cartesian plane}}$ can be thought of as a flat surface (it has a length and a width, sometimes infinite) with two perpendicular number lines. Simply put, make a cartesian plane by simply overlapping two number lines so they overlap to make a big plus sign.
+Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be discussed (see: dimensions, planes, etc. in [Geometry](../2-Geometry/0-Introduction.md)). A $\textcolor{cyan}{\textnormal{Cartesian plane}}$ can be thought of as a flat surface (it has a length and a width, sometimes infinite) with two perpendicular number lines. Simply put, make a cartesian plane by simply overlapping two number lines so they overlap to make a big plus sign.
 
 ![Figure 1.2.1: Example Cartesian Plane, with both axes ranging from -6 to 6.](./img/cartesian-plane.png)
 
@@ -35,9 +35,9 @@ Defining Cartesian planes is tricky, since up-to-now, geometry has yet to be dis
 
 ### Axes
 
-The number lines are called $\textcolor{cyan}{\textit{axes}}$, and they each represent a specific quantity. The input (usually represented by the letter $x$) is represented by the horizontal line, while the output (usually, $y$ or $f(x)$) is represented by the vertical line.
+The number lines are called $\textcolor{cyan}{\textnormal{axes}}$, and they each represent a specific quantity. The input (usually represented by the letter $x$) is represented by the horizontal line, while the output (usually, $y$ or $f(x)$) is represented by the vertical line.
 
-The points at which numbers are annotated on the axes are generally referred to as $\textcolor{cyan}{\textit{ticks}}$. Ticks are usually denoted with a small line that stems from the axes itself (the ***tick mark***). Ticks help make charts easier to read.
+The points at which numbers are annotated on the axes are generally referred to as $\textcolor{cyan}{\textnormal{ticks}}$. Ticks are usually denoted with a small line that stems from the axes itself (the ***tick mark***). Ticks help make charts easier to read.
 
 In the chart above (Figure 1.2.1), the chart instead utilizes grid marks, which make it even easier to study the behavior of the function. Grid marks essentially extend the tick marks to the edges of the cartesian plane for easier viewing.
 
@@ -49,9 +49,9 @@ Further still, arrows may be present on the line itself, implying that this beha
 
 ### Scales
 
-The number lines can be scaled as desired to show whichever behavior or characteristic is desired. The most common scale for the axes is $\textcolor{cyan}{\textit{linear}}$, which means that the distance between tick marks represents a constant value (e.g., increasing by 1: $1, 2, 3, ...$; by 2: $2, 4, 6, ...$; etc.).
+The number lines can be scaled as desired to show whichever behavior or characteristic is desired. The most common scale for the axes is $\textcolor{cyan}{\textnormal{linear}}$, which means that the distance between tick marks represents a constant value (e.g., increasing by 1: $1, 2, 3, ...$; by 2: $2, 4, 6, ...$; etc.).
 
-Another relatively common scale includes the $\textcolor{cyan}{\textit{logarithmic}}$ scale, which is useful for quickly growing (or decaying) functions. A scale that is logarithmic increases by the power of ten (each 'tick' represents $10^0, 10^1, 10^2, ...$).
+Another relatively common scale includes the $\textcolor{cyan}{\textnormal{logarithmic}}$ scale, which is useful for quickly growing (or decaying) functions. A scale that is logarithmic increases by the power of ten (each 'tick' represents $10^0, 10^1, 10^2, ...$).
 
 It is also possible to scale the $x$ and $y$ axes differently. For instance, one may be linearly scaled while the other is logarithmically scaled. Alternatively, you could have both be linear scales, but the $x$ axis increases by 1 every tick mark, while the $y$ axis could increase by 2.
 
@@ -63,11 +63,11 @@ The graph above has a linear scale. You can see that because each tick is labele
 
 > This function, $f(x)=2x$, is a linear function in slope-intercept form, but this will be explored more in [Linear Functions](../4-Linear%20Functions/0-Introduction.md), but let's not get ahead of ourselves.
 
-A graph can be created for any function or relationship by computing input and output pairs. These input and output pairs are called $\textcolor{cyan}{\textit{ordered pairs}}$, named because the input comes first, then the output: $(x, y)$. Hence, they are *in order*.
+A graph can be created for any function or relationship by computing input and output pairs. These input and output pairs are called $\textcolor{cyan}{\textnormal{ordered pairs}}$, named because the input comes first, then the output: $(x, y)$. Hence, they are *in order*.
 
 Every place in a cartesian plane may be indexed via a pair of values; one from the x-axis and one from the y-axis. These are coupled together in an ordered pair, like this: $(x_1, y_1)$. This allows referring to any given point in a cartesian plane.
 
-Now, the center point, when $x_1=0$ and $y_1=0$ is referred to as the $\textcolor{cyan}{\textit{origin}}$. It is the point at which the axes cross. Where $x$ and $y$ are zero.
+Now, the center point, when $x_1=0$ and $y_1=0$ is referred to as the $\textcolor{cyan}{\textnormal{origin}}$. It is the point at which the axes cross. Where $x$ and $y$ are zero.
 
 To create a graph of a line, you need at least two ordered pairs, since two points create a line. The chart above utilizes two points: $(-3, -6)$ and $(3, 6)$ to create the plot. Now, that line that is graphed actually has an INFINITE number of ordered pairs! That's because you can use any real number as an input, meaning you can have any ordered pair you want, like $(1.25, 2.5)$ or maybe even $(2.2222222, 4.4444444)$.
 
@@ -85,7 +85,7 @@ Graphing calculators vary widely in their user-interface and how they accept the
 
 If you have a graph of a *formula*, you can classify it as a *function* using the straight-line test.
 
-The $\textcolor{cyan}{\textit{Straight-Line Test}}$ (aka, the vertical-line test) is a visual test to identify whether each and every input has only one output (and thus, whether the targeted formula is a function). To perform the test, you would draw vertical lines through each input for a function to identify whether it has only one output per input.
+The $\textcolor{cyan}{\textnormal{Straight-Line Test}}$ (aka, the vertical-line test) is a visual test to identify whether each and every input has only one output (and thus, whether the targeted formula is a function). To perform the test, you would draw vertical lines through each input for a function to identify whether it has only one output per input.
 
 You could imagine that it would be quite difficult to do this for *every* input. 3.1? Then $3.11$? And what about $3.1111111111$?
 
@@ -129,6 +129,6 @@ This makes it very easy to see a handful of inputs and their corresponding outpu
 
 The next few sections will discuss characteristics of functions, that can help in describing functions and their behaviors.
 
-| Previous                               | Next                                                                             |
-| -------------------------------------- | -------------------------------------------------------------------------------- |
+|                Previous                |                                       Next                                       |
+| :------------------------------------: | :------------------------------------------------------------------------------: |
 | ← [1.1.1: Functions](./1-Functions.md) | [1.1.3: Characteristics of Functions](./3-Characteristics%20of%20Functions.md) → |
