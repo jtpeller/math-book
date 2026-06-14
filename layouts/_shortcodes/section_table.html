@@ -1,0 +1,36 @@
+<div class="table-responsive my-4">
+    <table class="table-hover align-middle border">
+        <thead>
+            <tr>
+                <th class="text-center" style="width: 10%;">#</th>
+                <th class="text-center" style="width: 25%;">Name</th>
+                <th>Description</th>
+                <th class="text-center" style="width: 15%;">Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ $sortable := slice }}
+            {{ range .Page.RegularPages }}
+                {{ $n := findRE "^[0-9]+" .File.ContentBaseName }}
+                {{ $s := cond (gt (len $n) 0) (printf "%05d" (int (index $n 0 | replaceRE "^0+" ""))) "99999" }}
+                {{ $sortable = $sortable | append (dict "p" . "s" $s) }}
+            {{ end }}
+
+            {{ range sort $sortable "s" "asc" }}
+                {{ with .p }}
+                {{ $info := partial "get-info.html" . }}
+                {{ if ne $info.Title "Default" }}
+                <tr>
+                    <td class="text-center fw-bold">{{ $info.Num }}</td>
+                    <td class="text-center"><strong>{{ $info.Title }}</strong></td>
+                    <td>{{ .Description | default "No description provided." }}</td>
+                    <td class="text-center">
+                        <a href="{{ .RelPermalink }}" class="btn btn-sm btn-outline-primary">View &rarr;</a>
+                    </td>
+                </tr>
+                {{ end }}
+                {{ end }}
+            {{ end }}
+        </tbody>
+    </table>
+</div>

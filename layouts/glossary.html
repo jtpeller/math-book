@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container glossary-container">
+    <h1>Glossary</h1>
+    
+    {{ $termList := slice }}
+    {{ range hugo.Sites }}
+        {{ range .Pages}}
+            {{ $matches := findRE `\{\{<\s*dfn\s+"(.*?)"\s*>\}\}` .RawContent }}
+            {{ $page := . }}
+            {{ range $matches }}
+                {{ $term := . | replaceRE `\{\{<\s*dfn\s+"(.*?)"\s*>\}\}` "$1" }}
+                {{ $termList = $termList | append (dict "term" $term "link" $page.RelPermalink "id" ($term | urlize)) }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    {{ if $termList }}
+        <div class="glossary-alphabetical">
+            {{ $currentLetter := "" }}
+            {{ range sort $termList "term" "asc" }}
+                {{ $firstChar := substr .term 0 1 | upper }}
+                {{ if ne $firstChar $currentLetter }}
+                    {{ if ne $currentLetter "" }}</ul>{{ end }}
+                    <h2 class="glossary-letter" id="letter-{{ $firstChar }}">{{ $firstChar }}</h2>
+                    <ul class="list-unstyled">
+                    {{ $currentLetter = $firstChar }}
+                {{ end }}
+                <li>
+                    <a href="{{ .link }}#def-{{ .id }}" class="glossary-term-link">
+                        {{ .term | title }}
+                    </a>
+                </li>
+            {{ end }}
+            {{ if ne $currentLetter "" }}</ul>{{ end }}
+        </div>
+    {{ else }}
+        <p>No definitions found yet.</p>
+    {{ end }}
+</div>
+{{ end }}

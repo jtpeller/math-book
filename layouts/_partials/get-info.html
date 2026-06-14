@@ -1,0 +1,26 @@
+{{ $num := "" }}
+{{ $title := .Title }}
+
+{{ if .File }}
+    {{ $raw := .File.ContentBaseName }}
+    {{/* If it is a section (folder), use the directory name instead of _index */}}
+    {{ if .IsSection }}
+        {{ $raw = .File.Dir | replaceRE "\\\\" "/" | path.Base }}
+    {{ end }}
+
+    {{/* Extract number: only if the string starts with digits */}}
+    {{ $numMatch := findRE "^[0-9]+" $raw }}
+    {{ if $numMatch }}
+        {{ $num = index $numMatch 0 | replaceRE "^0+" "" }}
+    {{ end }}
+
+    {{/* Fallback to parsing if Title is missing, generic, or matches the internal filename */}}
+    {{ if or (not .Title) (eq .Title .File.ContentBaseName) (eq .Title "_index") }}
+        {{ $clean := $raw | replaceRE "^[0-9]+-?" "" | replaceRE "-" " " | title }}
+        {{ if and (ne $clean ".") (ne $clean "_index") }}
+            {{ $title = $clean }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return (dict "Num" $num "Title" $title) }}

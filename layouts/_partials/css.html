@@ -1,0 +1,7 @@
+{{ $src := . }}
+{{ with resources.Get $src }}
+    {{ $style := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
+{{ else }}
+    {{ warnf "CSS resource %q not found in assets/ directory." $src }}
+{{ end }}

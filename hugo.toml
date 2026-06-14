@@ -1,0 +1,21 @@
+baseURL = 'https://jtpeller.github.io/math-book'
+locale = 'en-us'
+title = 'Math Book'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                enable = true
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    block = [['$$', '$$'], ['\[', '\]']]
+                    inline = [['$', '$'], ['\(', '\)']]
+        [markup.goldmark.renderer]
+            unsafe = true # Allows raw HTML/Tex if needed
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[params]
+    description = "A comprehensive math book from basic operations to differential equations."
+    math = true

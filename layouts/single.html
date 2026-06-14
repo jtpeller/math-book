@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ $info := partial "get-info.html" . }}
+
+<article class="page-content">
+    <header class="py-4 mb-5 border-bottom">
+        {{/* Breadcrumb navigation for hierarchy awareness */}}
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ site.Home.RelPermalink }}" class="text-decoration-none text-info">Home</a></li>
+                {{ with .Parent }}
+                    {{ $parentInfo := partial "get-info.html" . }}
+                    <li class="breadcrumb-item"><a href="{{ .RelPermalink }}" class="text-decoration-none text-info">{{ $parentInfo.Title }}</a></li>
+                {{ end }}
+                <li class="breadcrumb-item active" aria-current="page">Section {{ $info.Num }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-4 fw-bold">{{ $info.Title }}</h1>
+        {{ with .Description }}
+            <p class="lead text-secondary">{{ . }}</p>
+        {{ end }}
+    </header>
+
+    <div class="section-content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

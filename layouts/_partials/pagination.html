@@ -1,0 +1,46 @@
+{{/* Construct a flat list of pages in the order they appear in the navigation */}}
+{{ $allPages := where site.Pages "Kind" "in" (slice "page" "section") }}
+{{ $allPages = where $allPages "IsHome" false }}
+{{ $allPages = where $allPages "Params.layout" "!=" "glossary" }}
+{{ $bookPages := sort $allPages "File.Path" "asc" }}
+
+{{ $prev := false }}
+{{ $next := false }}
+{{ $currentPage := . }}
+
+{{/* Find the neighbors of the current page in the flat list */}}
+{{ range $index, $page := $bookPages }}
+    {{ if eq $page.Permalink $currentPage.Permalink }}
+        {{ if gt $index 0 }}
+            {{ $prev = index $bookPages (sub $index 1) }}
+        {{ end }}
+        {{ if lt $index (sub (len $bookPages) 1) }}
+            {{ $next = index $bookPages (add $index 1) }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<div class="d-flex justify-content-between mt-5 py-4 border-top">
+    <div class="prev">
+        {{ with $prev }}
+        {{ $prevTitle := .Title }}
+        {{ if eq .Title .File.ContentBaseName }}
+            {{ $prevTitle = .File.ContentBaseName | replaceRE "^[0-9]+-?" "" | replaceRE "-" " " | title }}
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="btn btn-outline-secondary">
+            &larr; Previous: {{ $prevTitle }}
+        </a>
+        {{ end }}
+    </div>
+    <div class="next">
+        {{ with $next }}
+        {{ $nextTitle := .Title }}
+        {{ if eq .Title .File.ContentBaseName }}
+            {{ $nextTitle = .File.ContentBaseName | replaceRE "^[0-9]+-?" "" | replaceRE "-" " " | title }}
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="btn btn-outline-primary">
+            Next: {{ $nextTitle }} &rarr;
+        </a>
+        {{ end }}
+    </div>
+</div>

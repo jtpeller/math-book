@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    <header class="sticky-top">
+        {{ partial "nav.html" . }}
+    </header>
+
+    <div class="container markdown-body">
+        {{ block "main" . }}
+        {{ .Content }}
+        {{ end }}
+        {{ if not .IsHome }}
+        {{ partial "pagination.html" . }}
+        {{ end }}
+    </div>
+
+    {{ partial "body-scripts.html" . }}
+</body>
+
+</html>

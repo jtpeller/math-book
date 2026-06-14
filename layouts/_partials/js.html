@@ -1,0 +1,7 @@
+{{ $src := . }}
+{{ with resources.Get $src }}
+    {{ $script := . | minify | fingerprint }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
+{{ else }}
+    {{ warnf "JS resource %q not found in assets/ directory." $src }}
+{{ end }}

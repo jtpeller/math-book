@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+html, body {
+    background-color: var(--bg-color) !important;
+    color: var(--color-text);
+}
+
+:target {
+    background-color: var(--color-active-dfn) !important;
+}
+
+a {
+    color: var(--color-link);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-top: 70px;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h1, h2 {
+    border-bottom: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+img {
+    background-color: white;
+    max-width: 90% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+blockquote > p {
+    margin-bottom: 5px;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center ;
+}
+
+th, td {
+    padding: 8px;
+}
+
+blockquote {
+    display: block;
+    background-color: var(--quote-color);
+    border-left: 4px solid var(--quote-border-color);
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+table {
+    background-color: var(--table-bg-color) !important;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: var(--thead-bg-color) !important;
+    border: 1px solid var(--table-border-color) !important;
+}
+
+th {
+    padding: 8px;
+}
+
+td {
+    border: 1px solid var(--table-border-color) !important;
+    padding: 8px;
+}
+
+/* Center display math blocks */
+.math.display {
+    display: block;
+    margin: 1rem auto;
+    overflow-x: auto;
+    text-align: center;
+}
+
+/* Ensure inline math doesn't break lines awkwardly */
+.math.inline {
+    white-space: nowrap;
+}
+
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+span.smallcaps {
+    font-variant: small-caps;
+}
+
+div.columns {
+    display: flex;
+    gap: min(4vw, 1.5em);
+}
+
+div.column {
+    flex: auto;
+    overflow-x: auto;
+}
+
+div.hanging-indent {
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+/* Special Quotes */
+blockquote:has(.alert-note) {
+    border-left-color: var(--color-note);
+}
+
+blockquote:has(.alert-warning) {
+    border-left-color: var(--color-warning);
+}
+
+blockquote:has(.alert-tip) {
+    border-left-color: var(--color-tip);
+}
+
+blockquote:has(.alert-important) {
+    border-left-color: var(--color-important);
+}
+
+blockquote:has(.alert-todo) {
+    border-left-color: var(--color-note);
+}
+
+/* Note (Blue) */
+.alert-note {
+    border-left-color: var(--color-note);
+}
+
+.alert-note::before {
+    content: "ⓘ Note";
+    font-weight: bold;
+    color: var(--color-note);
+    display: block;
+}
+
+/* Warning (Yellow/Orange) */
+.alert-warning {
+    border-left-color: #9a6700;
+}
+
+.alert-warning::before {
+    content: "⚠ Warning";
+    font-weight: bold;
+    color: var(--color-warning);
+    display: block;
+}
+
+/* Tip (Green) */
+.alert-tip {
+    border-left-color: var(--color-tip);
+}
+
+.alert-tip::before {
+    content: "💡 Tip";
+    font-weight: bold;
+    color: var(--color-tip);
+    display: block;
+}
+
+/* Important (Purple) */
+.alert-important {
+    border-left-color: var(--color-important);
+}
+
+.alert-important::before {
+    content: "❗ Important";
+    font-weight: bold;
+    color: var(--color-important);
+    display: block;
+}
+
+/* Caution (Red) */
+.alert-caution {
+    border-left-color: var(--color-caution);
+}
+
+.alert-caution::before {
+    content: "🛑 Caution";
+    font-weight: bold;
+    color: var(--color-caution);
+    display: block;
+}
+
+/* Todo (Blue) */
+.alert-todo {
+    border-left-color: var(--color-note);
+}
+
+.alert-todo::before {
+    content: "ⓘ TO-DO";
+    font-weight: bold;
+    color: var(--color-note);
+    display: block;
+}

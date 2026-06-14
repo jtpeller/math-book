@@ -1,0 +1,70 @@
+<nav class="navbar fixed-top shadow border-bottom">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon">&nbsp;</span>
+    </button>
+    <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">Math</a>
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+    <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title">Table of Contents</h5>
+        <div class="ms-auto d-flex align-items-center">
+            <button id="theme-toggle" class="btn btn-link nav-link p-0 me-3" type="button">
+                <span id="theme-icon">🌓</span>
+            </button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas">&nbsp;</button>
+        </div>
+    </div>
+    <div class="offcanvas-body">
+        <div class="mb-3 px-2">
+            <input type="text" id="nav-search" class="form-control form-control-sm border-secondary" placeholder="Filter sections...">
+        </div>
+        <ul class="navbar-nav flex-column" id="nav-list">
+            <!-- HOME PAGE -->
+            <li class="nav-item">
+                <a class="nav-link nav-header-unit mt-3 py-1" href="{{ site.Home.RelPermalink }}">
+                    Home
+                </a>
+            </li>
+          {{ $allPages := where site.Pages "Kind" "in" (slice "page" "section") }}
+          {{ $allPages = where $allPages "IsHome" false }}
+          {{ $allPages = where $allPages "Params.layout" "!=" "glossary" }}
+          {{ $bookPages := sort $allPages "File.Path" "asc" }}
+
+          {{ range $bookPages }}
+            {{ $info := partial "get-info.html" . }}
+            {{/* A page is a 'Landing' page if it's a Hugo Section or its number is 0 */}}
+            {{ $isLanding := or .IsSection (eq $info.Num "0") }}
+            
+            {{/* Identify Level: 1 = Unit, 2 = Chapter, 3+ = Section */}}
+            {{ $isUnit := and $isLanding .Parent.IsHome }}
+            {{ $isChapter := and $isLanding (not .Parent.IsHome) .Parent.Parent.IsHome }}
+            {{ $level := len .Ancestors }}
+
+            <li class="nav-item">
+              {{ if $isUnit }}
+                <a class="nav-link nav-header-unit mt-3 py-1" href="{{ .RelPermalink }}">
+                  {{ with $info.Num }}Unit {{ . }}: {{ end }}{{ $info.Title }}
+                </a>
+              {{ else if $isChapter }}
+                <a class="nav-link nav-header-chapter mt-2 py-1" href="{{ .RelPermalink }}">
+                  {{ with $info.Num }}Chapter {{ . }}: {{ end }}{{ $info.Title }}
+                </a>
+              {{ else }}
+                <a class="nav-link nav-header-section mt-1 py-1" href="{{ .RelPermalink }}">
+                  {{ with $info.Num }}Section {{ . }}: {{ end }}{{ $info.Title }}
+                </a>
+              {{ end }}
+            </li>
+          {{ end }}
+          <!-- Glossary Page -->
+          <li class="nav-item">
+            <a class="nav-link nav-header-unit mt-3 py-1" href='{{ "glossary" | relURL }}'>
+              Glossary
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
