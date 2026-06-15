@@ -17,7 +17,8 @@
 }
 
 .active-nav-item {
-    color: var(--color-active)
+    color: var(--color-active) !important;
+    border-bottom: 1px solid var(--color-active) !important;
 }
 
 /* Common header formatting. */

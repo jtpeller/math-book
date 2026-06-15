@@ -1,0 +1,80 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="white" />
+    <title>Perpendicular vs Orthonormal</title>
+
+    <!-- Definitions -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="7" refX="5" refY="0" orient="auto">
+            <polygon points="0 0, 7 3.5, 0 7" fill="#333" />
+        </marker>
+        <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <polygon points="0 0, 7 3.5, 0 7" fill="#2563eb" />
+        </marker>
+        <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <polygon points="0 0, 7 3.5, 0 7" fill="#dc2626" />
+        </marker>
+    </defs>
+
+    <!-- Title -->
+    <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18"
+        font-weight="bold">Perpendicular vs. Orthonormal</text>
+
+    <!-- ================= PERPENDICULAR SECTION ================= -->
+    <g transform="translate(50, 80)">
+        <text x="100" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+            fill="#555">Perpendicular</text>
+        <text x="100" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">(Angle =
+            90°, Lengths vary)</text>
+
+        <!-- Grid -->
+        <rect x="0" y="30" width="200" height="150" fill="#f0f9ff" stroke="#e2e8f0" stroke-dasharray="4,4" />
+
+        <!-- Vector u (Long) -->
+        <line x1="100" y1="180" x2="100" y2="60" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)" />
+        <text x="110" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2563eb">u
+            (len=4)</text>
+
+        <!-- Vector v (Short) -->
+        <line x1="100" y1="180" x2="160" y2="180" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-red)" />
+        <text x="165" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">v
+            (len=2)</text>
+
+        <!-- Right Angle Marker -->
+        <path d="M 100 160 L 120 160 L 120 180" fill="none" stroke="#333" stroke-width="2" />
+
+        <text x="100" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">u · v =
+            0</text>
+    </g>
+
+    <!-- ================= ORTHONORMAL SECTION ================= -->
+    <g transform="translate(350, 80)">
+        <text x="100" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+            fill="#555">Orthonormal</text>
+        <text x="100" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">(Angle =
+            90°, Length = 1)</text>
+
+        <!-- Grid (Unit Grid) -->
+        <rect x="0" y="30" width="200" height="150" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" />
+        <!-- Minor grid lines -->
+        <line x1="0" y1="130" x2="200" y2="130" stroke="#bbf7d0" stroke-width="1" />
+        <line x1="100" y1="30" x2="100" y2="180" stroke="#bbf7d0" stroke-width="1" />
+
+        <!-- Vector i (Unit Length) -->
+        <line x1="100" y1="180" x2="100" y2="80" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)" />
+        <text x="110" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2563eb">i
+            (len=1)</text>
+
+        <!-- Vector j (Unit Length) -->
+        <line x1="100" y1="180" x2="200" y2="180" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-red)" />
+        <text x="190" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">j
+            (len=1)</text>
+
+        <!-- Right Angle Marker -->
+        <path d="M 100 160 L 120 160 L 120 180" fill="none" stroke="#333" stroke-width="2" />
+
+        <text x="100" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">i · j =
+            0<br />|i|=1, |j|=1</text>
+    </g>
+
+</svg>

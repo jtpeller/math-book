@@ -1,0 +1,85 @@
+<svg width="500" height="180" viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+    <!-- Definitions for Arrowheads -->
+    <defs>
+        <marker id="arrow-start" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+            <path d="M9,0 L9,6 L0,3 z" fill="#2563eb" />
+        </marker>
+        <marker id="arrow-end" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#2563eb" />
+        </marker>
+        <marker id="ray-arrow-end" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#dc2626" />
+        </marker>
+    </defs>
+
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="white" />
+
+    <!-- Title -->
+    <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold"
+        fill="#333">
+        Line vs. Ray vs. Line Segment
+    </text>
+
+    <!-- 1. LINE (Infinite in both directions) -->
+    <!-- Points A and B are on the line, arrows extend beyond them -->
+    <line x1="40" y1="80" x2="160" y2="80" stroke="#2563eb" stroke-width="3" marker-start="url(#arrow-start)"
+        marker-end="url(#arrow-end)" />
+
+    <!-- Point A -->
+    <circle cx="70" cy="80" r="4" fill="#000" />
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        fill="#333">A</text>
+
+    <!-- Point B -->
+    <circle cx="130" cy="80" r="4" fill="#000" />
+    <text x="130" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        fill="#333">B</text>
+
+    <text x="100" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2563eb">
+        <tspan font-style="italic">Line AB</tspan>
+    </text>
+    <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Infinite both
+        ways</text>
+
+    <!-- 2. RAY (Infinite in one direction) -->
+    <!-- Point C is the endpoint, Point D is on the ray -->
+    <line x1="220" y1="80" x2="320" y2="80" stroke="#dc2626" stroke-width="3" marker-end="url(#ray-arrow-end)" />
+
+    <!-- Point C -->
+    <circle cx="220" cy="80" r="4" fill="#000" />
+    <text x="220" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        fill="#333">C</text>
+
+    <!-- Point D -->
+    <circle cx="280" cy="80" r="4" fill="#000" />
+    <text x="280" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        fill="#333">D</text>
+
+    <text x="270" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">
+        <tspan font-style="italic">Ray CD</tspan>
+    </text>
+    <text x="270" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Starts at C,
+        goes to infinity</text>
+
+    <!-- 3. LINE SEGMENT (Finite, two endpoints) -->
+    <!-- Points E and F are the endpoints -->
+    <line x1="390" y1="80" x2="450" y2="80" stroke="#16a34a" stroke-width="3" />
+
+    <!-- Point E -->
+    <circle cx="390" cy="80" r="4" fill="#000" />
+    <text x="390" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        fill="#333">E</text>
+
+    <!-- Point F -->
+    <circle cx="450" cy="80" r="4" fill="#000" />
+    <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        fill="#333">F</text>
+
+    <text x="420" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#16a34a">
+        <tspan font-style="italic">Segment EF</tspan>
+    </text>
+    <text x="420" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Fixed
+        length</text>
+
+</svg>

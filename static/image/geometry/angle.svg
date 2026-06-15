@@ -1,0 +1,21 @@
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+    <!-- White Background -->
+    <rect width="100%" height="100%" fill="white" />
+
+    <!-- Arrow Marker -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+        </marker>
+    </defs>
+
+
+    <!-- Line 1 (Horizontal, pointing right) -->
+    <line x1="100" y1="100" x2="220" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Line 2 (Angled up, pointing up-right) -->
+    <line x1="100" y1="100" x2="200" y2="30" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Dashed Curved Arrow (Angle Indicator) -->
+    <path d="M150,100 Q165,85 140,70" fill="none" stroke="#9b0000" stroke-width="4" stroke-dasharray="3,2" />
+</svg>

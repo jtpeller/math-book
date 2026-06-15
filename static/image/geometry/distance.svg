@@ -1,0 +1,17 @@
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background (optional, for visibility) -->
+    <rect width="100%" height="100%" fill="white" />
+
+    <!-- Dashed Line connecting the points -->
+    <line x1="50" y1="75" x2="250" y2="75" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,5" />
+
+    <!-- First Point (Circle) -->
+    <circle cx="50" cy="75" r="8" fill="#2563eb" />
+
+    <!-- Second Point (Circle) -->
+    <circle cx="250" cy="75" r="8" fill="#2563eb" />
+
+    <!-- Optional Labels -->
+    <text x="50" y="100" text-anchor="middle" font-family="sans-serif" font-size="12">A</text>
+    <text x="250" y="100" text-anchor="middle" font-family="sans-serif" font-size="12">B</text>
+</svg>
