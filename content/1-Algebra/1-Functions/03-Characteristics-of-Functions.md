@@ -116,8 +116,8 @@ In other words, all values of the function will lie between some values $k$ and 
 
 $$
 \begin{aligned}
-&f(x) \leq k \\\\
-&f(x) \geq m \\\\
+&f(x) \leq k \\
+&f(x) \geq m \\
 \end{aligned}
 $$
 

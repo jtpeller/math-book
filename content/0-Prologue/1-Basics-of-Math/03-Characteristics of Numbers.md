@@ -108,11 +108,16 @@ Some of the essential constants include:
 $$e = \lim_{n\rightarrow\infty}{(1 + \frac{1}{n})^n}$$
 
 - {{< dfn "Imaginary Unit" >}} $(i)$ - Used for imaginary numbers. $i = \sqrt{-1}$. This constant has special properties:
-  $$i^2=-1$$
-  $$i^3=-1$$
-  $$i^4=1$$
-  $$i^5=i$$
-  $$i^6=-1$$
+
+  $$
+  \begin{aligned}
+  i^2 &= -1\\
+  i^3 &= -1\\
+  i^4 &= 1\\
+  i^5 &= i\\
+  i^6 &= -1\\
+  \end{aligned}
+  $$
   - This cycle continues indefinitely
 - {{< dfn "Pythagoras's Constant" >}} - Square root of two $(\sqrt{2})$. Originates in the Pythagorean Theorem (see Unit 2 for Geometry) where the sides of the triangle are 1, so the hypotenuse is $\sqrt{2}$.
   - Can be approximated by $99/70$.

@@ -33,7 +33,9 @@ The {{< dfn "Base" >}} specifies the number undergoing the operation. The number
 
 An example is:
 
-$$2^3 = 8$$
+$$
+2^3 = 8
+$$
 
 Here, the base is $2$, the exponent is $3$, and the power is $8$.
 
@@ -45,11 +47,15 @@ There are some interesting properties of exponetiation:
 
 A number to the power of 0 is always 1. That is:
 
-$$10^0 = 1$$
+$$
+10^0 = 1
+$$
 
 A number to the power of 1 is always itself. That is:
 
-$$10^1 = 10$$
+$$
+10^1 = 10
+$$
 
 These naturally make sense. If you "repeat" multiplication one time, then the expression naturally becomes the number itself; there is no repetition.
 
@@ -57,11 +63,15 @@ The number to the power of 0 being 1 is actually a result of a more complicated 
 
 Exponents can also be negative. These signify that the inverse of the number is to be taken. So:
 
-$$10^{-1} = \frac{1}{10^1} = \frac{1}{10}$$
+$$
+10^{-1} = \frac{1}{10^1} = \frac{1}{10}
+$$
 
 And:
 
-$$ 10^{-2} = \frac{1}{10^2} = \frac{1}{100}$$
+$$
+10^{-2} = \frac{1}{10^2} = \frac{1}{100}
+$$
 
 ## Inverting Exponentiation
 
@@ -81,10 +91,10 @@ Say this $x^3$ is being multiplied by $x^2$. What happens now? Can we simplify t
 
 $$
 \begin{aligned}
-&x^3 \cdot x^2 && \text{Starting point.} \\\\
-&=(x \cdot x \cdot x) \cdot (x \cdot x) && \text{Break the exponents into repeated multiplication.} \\\\
-&=x \cdot x \cdot x \cdot x \cdot x && \text{Multiplication is Associative, so the parentheses aren't needed.} \\\\
-&\boxed{=x^5} && \text{There are 5 }x\text{'s, so the exponent is }5 \\\\
+&x^3 \cdot x^2 && \text{Starting point.} \\
+&=(x \cdot x \cdot x) \cdot (x \cdot x) && \text{Break the exponents into repeated multiplication.} \\
+&=x \cdot x \cdot x \cdot x \cdot x && \text{Multiplication is Associative, so the parentheses aren't needed.} \\
+&\boxed{=x^5} && \text{There are 5 }x\text{'s, so the exponent is }5 \\
 \end{aligned}
 $$
 
@@ -95,7 +105,9 @@ Therefore, you *add* the exponents when multiplying terms **with the same base**
 
 This can be generalized as follows:
 
-$$x^m \cdot x^n = x^{m+n}$$
+$$
+x^m \cdot x^n = x^{m+n}
+$$
 
 Remember this for the future! It *will* come in handy!
 
@@ -107,9 +119,9 @@ We can. Let's take a look!
 
 $$
 \begin{aligned}
-&\frac{x^3}{x} && \text{Starting point.}\\\\
-&= \frac{x \cdot x \cdot x}{x} && \text{We know that: } x^3 = x \cdot x \cdot x\\\\
-&= \frac{x \cdot x \cdot \cancel{x}}{\cancel{x}} && \text{Cancel, since } x / x = 1\\\\
+&\frac{x^3}{x} && \text{Starting point.}\\
+&= \frac{x \cdot x \cdot x}{x} && \text{We know that: } x^3 = x \cdot x \cdot x\\
+&= \frac{x \cdot x \cdot \cancel{x}}{\cancel{x}} && \text{Cancel, since } x / x = 1\\
 &\boxed{= x}\; \checkmark && \text{All done!}
 \end{aligned}
 $$
@@ -121,7 +133,9 @@ Therefore, you *subtract* the exponents when dividing terms **with the same base
 
 This can be generalized as follows:
 
-$$\frac{x^m}{x^n} = x^{m-n}$$
+$$
+\frac{x^m}{x^n} = x^{m-n}
+$$
 
 Remember this for the future! It *will* come in handy!
 
@@ -131,66 +145,78 @@ Remember this for the future! It *will* come in handy!
 
 What happens if a number to an exponent undergoes exponentiation? That is:
 
-$$(x^3)^2$$
+$$
+(x^3)^2
+$$
 
 Well, let's break it down!
 
 $$
 \begin{aligned}
-&(x^3)^2 && \text{Starting point.}\\\\
-&=(x \cdot x \cdot x)^2 && \text{Break the term in the parentheses into repeated multiplication}\\\\
-&=(x \cdot x \cdot x) \cdot (x \cdot x \cdot x) && \text{Break this compound term into repeated multiplication}\\\\
-&=x \cdot x \cdot x \cdot x \cdot x \cdot x && \text{Multiplication is associative!}\\\\
-&\boxed{=x^6} && \text{There are 6 }x\text{'s now!}\\\\
+&(x^3)^2 && \text{Starting point.}\\
+&=(x \cdot x \cdot x)^2 && \text{Break the term in the parentheses into repeated multiplication}\\
+&=(x \cdot x \cdot x) \cdot (x \cdot x \cdot x) && \text{Break this compound term into repeated multiplication}\\
+&=x \cdot x \cdot x \cdot x \cdot x \cdot x && \text{Multiplication is associative!}\\
+&\boxed{=x^6} && \text{There are 6 }x\text{'s now!}\\
 \end{aligned}
 $$
 
 Let's look at this again: $(x^3)^2=x^6$. Notice something...? That's right, the exponents multiplied together! That is:
 
-$$(x^m)^n = x^{mn}$$
+$$
+(x^m)^n = x^{mn}
+$$
 
 #### Parenthetical Exponents
 
 Exponents may be applied to terms inside parentheses. For instance, let's say we have $x$ and $y$, and they are nested inside a block of exponentiation:
 
-$$(xy)^n$$
+$$
+(xy)^n
+$$
 
 What does this simplify to? Well, let's work on it:
 
 $$
 \begin{aligned}
-&(xy)^3 && \text{Starting point.}\\\\
-&=(xy) \cdot (xy) \cdot (xy) && \text{Convert to repeated multiplication!}\\\\
-&=xyxyxy && \text{Multiplication is associative. Parentheses are unnecessary here}\\\\
-&=xxxyyy && \text{Rearrange for clarity}\\\\
+&(xy)^3 && \text{Starting point.}\\
+&=(xy) \cdot (xy) \cdot (xy) && \text{Convert to repeated multiplication!}\\
+&=xyxyxy && \text{Multiplication is associative. Parentheses are unnecessary here}\\
+&=xxxyyy && \text{Rearrange for clarity}\\
 &\boxed{=x^3y^3} && \text{All done!}
 \end{aligned}
 $$
 
 This demonstrates the next law, which is that exponents can be "distributed" to each term in the parentheses!
 
-$$(xy)^n = x^ny^n$$
+$$
+(xy)^n = x^ny^n
+$$
 
 ---
 
 What about division? What if x and y are being divided, like the following expression? Can *that* be simplified?
 
-$$(x/y)^n$$
+$$
+(x/y)^n
+$$
 
 Of course! Let's take a look
 
 $$
 \begin{aligned}
-&(x/y)^3 && \text{Starting point.}\\\\
-&=(x/y) \cdot (x/y) \cdot (x/y) && \text{Convert to repeated multiplication!}\\\\
-&=xxx/yyy && \text{Division is associative. Consolidate the fractions}\\\\
+&(x/y)^3 && \text{Starting point.}\\
+&=(x/y) \cdot (x/y) \cdot (x/y) && \text{Convert to repeated multiplication!}\\
+&=xxx/yyy && \text{Division is associative. Consolidate the fractions}\\
 &\boxed{=x^3/y^3} && \text{All done!}
 \end{aligned}
 $$
 
 Therefore, we have seen the demonstration of this next law:
 
-$$(x/y)^n = \frac{x^n}{y^n}$$
+$$
+(x/y)^n = \frac{x^n}{y^n}
+$$
 
 ---
 
@@ -200,17 +226,23 @@ Exponentiation can be used to represent very large numbers in an extremely helpf
 
 Writing this National Debt number would be:
 
-$$3.90218829 \cdot 10^13$$
+$$
+3.90218829 \cdot 10^13
+$$
 
 This essentially "extracts" the "size" of the number (that is, how many digits there are) into the $10^13$ value. Generally, numbers in scientific form are written as:
 
-$$m \times 10^n$$
+$$
+m \times 10^n
+$$
 
 Where $m$ is a number (rational, irrational, or integer) that is between 1 and 10 (or, between -10 and -1). Note that this does not include the number 10.
 
 But, scientific notation can also represent small numbers too! Recall that negative exponents allow you to express numbers smaller than 1 (that is, decimals or fractions). You can therefore represent small numbers too! Imagine instead you were trying to represent the average thickness of a human hair, which is $~75$ microns (micrometers). This is equivalent to $0.000075$ meters. You could also represent this as:
 
-$$7.5 \times 10^-5$$
+$$
+7.5 \times 10^-5
+$$
 
 In order to manually represent a number in scientific notation, you just need to figure out the exponent, since you already know the number you're trying to represent. To figure out the $n$ in scientific notation form, you will need to count the number of decimal places you would have to move the decimal in the original number to get to the final number which must be between 1 and 10.
 
@@ -218,20 +250,20 @@ First, let's follow the process to represent the U.S. National Debt in scientifi
 
 $$
 \begin{aligned}
-39021882900000 \phantom{00000}\text{(0)} \\\\
-3902188290000 \phantom{00000}\text{(1)} \\\\
-390218829000 \phantom{00000}\text{(2)} \\\\
-39021882900 \phantom{00000}\text{(3)} \\\\
-3902188290 \phantom{00000}\text{(4)} \\\\
-390218829 \phantom{00000}\text{(5)} \\\\
-39021882.9 \phantom{00000}\text{(6)} \\\\
-3902188.29 \phantom{00000}\text{(7)} \\\\
-390218.829 \phantom{00000}\text{(8)} \\\\
-39021.8829 \phantom{00000}\text{(9)} \\\\
-3902.18829 \phantom{0000}\text{(10)} \\\\
-390.218829 \phantom{0000}\text{(11)} \\\\
-39.0218829 \phantom{0000}\text{(12)} \\\\
-3.90218829 \phantom{0000}\text{(13)} \\\\
+39021882900000 \phantom{00000}\text{(0)} \\
+3902188290000 \phantom{00000}\text{(1)} \\
+390218829000 \phantom{00000}\text{(2)} \\
+39021882900 \phantom{00000}\text{(3)} \\
+3902188290 \phantom{00000}\text{(4)} \\
+390218829 \phantom{00000}\text{(5)} \\
+39021882.9 \phantom{00000}\text{(6)} \\
+3902188.29 \phantom{00000}\text{(7)} \\
+390218.829 \phantom{00000}\text{(8)} \\
+39021.8829 \phantom{00000}\text{(9)} \\
+3902.18829 \phantom{0000}\text{(10)} \\
+390.218829 \phantom{0000}\text{(11)} \\
+39.0218829 \phantom{0000}\text{(12)} \\
+3.90218829 \phantom{0000}\text{(13)} \\
 \end{aligned}
 $$
 
@@ -244,12 +276,12 @@ Now let's follow the process to represent $0.000075$ in scientific notation:
 
 $$
 \begin{aligned}
-0.000075 \phantom{0000}\text{(0)} \\\\
-0.00075 \phantom{0000}\text{(-1)} \\\\
-0.0075 \phantom{0000}\text{(-2)} \\\\
-0.075 \phantom{0000}\text{(-3)} \\\\
-0.75 \phantom{0000}\text{(-4)} \\\\
-7.5 \phantom{0000}\text{(-5)} \\\\
+0.000075 \phantom{0000}\text{(0)} \\
+0.00075 \phantom{0000}\text{(-1)} \\
+0.0075 \phantom{0000}\text{(-2)} \\
+0.075 \phantom{0000}\text{(-3)} \\
+0.75 \phantom{0000}\text{(-4)} \\
+7.5 \phantom{0000}\text{(-5)} \\
 \end{aligned}
 $$
 

@@ -36,8 +36,8 @@ You'll notice that there is a common piece in each term: $2x^2$. That is, each t
 
 $$
 \begin{aligned}
-&6x^5 + 8x^4 + 4x^3 + 2x^2 \\\\
-&= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2) \\\\
+&6x^5 + 8x^4 + 4x^3 + 2x^2 \\
+&= 3x^3(2x^2) + 4x^2(2x^2) + 2x(2x^2) + 1(2x^2) \\
 &= 2x^2(3x^3 + 4x^2 + 2x + 1)
 \end{aligned}
 $$
@@ -86,12 +86,12 @@ While this method always works, it is also quite exhausting and relatively ineff
 So, you would do the following:
 
 $$
-\begin{aligned} \\\\
-16 &= 2 \cdot 8 = 2 \cdot 2 \cdot 4 = 2 \cdot 2 \cdot 2 \cdot 2 \\\\
-64 &= 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \\\\
-24 &= 2 \cdot 2 \cdot 2 \cdot 3 \\\\
-96 &= 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \\\\
-184 &= 2 \cdot 2 \cdot 2 \cdot 23 \\\\
+\begin{aligned} \\
+16 &= 2 \cdot 8 = 2 \cdot 2 \cdot 4 = 2 \cdot 2 \cdot 2 \cdot 2 \\
+64 &= 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \\
+24 &= 2 \cdot 2 \cdot 2 \cdot 3 \\
+96 &= 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \\
+184 &= 2 \cdot 2 \cdot 2 \cdot 23 \\
 \end{aligned}
 $$
 

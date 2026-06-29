@@ -4,7 +4,6 @@ description = "How can you determine the original exponent for a given power?"
 weight = 10
 +++
 
-
 # Logarithms
 
 ## Contents
@@ -25,7 +24,9 @@ Exponentiation determines the result of repeatedly multiplying a value (the base
 
 Now, a typical logarithm looks as follows:
 
-$$\log_{\text{base}}(\text{anti-logarithm}) = \text{exponent}$$
+$$
+\log_{\text{base}}(\text{anti-logarithm}) = \text{exponent}
+$$
 
 The antilog, or {{< dfn "antilogarithm" >}}, is the "power" in a typical exponentiation expression (it is the result of the exponentiation). The base is the value such that $\text{base}^{\text{exponent}} = \text{antilog}$.
 
@@ -35,26 +36,36 @@ Now, you may see that the base is omitted. In such cases, it is assumed that the
 
 A special type of log known as the {{< dfn "Natural Logarithm" >}} is a logarithm such that the base is the Natural Number $e$ (aka Euler's Constant). This is expressed as:
 
-$$\log_{e}(x) = \ln(x)$$
+$$
+\log_{e}(x) = \ln(x)
+$$
 
 > This is spoken as "The natural log of $x$"
 
 Let's look at some examples:
 
-$$\log_{10}(100)=2$$
+$$
+\log_{10}(100)=2
+$$
 
 This is because the base, $10$ must be raised to the power of $2$ in order to have a result of $100$. But, not every logarithm is so clean. More than likely, your resultant exponent will not be a whole number, such as:
 
-$$\log_{5}(100)\approx2.86135...$$
+$$
+\log_{5}(100)\approx2.86135...
+$$
 
 ## Unique Properties of Logarithms
 
 Logarithms have some unique properties. These equalities enable great simplifications when working with them. Use these as a reference when working on problems to allow immense simplifications.
 
-$$\log_b{(M \cdot N)} = \log_b{M} + \log_b{N}$$
-$$\log_b{\frac{M}{N}} = \log_b{M}-\log_b{N}$$
-$$\log_b({M^k}) = k \cdot \log_b{M}$$
-$$\log_b{1}=0$$
-$$\log_b{b}=1$$
-$$\log_b(b^k)=k$$
-$$b^{log_b{k}}=k$$
+$$
+\begin{aligned}
+\log_b{(M \cdot N)} &= \log_b{M} + \log_b{N} \\
+\log_b{\frac{M}{N}} &= \log_b{M}-\log_b{N} \\
+\log_b({M^k}) &= k \cdot \log_b{M} \\
+\log_b{1} &= 0 \\
+\log_b{b} &= 1 \\
+\log_b(b^k) &= k \\
+b^{log_b{k}} &= k \\
+\end{aligned}
+$$

@@ -16,13 +16,17 @@ description = "An n-th root is repeated division!"
 
 The {{< dfn "N-th Root" >}} is essentially repeated division, defined in a way similar to exponentiation. Divides a number by itself $n$ times. It looks like this:
 
-$$\sqrt[n]{x} = \text{root}$$
+$$
+\sqrt[n]{x} = \text{root}
+$$
 
 > This is read as "The $n$th root of $x$", which is equal to the root value.
 
 This states that the $n$th root of $x$ results in the root. Comparing this to exponentiation yields the following:
 
-$$\sqrt[\text{exponent}]{\text{power}} = \text{base}$$
+$$
+\sqrt[\text{exponent}]{\text{power}} = \text{base}
+$$
 
 This should illustrate the relationship between the two operations. Exponentiation discovers the power, and thus that can be undone via its inverse operation, the $n$th root.
 
@@ -32,23 +36,31 @@ There are two special kinds of roots that are very common to mathematics and eve
 
 For square roots, you will most commonly see it with the 2 omitted:
 
-$$\sqrt{x}$$
+$$
+\sqrt{x}
+$$
 
 > This can be spoken as "The square root of $x$", while $\sqrt[3]{x}$ would be spoken as "the cube root of $x$".
 
 Even more interesting about roots is the way they can be expressed in exponentiation. For instance,
 
-$$\sqrt{x} = \sqrt[2]{x} = x^{\frac{1}{2}}$$
+$$
+\sqrt{x} = \sqrt[2]{x} = x^{\frac{1}{2}}
+$$
 
 This is crucial! A root is actually just a form of exponentiation! You can therefore represent any $n$th root using exponents as fractions:
 
-$$x^{\frac{1}{n}} = \sqrt[n]{x}$$
+$$
+x^{\frac{1}{n}} = \sqrt[n]{x}
+$$
 
 This is key information later. You might ask, what about fractions where the numerator isn't just 1. Well, that's when this becomes even more interesting!
 
 It follows that, if the exponent is not just one, then the result of a exponent being a fraction can be simplified to:
 
-$$x^{\frac{m}{n}} = (\sqrt[n]{x})^m$$
+$$
+x^{\frac{m}{n}} = (\sqrt[n]{x})^m
+$$
 
 > ### Extra Credit
 >

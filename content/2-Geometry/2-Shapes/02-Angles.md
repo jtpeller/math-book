@@ -1,6 +1,6 @@
 +++
 title = "Angles"
-description = "Discusses angles in greater detail!"
+description = "Two intersecting lines create an angle!"
 +++
 
 # Angles

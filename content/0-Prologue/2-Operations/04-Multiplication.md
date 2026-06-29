@@ -29,11 +29,15 @@ This sounds strange, so let's look at an example. Say you make $15 an hour, and 
 
 You could represent this as chunks of hours, added together, like this:
 
-$$15 + 15 + 15 + 15 = 60$$
+$$
+15 + 15 + 15 + 15 = 60
+$$
 
 Imagine if you worked 8 hours, or wanted to summarize a whole month of work (say, 160 hours). Writing that whole situation out for 160 hours would be quite redundant. Multiplication makes this a lot simpler. To model the original situation of $15 an hour for 4 hours, you could instead write:
 
-$$15 \times 4$$
+$$
+15 \times 4
+$$
 
 Now multiplication actually has multiple symbols (*go figure*), which can be any of the following: $\times$, $\cdot$, $*$, etc. While they all look different, they represent the same operation.
 
@@ -41,8 +45,12 @@ Now multiplication actually has multiple symbols (*go figure*), which can be any
 
 Multiplication refers to their operands as {{< dfn "factors" >}}. Sometimes, you will hear {{< dfn "multiplicand" >}} and {{< dfn "multiplier" >}}, which refer to the first and second terms respectively. The result of multiplication is known as the {{< dfn "product" >}}. That is, multiplication can be modeled as either:
 
-$$\text{factor} \cdot \text{factor} = \text{product}$$
-$$\text{multiplicand} \cdot \text{multiplier} = \text{product}$$
+$$
+\begin{aligned}
+\text{factor} \cdot \text{factor} = \text{product} \\
+\text{multiplicand} \cdot \text{multiplier} = \text{product}
+\end{aligned}
+$$
 
 ## Conventions of Multiplication
 
@@ -50,11 +58,15 @@ There are a few conventions that should be followed when writing these operation
 
 When multiplication is presented with parentheses, you can omit the symbol:
 
-$$4 \cdot (3 + 2) = 4(3+2)$$
+$$
+4 \cdot (3 + 2) = 4(3+2)
+$$
 
 When multiplication is presented with letters or non-numerical symbols, you can omit the symbol:
 
-$$4 \cdot x = 4x$$
+$$
+4 \cdot x = 4x
+$$
 
 Typically, to avoid confusion, if you are using an kind of letters or non-numerical symbols, you would want to avoid using the $\times$ symbol, since (especially with hand-writing) that could be confused with the $x$.
 
@@ -66,9 +78,9 @@ Let's start with a simple example:
 
 $$
 \begin{aligned}
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times}1508 \\\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times}1508 \\
 \end{aligned}
 $$
 
@@ -83,10 +95,10 @@ The general algorithm (process) to do this is to:
 
 $$
 \begin{aligned}
-&\phantom{000}_1\phantom{0}\\\\
-&\phantom{\times00}52 \\\\
-&\underline{\times\phantom{00}29} \\\\
-&\phantom{\times000}8 \\\\
+&\phantom{000}_1\phantom{0}\\
+&\phantom{\times00}52 \\
+&\underline{\times\phantom{00}29} \\
+&\phantom{\times000}8 \\
 &\end{aligned}
 $$
 
@@ -96,25 +108,25 @@ $$
 
 $$
 \begin{aligned}
-\phantom{0}_4\phantom{00}\\\\
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times00}68 \\\\
+\phantom{0}_4\phantom{00}\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times00}68 \\
 \end{aligned}
 $$
 
 $$
-\text{You must consider the carry. We know that }9 \cdot 5 = 45 \text{, but then include the carry: }45+1 = 46.\\\\
-\phantom{\n} \\\\
+\text{You must consider the carry. We know that }9 \cdot 5 = 45 \text{, but then include the carry: }45+1 = 46.\\
+\phantom{\n} \\
 \text{Now, the ones place is done! Bring the carry down!}
 $$
 
 $$
 \begin{aligned}
-\phantom{00}\phantom{00}\\\\
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
+\phantom{00}\phantom{00}\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
 \end{aligned}
 $$
 
@@ -124,11 +136,11 @@ $$
 
 $$
 \begin{aligned}
-\phantom{00}\phantom{00}\\\\
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
-\phantom{\times000}0 \\\\
+\phantom{00}\phantom{00}\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
+\phantom{\times000}0 \\
 \end{aligned}
 $$
 
@@ -138,11 +150,11 @@ $$
 
 $$
 \begin{aligned}
-\phantom{00}\phantom{00}\\\\
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
-\phantom{\times00}40 \\\\
+\phantom{00}\phantom{00}\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
+\phantom{\times00}40 \\
 \end{aligned}
 $$
 
@@ -152,11 +164,11 @@ $$
 
 $$
 \begin{aligned}
-\phantom{}_1\phantom{000}\\\\
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
-\phantom{\times0}040 \\\\
+\phantom{}_1\phantom{000}\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
+\phantom{\times0}040 \\
 \end{aligned}
 $$
 
@@ -166,10 +178,10 @@ $$
 
 $$
 \begin{aligned}
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
-\phantom{\times}1040 \\\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
+\phantom{\times}1040 \\
 \end{aligned}
 $$
 
@@ -179,10 +191,10 @@ $$
 
 $$
 \begin{aligned}
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
-\underline{+\phantom{0}1040} \\\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
+\underline{+\phantom{0}1040} \\
 \phantom{0000}8
 \end{aligned}
 $$
@@ -193,11 +205,11 @@ $$
 
 $$
 \begin{aligned}
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{0}_1\phantom{00}\\\\
-\phantom{\times0}468 \\\\
-\underline{+\phantom{0}1040} \\\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{0}_1\phantom{00}\\
+\phantom{\times0}468 \\
+\underline{+\phantom{0}1040} \\
 \phantom{000}08
 \end{aligned}
 $$
@@ -208,11 +220,11 @@ $$
 
 $$
 \begin{aligned}
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{0}_1\phantom{00}\\\\
-\phantom{\times0}468 \\\\
-\underline{+\phantom{0}1040} \\\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{0}_1\phantom{00}\\
+\phantom{\times0}468 \\
+\underline{+\phantom{0}1040} \\
 \phantom{00}508
 \end{aligned}
 $$
@@ -223,10 +235,10 @@ $$
 
 $$
 \begin{aligned}
-\phantom{\times0}52 \\\\
-\underline{\times\phantom{00}29} \\\\
-\phantom{\times0}468 \\\\
-\underline{+\phantom{0}1040} \\\\
+\phantom{\times0}52 \\
+\underline{\times\phantom{00}29} \\
+\phantom{\times0}468 \\
+\underline{+\phantom{0}1040} \\
 \phantom{0}1508
 \end{aligned}
 $$

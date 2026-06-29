@@ -59,8 +59,8 @@ Therefore, your distribution, following FOIL order would be:
 
 $$
 \begin{aligned}
-&(ax + by)(cx + dy) \\\\
-&= ax \cdot cx + ax \cdot dy + by \cdot cx + by \cdot dy \\\\
+&(ax + by)(cx + dy) \\
+&= ax \cdot cx + ax \cdot dy + by \cdot cx + by \cdot dy \\
 &= \boxed{acx^2 + adxy + bcxy + bdy^2}
 \end{aligned}
 $$
@@ -69,10 +69,10 @@ Here's a numerical example:
 
 $$
 \begin{aligned}
-&(5x + 3y)(2x - y) \\\\
-&= 5x \cdot 2x + 5x \cdot (-y) + 3y \cdot 2x + 3y \cdot (-y) \\\\
-&= 10x^2 - 5xy + 6xy - 3y^2 \\\\
-&=\boxed{10x^2 + xy - 3y^2} \\\\
+&(5x + 3y)(2x - y) \\
+&= 5x \cdot 2x + 5x \cdot (-y) + 3y \cdot 2x + 3y \cdot (-y) \\
+&= 10x^2 - 5xy + 6xy - 3y^2 \\
+&=\boxed{10x^2 + xy - 3y^2} \\
 \end{aligned}
 $$
 

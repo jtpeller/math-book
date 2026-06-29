@@ -1,7 +1,7 @@
 MathJax = {
     tex: {
         displayMath: [['\\[', '\\]'], ['$$', '$$']],  // block
-        inlineMath: [['\\(', '\\)'], ['$', '$']]                  // inline
+        inlineMath: [['\\(', '\\)'], ['\$', '\$']]    // inline
     },
     loader: {
         load: ['ui/safe']

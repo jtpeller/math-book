@@ -106,7 +106,7 @@ You *KNOW* this is true because you have the final total. What you DO NOT know i
 
 $$
 \begin{aligned}
-3 * W > 150\\\\
+3 * W > 150\\
 5 * W < 150
 \end{aligned}
 $$
@@ -124,9 +124,9 @@ On the low end (that is, if P was 3), then you could estimate the minimum number
 
 $$
 \begin{aligned}
-&3 * W \gt 150\phantom{000000}\text{First step is to isolate W. Divide both sides by }3\\\\
-&\frac{3 * W}{3} \gt \frac{150}{3}\phantom{00000}\text{Now you can simplify the fractions.}\\\\
-&\frac{\cancel{3} * W}{\cancel{3}} \gt 50\phantom{000000.}\text{You may cancel the 3 in the other fraction since 3 / 3 = 1. Also, 150 divided by 3 is 50.}\\\\
+&3 * W \gt 150\phantom{000000}\text{First step is to isolate W. Divide both sides by }3\\
+&\frac{3 * W}{3} \gt \frac{150}{3}\phantom{00000}\text{Now you can simplify the fractions.}\\
+&\frac{\cancel{3} * W}{\cancel{3}} \gt 50\phantom{000000.}\text{You may cancel the 3 since 3 / 3 = 1. Also, 150 divided by 3 is 50.}\\
 &\boxed{W \gt 50}
 \end{aligned}
 $$
@@ -135,9 +135,9 @@ Now, you know that the number of watermelons you purchased is more than 50. Now,
 
 $$
 \begin{aligned}
-&5 * W \lt 150\phantom{000000}\text{First step is to isolate W. Divide both sides by }5\\\\
-&\frac{5 * W}{5} \lt \frac{150}{5}\phantom{00000}\text{Now you can simplify the fractions.}\\\\
-&\frac{\cancel{5} * W}{\cancel{5}} \lt 30\phantom{000000.}\text{You may cancel the 5 in the other fraction since 5 / 5 = 1. Also, 150 divided by 5 is 30.}\\\\
+&5 * W \lt 150\phantom{000000}\text{First step is to isolate W. Divide both sides by }5\\
+&\frac{5 * W}{5} \lt \frac{150}{5}\phantom{00000}\text{Now you can simplify the fractions.}\\
+&\frac{\cancel{5} * W}{\cancel{5}} \lt 30\phantom{000000.}\text{You may cancel the 5 since 5 / 5 = 1. Also, 150 divided by 5 is 30.}\\
 &\boxed{W \lt 30}
 \end{aligned}
 $$

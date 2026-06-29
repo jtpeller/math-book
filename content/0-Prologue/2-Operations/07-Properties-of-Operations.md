@@ -16,8 +16,6 @@ description = "The special properties of Arithmetic Operations"
 
 Operations have special properties. Let's define these fundamental properties here in this section.
 
-{{< todo "This could be written better" >}}
-
 > Note: These are arithmetic properties, which mean they apply to specific operations, namely: addition, subtraction, multiplication, and division.
 
 {{< dfn "Commutative Property" >}} - Describes a system (or more specifically, the operations), where the order of the operands is negligible.
@@ -59,8 +57,8 @@ Addition and Subtraction are inverse operations. This means they order in which 
 
 $$
 \begin{aligned}
-&10 - 5 + 2\\\\
-&= 10 - 3\\\\
+&10 - 5 + 2\\
+&= 10 - 3\\
 &\boxed{= 7}
 \end{aligned}
 $$
@@ -69,8 +67,8 @@ Now, let's look at what happens when subtraction is computed first:
 
 $$
 \begin{aligned}
-&10 - 5 + 2\\\\
-&= 5 + 2\\\\
+&10 - 5 + 2\\
+&= 5 + 2\\
 &\boxed{= 7}
 \end{aligned}
 $$
@@ -79,7 +77,9 @@ Notice that the results are the same, no matter the choice of which is computed 
 
 Try reading it like this:
 
-$$10 + (-5) + 2$$
+$$
+10 + (-5) + 2
+$$
 
 This makes it incredibly clear why the order between addition and subtraction is insignificant. ***Subtraction is just adding a negative number!***
 
@@ -91,8 +91,8 @@ Let's take an example where the multiplication is computed first:
 
 $$
 \begin{aligned}
-&4 \cdot 5/2\\\\
-& = 4\cdot 2.5 \\\\
+&4 \cdot 5/2\\
+& = 4\cdot 2.5 \\
 &\boxed{= 10}
 \end{aligned}
 $$
@@ -101,8 +101,8 @@ Then, let's look at when division is computed first:
 
 $$
 \begin{aligned}
-&4 \cdot 5/2\\\\
-&= 20 / 2\\\\
+&4 \cdot 5/2\\
+&= 20 / 2\\
 &\boxed{= 10}
 \end{aligned}
 $$
@@ -120,7 +120,7 @@ Once again, the results are the same, no matter the choice of which operation is
 >
 > But ultimately none of them roll off the tongue like PEMDAS. Plus, it makes sense, since the "constructive" operation (multiplication / addition) is performed first of its respective pairing.
 
-That is, $4 \cdot 5/2$ would be the same whether you reduced the division first: $$ or the multiplication first: $$.
+That is, $4 \cdot 5/2$ would be the same whether you reduced the division first: $4 \cdot 2.5 = 10$ or the multiplication first: $20 / 2 = 10$.
 
 > ### Extra Credit
 >

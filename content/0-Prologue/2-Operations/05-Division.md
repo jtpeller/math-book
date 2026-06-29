@@ -33,18 +33,26 @@ description = "Division is repeated subtraction!"
 
 Once again, this sounds complicated, so let's look at an example. Say you had 100 cupcakes and wanted to figure out how many cupcakes each person could have if the party size was 20. You could represent this via subtraction, where you repeatedly subtract 20 from 100, and count how many times you performed that operation until you reach 0.
 
-$$100 - 20 = 80$$
-$$80 - 20 = 60$$
-$$60 - 20 = 40$$
-$$40 - 20 = 20$$
-$$20 - 20 = 0$$
+$$
+\begin{aligned}
+100 - 20 &= 80 \\
+80 - 20 &= 60 \\
+60 - 20 &= 40 \\
+40 - 20 &= 20 \\
+20 - 20 &= 0
+\end{aligned}
+$$
 
 You performed this operation 5 times, which means each person could have 5 cupcakes! Maybe you could save some money and order 40 cupcakes instead. Thanks math!
 
 Now, Division is the inversion operation to multiplication. That is, if you multiply a number by 5, then divide by 5, you end up with the same value:
 
-$$100 * 5 = 500$$
-$$500 / 5 = 100$$
+$$
+\begin{aligned}
+100 * 5 = 500 \\
+500 / 5 = 100
+\end{aligned}
+$$
 
 Therefore, you can see that, with these arithmetic operations, you can model a wide range of quantifiable real-life situations.
 
@@ -54,17 +62,23 @@ Therefore, you can see that, with these arithmetic operations, you can model a w
 
 Like subtraction, the order of the terms is important. Division refers to their operands as {{< dfn "divisor" >}} (the first term) and {{< dfn "dividend" >}} (the second term). The result is known as the {{< dfn "quotient" >}}.
 
-$$\text{divisor} / \text{dividend} = \text{quotient}$$
-$$\text{divisor} \div \text{dividend} = \text{quotient}$$
-$$\frac{divisor}{dividend} = \text{quotient}$$
+$$
+\begin{aligned}
+\text{divisor} / \text{dividend} &= \text{quotient} \\
+\text{divisor} \div \text{dividend} &= \text{quotient} \\
+\frac{divisor}{dividend} &= \text{quotient} \\
+\end{aligned}
+$$
 
 > The final equation utilizes a fraction. See more on [Fractions](#fractions).
 
 Fractions also refer to their top and bottom values differently. In a fraction, you typically see the top (divisor) being referred to as the {{< dfn "numerator" >}} and the bottom being referred to as the {{< dfn "denominator" >}}. This is a common case, and can be seen below:
 
-$$\frac{\text{numerator}}{\text{denominator}} = \text{quotient}$$
+$$
+\frac{\text{numerator}}{\text{denominator}} = \text{quotient}
+$$
 
-Division also has alternative symbols. While the $/$ is most common, you may also see: $\div$, which is a symbol which draws from the idea of a fraction.
+Division also has alternative symbols. While the forward-slash (\\$/\\$) is most common, you may also see: $\div$, which is a symbol which draws from the idea of a fraction.
 
 There are many different conventions, properties, characteristics, and miscellaneous good-to-knows here. This chapter discusses these topics.
 
@@ -90,13 +104,17 @@ Now, a fraction is expressed as two values: a numerator and a denominator. The n
 
 In other words, you could express a simple division problem, say: $20 \div 5$ as a fract:
 
-$$ \frac{20}{5} $$
+$$
+\frac{20}{5}
+$$
 
 > Note that this can be simplified to a whole number: $4$.
 
 In this fraction, $20$ represents the numerator, while $5$ represents the denominator. The resulting representation (the entire expression) is called a fraction. The general form for a fraction is:
 
-$$\frac{\text{numerator}}{\text{denominator}}$$
+$$
+\frac{\text{numerator}}{\text{denominator}}
+$$
 
 Fractions are simply another means of representing division and/or rational numbers.
 
@@ -108,13 +126,17 @@ There are two main types of fractions: Mixed and Improper.
 
 {{< dfn "Mixed Fractions" >}} represent the ratio with only the decimal part as a fraction. That is, if you had the value of $2.4$, you could represent this as a mixed fraction:
 
-$$2.4 = 2\frac{2}{5}$$
+$$
+2.4 = 2\frac{2}{5}
+$$
 
 > The reason it is called "mixed" is because it consists of a whole number $(2)$ and a fraction $(\frac{2}{5})$.
 
 The other type of fraction is an {{< dfn "Improper Fraction" >}}, which is a fraction such that the numerator is larger than the denominator. You could represent $2.4$ as an improper fraction as well:
 
-$$2.4 = \frac{12}{5}$$
+$$
+2.4 = \frac{12}{5}
+$$
 
 > Notice that the numerator is smaller than the denominator. This is why it is called "improper", since convention dictates that the numerator is smaller for most fractions.
 
@@ -124,21 +146,33 @@ $$2.4 = \frac{12}{5}$$
 
 You may see fractions written as a slanted form, like this:
 
-$$ ^1 / _4 $$
+$$
+^1 / _4
+$$
 
 This is generally frowned upon, since it is harder to read and understand when in the context of an expression:
 
-$$ ^1 / _4 (3 + 2) $$
+$$
+^1 / _4 (3 + 2)
+$$
 
 Is the (3+2) on the bottom or multiplying against the whole fraction? This ambiguity is alleviated when you write the fraction vertically:
 
-$$ \frac{1}{4}(3+2)$$
+$$
+\frac{1}{4}(3+2)
+$$
 
 Now it is extremely clear. You could also write:
 
-$$(1/4)(3+2)$$
+$$
+(1/4)(3+2)
+$$
 
-Which is also extremely clear.
+Which is also extremely clear. Or, you could even write:
+
+$$
+\frac{3 + 2}{4}
+$$
 
 ---
 
@@ -150,9 +184,9 @@ For instance, switching from improper fractions to mixed fractions, you "simplif
 
 $$
 \begin{aligned}
-&\frac{12}{5}\\\\
-&= \frac{10}{5}+\frac{2}{5}\\\\
-&= 2+\frac{2}{5}\\\\
+&\frac{12}{5}\\
+&= \frac{10}{5}+\frac{2}{5}\\
+&= 2+\frac{2}{5}\\
 &\boxed{= 2\frac{2}{5}}
 \end{aligned}
 $$
@@ -161,9 +195,9 @@ Or, to switch from mixed fractions to improper fractions, you convert the whole 
 
 $$
 \begin{aligned}
-&4\frac{6}{13}\\\\
-&= \frac{13\cdot4}{13}+\frac{6}{13}\\\\
-&= \frac{52}{13}+\frac{6}{13}\\\\
+&4\frac{6}{13}\\
+&= \frac{13\cdot4}{13}+\frac{6}{13}\\
+&= \frac{52}{13}+\frac{6}{13}\\
 &= \frac{58}{13}
 \end{aligned}
 $$
@@ -206,15 +240,15 @@ Percentages are equal to a fraction where the denominator is zero. That is:
 
 $$
 \begin{aligned}
-5\% = \frac{5}{100} \\\\
-10\% = \frac{10}{100} \\\\
-15\% = \frac{15}{100} \\\\
-\dots \\\\
-95\% = \frac{95}{100} \\\\
-100\% = \frac{100}{100} \\\\
-\dots \\\\
-150\% = \frac{150}{100} \\\\
-\dots \\\\
+5\% = \frac{5}{100} \\
+10\% = \frac{10}{100} \\
+15\% = \frac{15}{100} \\
+\dots \\
+95\% = \frac{95}{100} \\
+100\% = \frac{100}{100} \\
+\dots \\
+150\% = \frac{150}{100} \\
+\dots \\
 \end{aligned}
 $$
 
@@ -240,9 +274,9 @@ Therefore, you could compute the percent change for the bag of rice scenario as:
 
 $$
 \begin{aligned}
-&\frac{\$5 - \$3}{\$3} \\\\
-&= \frac{\$2}{\$3} \\\\
-&= \frac{2}{3}  \phantom{000000}\text{The units cancel because they are the same!}\\\\
+&\frac{\$5 - \$3}{\$3} \\
+&= \frac{\$2}{\$3} \\
+&= \frac{2}{3}  \phantom{000000}\text{The units cancel because they are the same!}\\
 &\boxed{\approx 66.67\%}
 \end{aligned}
 $$
@@ -257,16 +291,16 @@ This means that the price increased by $66.67\%$. This is useful because it ensu
 
 $$
 \begin{aligned}
-\phantom{00000}274.\bar{3} \\\\
-45\overline{)12345.0}\\\\
-\phantom{000}-\underline{90\phantom{0}}\phantom{0.0} \\\\
-\phantom{0000}334\phantom{0.0} \\\\
-\phantom{000}-\underline{315\phantom{0}}\phantom{.0} \\\\
-\phantom{00000}195\phantom{.0} \\\\
-\phantom{00000}-\underline{180\phantom{0}}\phantom{.} \\\\
-\phantom{00000}15.0 \\\\
-\phantom{00000}-\underline{13.5} \\\\
-\phantom{00000}1.5 \\\\
+\phantom{00000}274.\bar{3} \\
+45\overline{)12345.0}\\
+\phantom{000}-\underline{90\phantom{0}}\phantom{0.0} \\
+\phantom{0000}334\phantom{0.0} \\
+\phantom{000}-\underline{315\phantom{0}}\phantom{.0} \\
+\phantom{00000}195\phantom{.0} \\
+\phantom{00000}-\underline{180\phantom{0}}\phantom{.} \\
+\phantom{00000}15.0 \\
+\phantom{00000}-\underline{13.5} \\
+\phantom{00000}1.5 \\
 \end{aligned}
 $$
 

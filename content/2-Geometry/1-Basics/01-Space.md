@@ -92,7 +92,7 @@ In other words, an angle describes the following concept:
 
 Here, you can see two lines intersect on the left-hand side of the diagram. That intersection point, coupled with the two lines (in this case, *rays*, since they extend in one direction), form an angle, which is marked by the red line.
 
-Angles are discussed further in [Angles]({{< ref "2-Geometry/1-Basics/02-Angles/" >}})
+Angles are discussed further in [Angles]({{< ref "2-Geometry/2-Shapes/02-Angles/" >}})
 
 Angles are measured using a few different units, which will also be discussed later. For now, it is enough to know what an angle is as a physical concept.
 

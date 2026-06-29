@@ -1,0 +1,102 @@
+<svg width="900" height="450" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="white" />
+
+    <!-- Title -->
+    <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="#333">
+        Types of Triangles
+    </text>
+
+    <!-- Equilateral Triangle (Left) -->
+    <!-- Coordinates: (100,300), (200,107), (300,300) -->
+    <g transform="translate(0, 20)">
+        <path d="M 100 280 L 200 107 L 300 280 Z" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3" />
+
+        <!-- Side Tick Marks (Single tick on all sides) -->
+        <line x1="145" y1="180" x2="165" y2="195" stroke="#2e7d32" stroke-width="2" />
+        <line x1="260" y1="180" x2="240" y2="195" stroke="#2e7d32" stroke-width="2" />
+        <line x1="200" y1="290" x2="200" y2="270" stroke="#2e7d32" stroke-width="2" /> <!-- Bottom side tick -->
+
+        <!-- Angle Arcs (All three angles equal) -->
+        <path d="M 180 140 A 30 30 0 0 0 218 140" fill="none" stroke="#2e7d32" stroke-width="2" />
+        <path d="M 118 250 A 30 30 0 0 1 135 280" fill="none" stroke="#2e7d32" stroke-width="2" />
+        <path d="M 282 250 A 30 30 0 0 0 265 280" fill="none" stroke="#2e7d32" stroke-width="2" />
+
+        <!-- Labels -->
+        <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold"
+            fill="#2e7d32">Equilateral</text>
+        <text x="200" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">All sides
+            equal</text>
+        <text x="200" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">All angles
+            = 60°</text>
+    </g>
+
+    <!-- Isosceles Triangle (Center) -->
+    <!-- Coordinates: (425,280), (500,125), (575,280) -->
+    <g transform="translate(0, 20)">
+        <path d="M 425 280 L 500 125 L 575 280 Z" fill="#e3f2fd" stroke="#1565c0" stroke-width="3" />
+
+        <!-- Side Tick Marks (Double ticks on equal sides) -->
+        <!-- Left side -->
+        <line x1="455" y1="190" x2="475" y2="200" stroke="#1565c0" stroke-width="2" />
+        <!-- Right side -->
+        <line x1="545" y1="190" x2="525" y2="200" stroke="#1565c0" stroke-width="2" />
+        <!-- Bottom side (No tick) -->
+
+        <!-- Angle Arcs (Base angles equal) -->
+        <path d="M 455 280 A 15 30 0 0 0 440 250" fill="none" stroke="#1565c0" stroke-width="2" />
+        <path d="M 545 280 A 15 30 0 0 1 560 250" fill="none" stroke="#1565c0" stroke-width="2" />
+        <!-- Top angle (different) -->
+        <path d="M 487 150 A 30 30 0 0 0 513 150" fill="none" stroke="#1565c0" stroke-width="2" />
+        <path d="M 485 155 A 30 30 0 0 0 515 155" fill="none" stroke="#1565c0" stroke-width="2" />
+
+        <!-- Labels -->
+        <text x="500" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold"
+            fill="#1565c0">Isosceles</text>
+        <text x="500" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">Two sides
+            equal</text>
+        <text x="500" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">Base
+            angles equal</text>
+    </g>
+
+    <!-- Scalene Triangle (Right) -->
+    <!-- Coordinates: (650,280), (750,150), (850,280) - slightly skewed -->
+    <g transform="translate(0, 20)">
+        <path d="M 650 280 L 750 150 L 850 280 Z" fill="#fff3e0" stroke="#ef6c00" stroke-width="3" />
+
+        <!-- Side Tick Marks (Triple ticks on all sides, no two equal) -->
+        <!-- Left side -->
+        <line x1="692" y1="210" x2="706" y2="220" stroke="#ef6c00" stroke-width="2" />
+
+        <!-- Right side -->
+        <line x1="810" y1="210" x2="792" y2="225" stroke="#ef6c00" stroke-width="2" />
+        <line x1="805" y1="205" x2="788" y2="220" stroke="#ef6c00" stroke-width="2" />
+
+        <!-- Bottom side -->
+        <line x1="750" y1="287" x2="750" y2="272" stroke="#ef6c00" stroke-width="2" />
+        <line x1="746" y1="287" x2="746" y2="272" stroke="#ef6c00" stroke-width="2" />
+        <line x1="754" y1="287" x2="754" y2="272" stroke="#ef6c00" stroke-width="2" />
+
+        <!-- Angle Arcs (All angles different) -->
+        <path d="M 665 262 A 15 30 0 0 1 675 280" fill="none" stroke="#ef6c00" stroke-width="2" />
+
+        <path d="M 815 280 A 15 30 0 0 1 825 250" fill="none" stroke="#ef6c00" stroke-width="2" />
+        <path d="M 825 280 A 15 30 0 0 1 830 257" fill="none" stroke="#ef6c00" stroke-width="2" />
+
+        <path d="M 737 165 A 30 30 0 0 0 763 165" fill="none" stroke="#ef6c00" stroke-width="2" />
+        <path d="M 733 170 A 30 30 0 0 0 767 170" fill="none" stroke="#ef6c00" stroke-width="2" />
+        <path d="M 730 175 A 30 30 0 0 0 771 175" fill="none" stroke="#ef6c00" stroke-width="2" />
+
+
+        <!-- Labels -->
+        <text x="750" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold"
+            fill="#ef6c00">Scalene</text>
+        <text x="750" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">No sides
+            equal</text>
+        <text x="750" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">No angles
+            equal</text>
+    </g>
+
+    <!-- Legend/Key (Optional, but good for clarity if space allows, here we just rely on labels) -->
+</svg>

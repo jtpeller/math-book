@@ -62,7 +62,7 @@ For instance, $42$ represents four tens, and two ones. Or, $1,234$ represents on
 
 Values can be represented on a {{< dfn "number line" >}}, which is a means of graphically displaying the relative values of numbers.
 
-{{<image src="images/number-line.png" alt="Figure 0.1.1: Number Line from -3.5 to 3.5, with tick marks at whole numbers." >}}
+{{< image src="image/number-line.png" alt="Figure 0.1.1: Number Line from -3.5 to 3.5, with tick marks at whole numbers." >}}
 
 Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, from smallest (left) to largest (right).
 

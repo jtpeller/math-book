@@ -1,6 +1,6 @@
 +++
-title = "Two Dimensional Geometry"
-description = "Discusses 2D Geometry: Shapes!"
+title = "Vectors"
+description = "Discusses Vectors: Direction and Magnitude!"
 +++
 
 # Two Dimensional Geometry
@@ -12,5 +12,7 @@ description = "Discusses 2D Geometry: Shapes!"
   - [Overview](#overview)
 
 ## Overview
+
+{{< section_table >}}
 
 {{< todo >}}

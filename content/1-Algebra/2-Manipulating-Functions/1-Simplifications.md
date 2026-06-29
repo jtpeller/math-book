@@ -44,10 +44,10 @@ You may add or subtract like terms if they consist of the same variables. That i
 
 $$
 \begin{aligned}
-&3x + 5x + 2x && \text{Starting point.}\\\\
-&(x+x+x) + (x+x+x+x+x) + (x+x) && \text{Multiplication is repeated addition!} \\\\
-&x+x+x + x+x+x+x+x + x+x && \text{Addition is associative! No need for parentheses; the order is guaranteed OK.} \\\\
-&\boxed{= 10x}&& \text{There are 10 $x$'s, hence: $10x$}\\\\
+&3x + 5x + 2x && \text{Starting point.}\\
+&(x+x+x) + (x+x+x+x+x) + (x+x) && \text{Multiplication is repeated addition!} \\
+&x+x+x + x+x+x+x+x + x+x && \text{Addition is associative! No need for parentheses; the order is guaranteed OK.} \\
+&\boxed{= 10x}&& \text{There are 10 $x$'s, hence: $10x$}\\
 \end{aligned}
 $$
 
@@ -104,13 +104,13 @@ Notice therefore, that because the variables are being multiplied together, you 
 
 $$
 \begin{aligned}
-&x \cdot 2x \cdot 3x \\\\
-&= x \cdot (x + x) \cdot (x + x + x) \\\\
-&= (x\cdot x+x\cdot x) \cdot (x + x + x) \\\\
-&= (x^2+x^2) \cdot (x + x + x) \\\\
-&= (x^2\cdot x+x^2\cdot x+x^2\cdot x) + (x^2\cdot x+x^2\cdot x+x^2\cdot x) \\\\
-&= x^3 + x^3 + x^3 + x^3 + x^3 + x^3 \\\\
-&= 6x^3 \\\\
+&x \cdot 2x \cdot 3x \\
+&= x \cdot (x + x) \cdot (x + x + x) \\
+&= (x\cdot x+x\cdot x) \cdot (x + x + x) \\
+&= (x^2+x^2) \cdot (x + x + x) \\
+&= (x^2\cdot x+x^2\cdot x+x^2\cdot x) + (x^2\cdot x+x^2\cdot x+x^2\cdot x) \\
+&= x^3 + x^3 + x^3 + x^3 + x^3 + x^3 \\
+&= 6x^3 \\
 \end{aligned}
 $$
 
@@ -128,8 +128,8 @@ For multiplication, the presence or lack of a variable does not matter. Let's ta
 
 $$
 \begin{aligned}
-&w = 5x \cdot 6xy \cdot 12xyz \\\\
-&w = 30x^2y \cdot 12xyz \\\\
+&w = 5x \cdot 6xy \cdot 12xyz \\
+&w = 30x^2y \cdot 12xyz \\
 &w = 360x^3y^2z
 \end{aligned}
 $$
@@ -138,10 +138,10 @@ Now, recall that the terms themselves are essentially all multiplied together. D
 
 $$
 \begin{aligned}
-&w = 5 \cdot x \cdot 6 \cdot x \cdot y \cdot 12 \cdot x \cdot y \cdot z \\\\
-&w = 360 \cdot x \cdot x \cdot y \cdot x \cdot y \cdot z \\\\
-&w = 360 \cdot x^3 \cdot y \cdot y \cdot z \\\\
-&\boxed{w = 360 \cdot x^3 \cdot y^2 \cdot z} \\\\
+&w = 5 \cdot x \cdot 6 \cdot x \cdot y \cdot 12 \cdot x \cdot y \cdot z \\
+&w = 360 \cdot x \cdot x \cdot y \cdot x \cdot y \cdot z \\
+&w = 360 \cdot x^3 \cdot y \cdot y \cdot z \\
+&\boxed{w = 360 \cdot x^3 \cdot y^2 \cdot z} \\
 \end{aligned}
 $$
 
@@ -173,10 +173,10 @@ Now, it may become obvious that you may fully divide the $12x$ part of the numer
 
 $$
 \begin{aligned}
-&w = \frac{12xy}{6x} && \text{Start} \\\\
-&w = \frac{12\cancel{x}{y}}{6\cancel{x}} && \text{We know that: } 12x/6x=2 \\\\
-&w = \frac{12y}{6} && \text{Removed the cancelled terms} \\\\
-&\boxed{w = 2y} \\\\
+&w = \frac{12xy}{6x} && \text{Start} \\
+&w = \frac{12\cancel{x}{y}}{6\cancel{x}} && \text{We know that: } 12x/6x=2 \\
+&w = \frac{12y}{6} && \text{Removed the cancelled terms} \\
+&\boxed{w = 2y} \\
 \end{aligned}
 $$
 
@@ -205,11 +205,11 @@ Here's an example covering all 4 arithmetic operations:
 
 $$
 \begin{aligned}
-&z = \frac{3x + 6xy - 18x \cdot 21xy + (6x)^2 - 15}{3x} \\\\
-\; \\\\
-&z = \frac{3x + 6xy - 378x^2y + 36x^2 - 15}{3x} \\\\
-\; \\\\
-&z = \boxed{\frac{x + 2xy - 126x^2y + 12x^2 - 5}{x}} \\\\
+&z = \frac{3x + 6xy - 18x \cdot 21xy + (6x)^2 - 15}{3x} \\
+\; \\
+&z = \frac{3x + 6xy - 378x^2y + 36x^2 - 15}{3x} \\
+\; \\
+&z = \boxed{\frac{x + 2xy - 126x^2y + 12x^2 - 5}{x}} \\
 \end{aligned}
 $$
 
@@ -217,8 +217,8 @@ You could take this a step further, if you prefer. Notice how $x$ is a part of e
 
 $$
 \begin{aligned}
-&z = \frac{x + 2xy - 126x^2y + 12x^2 - 5}{x} \\\\
-&z = \frac{x + 2xy - 126x^2y + 12x^2}{x} - \frac{5}{x} \\\\
+&z = \frac{x + 2xy - 126x^2y + 12x^2 - 5}{x} \\
+&z = \frac{x + 2xy - 126x^2y + 12x^2}{x} - \frac{5}{x} \\
 \end{aligned}
 $$
 
@@ -236,7 +236,7 @@ $$
 >
 > $$
 > \begin{aligned}
-> \frac{2x}{x}+\frac{y}{x} \\\\
+> \frac{2x}{x}+\frac{y}{x} \\
 > 2 + \frac{y}{x}
 > \end{aligned}
 > $$
@@ -245,11 +245,11 @@ $$
 >
 > $$
 > \begin{aligned}
-> &\frac{2x + y}{x} = 2 + \frac{y}{x} && \text{Set up the equation} \\\\
-> &\frac{2(2) + (10)}{(2)} = 2 + \frac{(10)}{(2)} && \text{Plug in the chosen values} \\\\
-> &\frac{4 + 10}{2} = 2 + 5 && \text{Simplify some of the operations} \\\\
-> &\frac{14}{2} = 7  && \text{Addition!} \\\\
-> &\boxed{7 = 7} \; \checkmark && \text{Both sides are indeed equal!} \\\\
+> &\frac{2x + y}{x} = 2 + \frac{y}{x} && \text{Set up the equation} \\
+> &\frac{2(2) + (10)}{(2)} = 2 + \frac{(10)}{(2)} && \text{Plug in the chosen values} \\
+> &\frac{4 + 10}{2} = 2 + 5 && \text{Simplify some of the operations} \\
+> &\frac{14}{2} = 7  && \text{Addition!} \\
+> &\boxed{7 = 7} \; \checkmark && \text{Both sides are indeed equal!} \\
 > \end{aligned}
 > $$
 >
@@ -257,11 +257,11 @@ $$
 >
 > $$
 > \begin{aligned}
-> &\frac{2x + y}{x} = 2 + \frac{y}{x} && \text{Set up the equation} \\\\
-> &(\frac{2x + y}{x}) \cdot x = (2 + \frac{y}{x}) \cdot x && \text{Multiply both sides by }x\\\\
-> &(\frac{2x + y}{\cancel{x}}) \cdot \cancel{x} = (2 + \frac{y}{x}) \cdot x && \text{Cancel out }x\text{ on the left side}\\\\
-> &2x + y = 2x + \frac{yx}{x} && \text{Distribute $x$ to each term in the parentheses} \\\\
-> &2x + y = 2x + \frac{y\cancel{x}}{\cancel{x}} && \text{Cancel out }x \\\\
+> &\frac{2x + y}{x} = 2 + \frac{y}{x} && \text{Set up the equation} \\
+> &(\frac{2x + y}{x}) \cdot x = (2 + \frac{y}{x}) \cdot x && \text{Multiply both sides by }x\\
+> &(\frac{2x + y}{\cancel{x}}) \cdot \cancel{x} = (2 + \frac{y}{x}) \cdot x && \text{Cancel out }x\text{ on the left side}\\
+> &2x + y = 2x + \frac{yx}{x} && \text{Distribute $x$ to each term in the parentheses} \\
+> &2x + y = 2x + \frac{y\cancel{x}}{\cancel{x}} && \text{Cancel out }x \\
 > &\boxed{2x + y = 2x + y}\; \checkmark && \text{Both sides are the same!}
 > \end{aligned}
 > $$
@@ -277,10 +277,10 @@ Now, we can continue onward to simplify the function for $z$. First, let's remin
 
 $$
 \begin{aligned}
-&z = \frac{x + 2xy - 126x^2y + 12x^2}{x} - \frac{5}{x} && \text{Starting point.}\\\\
-&z = \frac{\cancel{x} + 2\cancel{x}y - 126x^{\cancel{2}}y + 12x^{\cancel{2}}}{\cancel{x}} - \frac{5}{x}  && \text{Show what you're going to cancel.}\\\\
-&z = 1 + 2y - 126xy + 12x - \frac{5}{x}&& \text{Perform the cancellation of }x \text{ in the first fraction} \\\\
-&\boxed{z = 1 + 12x + 2y - 126xy - \frac{5}{x}} && \text{There's no more to do (besides reorder for readability)!} \\\\
+&z = \frac{x + 2xy - 126x^2y + 12x^2}{x} - \frac{5}{x} && \text{Starting point.}\\
+&z = \frac{\cancel{x} + 2\cancel{x}y - 126x^{\cancel{2}}y + 12x^{\cancel{2}}}{\cancel{x}} - \frac{5}{x}  && \text{Show what you're going to cancel.}\\
+&z = 1 + 2y - 126xy + 12x - \frac{5}{x}&& \text{Perform the cancellation of }x \text{ in the first fraction} \\
+&\boxed{z = 1 + 12x + 2y - 126xy - \frac{5}{x}} && \text{There's no more to do (besides reorder for readability)!} \\
 \end{aligned}
 $$
 
@@ -294,11 +294,11 @@ In fact, this can be demonstrated with a slightly more complex version. You woul
 
 $$
 \begin{aligned}
-&x \cdot 2x \cdot 3x^2 = x \cdot (x + x) \cdot (x^2 + x^2 + x^2) \\\\
-&= (x\cdot x+x\cdot x) \cdot (x^2 + x^2 + x^2) \\\\
-&= (x^2+x^2) \cdot (x^2 + x^2 + x^2) \\\\
-&= (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) + (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) \\\\
-&= x^4 + x^4 + x^4 + x^4 + x^4 + x^4 \\\\
-&\boxed{=6x^4} \\\\
+&x \cdot 2x \cdot 3x^2 = x \cdot (x + x) \cdot (x^2 + x^2 + x^2) \\
+&= (x\cdot x+x\cdot x) \cdot (x^2 + x^2 + x^2) \\
+&= (x^2+x^2) \cdot (x^2 + x^2 + x^2) \\
+&= (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) + (x^2\cdot x^2+x^2\cdot x^2+x^2\cdot x^2) \\
+&= x^4 + x^4 + x^4 + x^4 + x^4 + x^4 \\
+&\boxed{=6x^4} \\
 \end{aligned}
 $$

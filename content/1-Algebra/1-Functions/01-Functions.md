@@ -40,7 +40,7 @@ Recall that an expression is the representation of one or more terms. If there a
 
 Now, a {{< dfn "formula" >}} is a particular type of equation that models a special situation or relationship between two quantities. It is typically used to represent ways of computing particular quantities that are important, special, or otherwise calculated the same way.
 
-For instance, if you made $15 per hour and wanted to know how much you make for some number of hours, you could set up the following formula:
+For instance, if you made \\$15 per hour and wanted to know how much you make for some number of hours, you could set up the following formula:
 
 $$
 \text{wages} = 15 * \text{hours}
@@ -106,9 +106,9 @@ This function represents that, given some input $x$, the output will be 15 more 
 
 $$
 \begin{aligned}
-&f(x) = 2x + 15 \\\\
-&f(4) = 2(4)+15 \\\\
-&f(4) = 8+15 \\\\
+&f(x) = 2x + 15 \\
+&f(4) = 2(4)+15 \\
+&f(4) = 8+15 \\
 &\boxed{f(4)= 23}
 \end{aligned}
 $$
@@ -210,7 +210,7 @@ Regarding unbounded intervals, you must NEVER state that a variable may be equal
 
 Functions are used to represent relationships between values. The relationship(s) are defined by the function's terms, while the values themselves are the variables or numbers being operated on.
 
-For instance, if you wanted to represent how much money you would make at a job, you could do so with functions. Say your wage is $20 per hour, and you want to know how much you would make in 5 hours. This question is trivial enough, but you might wonder about 8 hours, or 40 hours, or 160 hours.
+For instance, if you wanted to represent how much money you would make at a job, you could do so with functions. Say your wage is \\$20 per hour, and you want to know how much you would make in 5 hours. This question is trivial enough, but you might wonder about 8 hours, or 40 hours, or 160 hours.
 
 You could model this ***relationship*** with a function! Say that the number of hours worked is $h$, and the function is represented by w(h), for "wages". The situation is modelled by:
 
@@ -222,7 +222,7 @@ Now you can compute your wages $w$ for any number of hours $h$. While this is a 
 
 ### Creating a Function to Model a Scenario
 
-Remember, a function is simply just a means to model a scenario, but you must define it accurately so it adequately models the situation you're targeting. For instance, if your hourly wage was actually $15 per hour, then $w(h)$ would be terribly inaccurate!
+Remember, a function is simply just a means to model a scenario, but you must define it accurately so it adequately models the situation you're targeting. For instance, if your hourly wage was actually \\$15 per hour, then $w(h)$ would be terribly inaccurate!
 
 Therefore, you need to follow a general process for defining a function to model your scenario. The general process is:
 
