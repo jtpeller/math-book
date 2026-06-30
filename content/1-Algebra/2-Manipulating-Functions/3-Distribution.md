@@ -50,10 +50,10 @@ $$(ax + by)(cx + dy)$$
 
 FOIL describes the order of operations as follows:
 
-1. {{< dfn "FIRST" >}}: First term of the first binomial multiplied by the first term of the second binomial (that is: $ax \cdot cx$)
-2. {{< dfn "OUTER" >}}: First term of the first binomial multiplied by the last term of the second binomial (that is: $ax \cdot dy$)
-3. {{< dfn "INNER" >}}: Last term of the first binomial multiplied by the first term of the second binomial (that is: $by \cdot cx$)
-4. {{< dfn "LAST" >}}: Last term of the first binomial multiplied by the last term of the second binomial (that is: $by \cdot dy$)
+1. ***"FIRST"***: First term of the first binomial multiplied by the first term of the second binomial (that is: $ax \cdot cx$)
+2. ***"OUTER"***: First term of the first binomial multiplied by the last term of the second binomial (that is: $ax \cdot dy$)
+3. ***"INNER"***: Last term of the first binomial multiplied by the first term of the second binomial (that is: $by \cdot cx$)
+4. ***"LAST"***: Last term of the first binomial multiplied by the last term of the second binomial (that is: $by \cdot dy$)
 
 Therefore, your distribution, following FOIL order would be:
 

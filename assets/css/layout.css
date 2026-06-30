@@ -184,7 +184,7 @@ blockquote:has(.alert-todo) {
 }
 
 .alert-note::before {
-    content: "ⓘ Note";
+    content: "ℹ️ Note";
     font-weight: bold;
     color: var(--color-note);
     display: block;
@@ -196,7 +196,7 @@ blockquote:has(.alert-todo) {
 }
 
 .alert-warning::before {
-    content: "⚠ Warning";
+    content: "⚠️ Warning";
     font-weight: bold;
     color: var(--color-warning);
     display: block;
@@ -220,7 +220,7 @@ blockquote:has(.alert-todo) {
 }
 
 .alert-important::before {
-    content: "❗ Important";
+    content: "🚩 Important";
     font-weight: bold;
     color: var(--color-important);
     display: block;
@@ -244,7 +244,7 @@ blockquote:has(.alert-todo) {
 }
 
 .alert-todo::before {
-    content: "ⓘ TO-DO";
+    content: "🚧🛠️ TO-DO 🛠️🚧";
     font-weight: bold;
     color: var(--color-note);
     display: block;

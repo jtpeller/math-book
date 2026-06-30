@@ -95,7 +95,7 @@
     </text>
 
     <line x1="450" y1="450" x2="325" y2="233.5" stroke="#cbd5e0" stroke-width="1.5" stroke-dasharray="4" />
-    <text x="320" y="205" text-anchor="end">
+    <text x="320" y="200" text-anchor="end">
         <tspan x="320" dy="0" class="coord-label">(-1/2, √3/2)</tspan>
         <tspan x="320" dy="18" class="radian-label">2π/3</tspan>
         <tspan x="320" dy="18" class="degree-label">120°</tspan>

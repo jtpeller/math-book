@@ -28,7 +28,7 @@ Triangles will *always* have exactly three edges and exactly three vertices. For
 
 A {{< dfn "Scalene Triangle" >}} is a triangle such that no side length (and thus angle) is identical in measure.
 
-A {{< dfn "Isosceles Triangle" >}} is a triang such that exactly two side lengths (and their complementary angles) are equal in measure.
+A {{< dfn "Isosceles Triangle" >}} is a triangle such that exactly two side lengths (and their complementary angles) are equal in measure.
 
 A {{< dfn "Equilateral Triangle" >}} is a **regular** triangle. All three side lengths are the same length, and thus all angles are $60^\circ$.
 
@@ -46,6 +46,8 @@ A {{< dfn "Right Triangle" >}} is a triangle such that one of its internal angle
   - If the triangle's legs' lengths are defined as $a$, then the hypotenuse will be $a\sqrt{2}$.
 - {{< dfn "30-60-90" >}} refers to a special right triangle where the other angles are $30^\circ$ and $60^\circ$.
   - The side lengths of this triangle will always be in a ratio of $1 : \sqrt{3} : 2$.
+
+{{< image src="image/geometry/right-triangle.svg" alt="Figure 2.2.2: Right Triangle Diagram" >}}
 
 An {{< dfn "oblique triangle" >}} is any triangle that does not have an angle measuring $90^\circ$.
 

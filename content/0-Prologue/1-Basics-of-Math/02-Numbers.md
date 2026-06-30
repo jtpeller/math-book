@@ -13,6 +13,7 @@ description = "Covers the concept of numbers to represent quantities"
   - [Units](#units)
   - [Numerals](#numerals)
   - [Values](#values)
+  - [Parity](#parity)
   - [Representing Partial Numbers](#representing-partial-numbers)
   - [Numerical Bases](#numerical-bases)
 
@@ -65,6 +66,12 @@ Values can be represented on a {{< dfn "number line" >}}, which is a means of gr
 {{< image src="image/number-line.png" alt="Figure 0.1.1: Number Line from -3.5 to 3.5, with tick marks at whole numbers." >}}
 
 Traditionally, a number line flows from $-\infty$ to $\infty$; in other words, from smallest (left) to largest (right).
+
+## Parity
+
+The {{< dfn "Parity" >}} of a particular number is the sign of that number (positive or negative). Numbers that are positive are easier to think about. They represent a tangible quantity of things like 5 apples or 25 dollars.
+
+Negative numbers are those numbers which can be thought of as the removal of a quantity. You have 25 dollars, but spend 5 dollars. That "spend" amount represents a $-5$ (spoken as: "negative five") from the total quantity.
 
 ## Representing Partial Numbers
 
